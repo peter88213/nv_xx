@@ -7,7 +7,7 @@ Language pack for [noveltree](https://peter88213.github.io/noveltree/).
 ## How to install the language pack
 
 1. Download the `noveltree_xx.zip` file.
-2. Unpack it and move the `i18n` directory tree to your *noveltree* installation directory. This may be `~/.noveltree`. 
+2. Unpack it and move the `i18n/locale` directory tree to your *noveltree* installation directory. This may be `~/.noveltree`. 
 
 ---
 
