@@ -1,0 +1,33 @@
+# noveltree_updater Dictionary (English-Vulcanian)
+# Copyright (C) 2023 T'Pol t_pol@enterprise.starfleet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.1\n"
+"POT-Creation-Date: 2024-01-09 14:27:12\n"
+"PO-Revision-Date: 2024-01-13 14:30:35\n"
+"Last-Translator: T'Pol t_pol@enterprise.starfleet\n"
+"Language: xx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "An update is available for"
+msgstr ""
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "No online update information for noveltree found."
+msgstr ""
+
+msgid "No updates available."
+msgstr ""
+
+msgid "Start your web browser for download?"
+msgstr ""
+
+msgid "nv_updater Online help"
+msgstr ""
+

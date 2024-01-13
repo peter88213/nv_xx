@@ -1,0 +1,90 @@
+# noveltree_yw7 Dictionary (English-Vulcanian)
+# Copyright (C) 2023 T'Pol t_pol@enterprise.starfleet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.1\n"
+"POT-Creation-Date: 2024-01-09 14:28:55\n"
+"PO-Revision-Date: 2024-01-13 14:30:35\n"
+"Last-Translator: T'Pol t_pol@enterprise.starfleet\n"
+"Language: xx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Action canceled by user"
+msgstr ""
+
+msgid "Arcs"
+msgstr ""
+
+msgid "Cannot overwrite file"
+msgstr ""
+
+msgid "Cannot write file"
+msgstr ""
+
+msgid "Create from yw7..."
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "File exported"
+msgstr ""
+
+msgid "File imported"
+msgstr ""
+
+msgid "File type is not supported"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "No valid version found in file"
+msgstr ""
+
+msgid "Overwrite existing file \"{}\"?"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "The project \"{}\" was created with a newer noveltree version."
+msgstr ""
+
+msgid "The project \"{}\" was created with an outdated noveltree version."
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "noveltree project"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "yWriter 7 project"
+msgstr ""
+
+msgid "yWriter seems to be open. Please close first"
+msgstr ""
+
+msgid "yw7 project"
+msgstr ""
+

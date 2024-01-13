@@ -1,0 +1,57 @@
+# noveltree_matrix Dictionary (English-Vulcanian)
+# Copyright (C) 2023 T'Pol t_pol@enterprise.starfleet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.1\n"
+"POT-Creation-Date: 2024-01-09 13:57:29\n"
+"PO-Revision-Date: 2024-01-13 14:30:34\n"
+"Last-Translator: T'Pol t_pol@enterprise.starfleet\n"
+"Language: xx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Arcs"
+msgstr ""
+
+msgid "Characters"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Items"
+msgstr ""
+
+msgid "Locations"
+msgstr ""
+
+msgid "Matrix"
+msgstr ""
+
+msgid "Matrix plugin Online help"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Sections"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
