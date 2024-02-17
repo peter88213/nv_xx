@@ -3,9 +3,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0.0\n"
-"POT-Creation-Date: 2024-01-08 21:26:18\n"
-"PO-Revision-Date: 2024-01-13 14:30:34\n"
+"Project-Id-Version: 1.1.0\n"
+"POT-Creation-Date: 2024-02-17 09:40:39\n"
+"PO-Revision-Date: 2024-02-17 14:08:37\n"
 "Last-Translator: T'Pol t_pol@enterprise.starfleet\n"
 "Language: xx\n"
 "MIME-Version: 1.0\n"
@@ -22,19 +22,61 @@ msgstr ""
 msgid "Aeon 2 plugin Online help"
 msgstr ""
 
+msgid "Aeon Timeline 2 project"
+msgstr ""
+
+msgid "Ambiguous Aeon arc \"{}\"."
+msgstr ""
+
+msgid "Ambiguous Aeon character \"{}\"."
+msgstr ""
+
+msgid "Ambiguous Aeon event title \"{}\"."
+msgstr ""
+
+msgid "Ambiguous Aeon item \"{}\"."
+msgstr ""
+
+msgid "Ambiguous Aeon location \"{}\"."
+msgstr ""
+
+msgid "Ambiguous noveltree arc \"{}\"."
+msgstr ""
+
+msgid "Ambiguous noveltree character \"{}\"."
+msgstr ""
+
+msgid "Ambiguous noveltree item \"{}\"."
+msgstr ""
+
+msgid "Ambiguous noveltree location \"{}\"."
+msgstr ""
+
+msgid "Ambiguous noveltree section title \"{}\"."
+msgstr ""
+
 msgid "Cannot determine file date."
 msgstr ""
 
 msgid "Cannot overwrite file"
 msgstr ""
 
+msgid "Cannot read timeline data"
+msgstr ""
+
 msgid "Cannot write file"
+msgstr ""
+
+msgid "Create from Aeon Timeline 2..."
 msgstr ""
 
 msgid "Edit the timeline"
 msgstr ""
 
 msgid "File"
+msgstr ""
+
+msgid "File already exists"
 msgstr ""
 
 msgid "File written"
@@ -46,7 +88,16 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
+msgid "Invalid JSON data in timeline"
+msgstr ""
+
 msgid "Monday"
+msgstr ""
+
+msgid "New sections"
+msgstr ""
+
+msgid "No JSON part found in timeline data"
 msgstr ""
 
 msgid "No valid version found in file"
@@ -86,6 +137,9 @@ msgid "Update the timeline"
 msgstr ""
 
 msgid "Wednesday"
+msgstr ""
+
+msgid "\"AD\" era is missing in the calendar."
 msgstr ""
 
 msgid "newer"

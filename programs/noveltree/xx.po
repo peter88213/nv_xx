@@ -3,9 +3,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.2.1\n"
-"POT-Creation-Date: 2024-01-13 13:27:07\n"
-"PO-Revision-Date: 2024-01-13 14:30:34\n"
+"Project-Id-Version: 1.7.3\n"
+"POT-Creation-Date: 2024-02-15 21:06:38\n"
+"PO-Revision-Date: 2024-02-17 14:08:37\n"
 "Last-Translator: T'Pol t_pol@enterprise.starfleet\n"
 "Language: xx\n"
 "MIME-Version: 1.0\n"
@@ -95,6 +95,9 @@ msgid "Auto number parts when refreshing the tree"
 msgstr ""
 
 msgid "Auto numbering"
+msgstr ""
+
+msgid "Back"
 msgstr ""
 
 msgid "Bio"
@@ -238,6 +241,9 @@ msgstr ""
 msgid "Convert days to dates"
 msgstr ""
 
+msgid "Copy style sheet"
+msgstr ""
+
 msgid "Corrupt marker"
 msgstr ""
 
@@ -280,6 +286,9 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
+msgid "Date information is missing"
+msgstr ""
+
 msgid "Date/Time"
 msgstr ""
 
@@ -305,9 +314,6 @@ msgid "Description"
 msgstr ""
 
 msgid "Detach/Dock Properties"
-msgstr ""
-
-msgid "Dialogue"
 msgstr ""
 
 msgid "Dilemma"
@@ -346,9 +352,6 @@ msgstr ""
 msgid "Draft"
 msgstr ""
 
-msgid "Dramatic action"
-msgstr ""
-
 msgid "Duration"
 msgstr ""
 
@@ -371,6 +374,9 @@ msgid "Expand selected"
 msgstr ""
 
 msgid "Export"
+msgstr ""
+
+msgid "Export Manuscript"
 msgstr ""
 
 msgid "Export chapter descriptions for editing"
@@ -418,9 +424,6 @@ msgstr ""
 msgid "Exported documents"
 msgstr ""
 
-msgid "Exposition"
-msgstr ""
-
 msgid "File"
 msgstr ""
 
@@ -446,6 +449,9 @@ msgid "File type is not supported"
 msgstr ""
 
 msgid "File written"
+msgstr ""
+
+msgid "Forward"
 msgstr ""
 
 msgid "Friday"
@@ -544,6 +550,9 @@ msgstr ""
 msgid "Lock"
 msgstr ""
 
+msgid "Lock/unlock"
+msgstr ""
+
 msgid "Log writing progress"
 msgstr ""
 
@@ -584,9 +593,6 @@ msgid "N/A"
 msgstr ""
 
 msgid "Name"
-msgstr ""
-
-msgid "Narration"
 msgstr ""
 
 msgid "Narrative time"
@@ -739,6 +745,9 @@ msgstr ""
 msgid "Please close the manuscript first"
 msgstr ""
 
+msgid "Please enter either a section date or a day and a reference date."
+msgstr ""
+
 msgid "Please wait ..."
 msgstr ""
 
@@ -767,6 +776,9 @@ msgid "Project notes"
 msgstr ""
 
 msgid "Project successfully restored from disk."
+msgstr ""
+
+msgid "Quit"
 msgstr ""
 
 msgid "R"
@@ -889,6 +901,9 @@ msgstr ""
 msgid "Show Project notes"
 msgstr ""
 
+msgid "Show ages"
+msgstr ""
+
 msgid "Show list"
 msgstr ""
 
@@ -911,6 +926,9 @@ msgid "Status"
 msgstr ""
 
 msgid "Story structure"
+msgstr ""
+
+msgid "Style sheet copied into the project folder."
 msgstr ""
 
 msgid "Sunday"
@@ -1009,6 +1027,9 @@ msgstr ""
 msgid "Unused"
 msgstr ""
 
+msgid "Update from manuscript"
+msgstr ""
+
 msgid "Use Roman chapter numbers"
 msgstr ""
 
@@ -1093,6 +1114,9 @@ msgstr ""
 msgid "manuscript"
 msgstr ""
 
+msgid "no data"
+msgstr ""
+
 msgid "noveltree API"
 msgstr ""
 
@@ -1103,6 +1127,12 @@ msgid "noveltree project"
 msgstr ""
 
 msgid "unknown"
+msgstr ""
+
+msgid "years after death"
+msgstr ""
+
+msgid "years old"
 msgstr ""
 
 msgid "{0} (last saved on {1})"

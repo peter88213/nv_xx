@@ -12,10 +12,10 @@ from settings import *
 ROOT_DIR = '../..'
 
 os.chdir(ROOT_DIR)
-for program in glob.iglob('noveltree*', recursive=False):
+for program in glob.iglob('n*', recursive=False):
     potFile = f'{program}/i18n/messages.pot'
     if os.path.isfile(potFile):
-        targetPath = f'noveltree_{languageCode}/programs/{program}'
+        targetPath = f'nv_{languageCode}/programs/{program}'
         os.makedirs(targetPath, exist_ok=True)
         copyfile(potFile, f'{targetPath}/messages.pot')
         print(program)
