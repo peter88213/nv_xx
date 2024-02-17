@@ -1,4 +1,4 @@
-# noveltree_plugin Dictionary (English-Vulcanian)
+# nv_plugin Dictionary (English-Vulcanian)
 # Copyright (C) 2023 T'Pol t_pol@enterprise.starfleet
 #
 msgid ""
@@ -13,6 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
-msgid "noveltree_plugin Online help"
+msgid "nv_plugin Online help"
 msgstr ""
 

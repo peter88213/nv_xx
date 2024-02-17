@@ -1,4 +1,4 @@
-# noveltree_aeon2 Dictionary (English-Vulcanian)
+# nv_aeon2 Dictionary (English-Vulcanian)
 # Copyright (C) 2023 T'Pol t_pol@enterprise.starfleet
 #
 msgid ""
