@@ -48,5 +48,5 @@ You may want to put a posting in the [noveltree forum](https://github.com/peter8
 
 This is Open Source software, and *novelyt_xx* is licenced under GPLv3. See the
 [GNU General Public License website](https://www.gnu.org/licenses/gpl-3.0.en.html) for more
-details, or consult the [LICENSE](https://github.com/peter88213/noveltree_progress/blob/main/LICENSE) file.
+details, or consult the [LICENSE](https://github.com/peter88213/nv_progress/blob/main/LICENSE) file.
 

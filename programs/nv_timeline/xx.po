@@ -1,4 +1,4 @@
-# noveltree_timeline Dictionary (English-Vulcanian)
+# nv_timeline Dictionary (English-Vulcanian)
 # Copyright (C) 2023 T'Pol t_pol@enterprise.starfleet
 #
 msgid ""

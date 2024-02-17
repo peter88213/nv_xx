@@ -1,4 +1,4 @@
-# noveltree_matrix Dictionary (English-Vulcanian)
+# nv_matrix Dictionary (English-Vulcanian)
 # Copyright (C) 2023 T'Pol t_pol@enterprise.starfleet
 #
 msgid ""
