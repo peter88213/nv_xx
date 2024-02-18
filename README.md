@@ -1,6 +1,6 @@
 # nv_xx
 
-Language pack for [noveltree](https://peter88213.github.io/noveltree/).
+Language pack for [noveltree](https://github.com/peter88213/noveltree/).
 
 ---
 
