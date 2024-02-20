@@ -1,9 +1,9 @@
-"""Set up translations for the noveltree language pack.
+"""Set up translations for the novelibre language pack.
 
-- Generate the language specific '*.po' dictionaries for noveltree and its plugins.
+- Generate the language specific '*.po' dictionaries for novelibre and its plugins.
 
 Copyright (c) 2023 Peter Triesberger
-For further information see https://github.com/peter88213/noveltree
+For further information see https://github.com/peter88213/novelibre
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -12,7 +12,7 @@ import translations
 
 
 def main():
-    print(f'Set up noveltree translation files for {languageName}.')
+    print(f'Set up novelibre translation files for {languageName}.')
 
     translationsComplete = True
     for programName in os.listdir('../programs'):

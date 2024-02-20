@@ -1,10 +1,10 @@
-"""Build a noveltree language pack.
+"""Build a novelibre language pack.
 
-- Generate the language specific '*.mo' dictionaries for noveltree and its plugins.
+- Generate the language specific '*.mo' dictionaries for novelibre and its plugins.
 - Create a zipfile for distribution.
 
 Copyright (c) 2023 Peter Triesberger
-For further information see https://github.com/peter88213/noveltree
+For further information see https://github.com/peter88213/novelibre
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -16,7 +16,7 @@ import set_up
 
 
 def main():
-    print(f'Build a noveltree language pack for {languageName}.')
+    print(f'Build a novelibre language pack for {languageName}.')
 
     # Check whether tranlsations are complete.
     if not set_up.main():
@@ -26,14 +26,14 @@ def main():
     # Create the target path.
     i18Path = f'../i18n/locale/{languageCode}/LC_MESSAGES'
     os.makedirs(i18Path, exist_ok=True)
-    distPath = f'../noveltree_{languageCode}.zip'
+    distPath = f'../novelibre_{languageCode}.zip'
     moFiles = []
 
     # Create binary message catalogs.
     for programName in os.listdir('../programs'):
         poPath = f'../programs/{programName}/{languageCode}.po'
-        if programName == 'noveltree':
-            moName = 'noveltree.mo'
+        if programName == 'novelibre':
+            moName = 'novelibre.mo'
         else:
             moName = f'{programName}.mo'
         moPath = f'{i18Path}/{moName}'

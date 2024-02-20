@@ -1,13 +1,13 @@
 # nv_xx
 
-Language pack for [noveltree](https://github.com/peter88213/noveltree/).
+Language pack for [novelibre](https://github.com/peter88213/novelibre/).
 
 ---
 
 ## How to install the language pack
 
 1. Download the `nv_xx.zip` file.
-2. Unpack it and move the `i18n/locale` directory tree to your *noveltree* installation directory. This may be `~/.noveltree`. 
+2. Unpack it and move the `i18n/locale` directory tree to your *novelibre* installation directory. This may be `~/.novelibre`. 
 
 ---
 
@@ -40,7 +40,7 @@ Just enter all missing message strings.
 
 ### Advertising a new/updated language pack
 
-You may want to put a posting in the [noveltree forum](https://github.com/peter88213/noveltree/discussions).
+You may want to put a posting in the [novelibre forum](https://github.com/peter88213/novelibre/discussions).
 
 ---
 
