@@ -61,7 +61,7 @@ msgstr ""
 msgid "Add Section"
 msgstr ""
 
-msgid "Add Turning point"
+msgid "Add Plot point"
 msgstr ""
 
 msgid "All"
@@ -628,7 +628,7 @@ msgstr ""
 msgid "New Section"
 msgstr ""
 
-msgid "New Turning point"
+msgid "New Plot point"
 msgstr ""
 
 msgid "Newer than the project file"
@@ -1003,10 +1003,10 @@ msgstr ""
 msgid "Tuesday"
 msgstr ""
 
-msgid "Turning point"
+msgid "Plot point"
 msgstr ""
 
-msgid "Turning points"
+msgid "Plot points"
 msgstr ""
 
 msgid "Undefined"
