@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0.2\n"
-"POT-Creation-Date: 2024-02-17 10:01:46\n"
+"Project-Id-Version: 2.1.3\n"
+"POT-Creation-Date: 2024-03-01 14:06:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -35,7 +35,13 @@ msgstr ""
 msgid "Cannot edit sections, because the project is locked."
 msgstr ""
 
+msgid "Cannot split the section at the cursor position."
+msgstr ""
+
 msgid "Cannot split the section, because the project is locked."
+msgstr ""
+
+msgid "Close"
 msgstr ""
 
 msgid "Copy"
@@ -98,6 +104,9 @@ msgstr ""
 msgid "Previous"
 msgstr ""
 
+msgid "Quit"
+msgstr ""
+
 msgid "Section"
 msgstr ""
 
@@ -120,6 +129,9 @@ msgid "Word count"
 msgstr ""
 
 msgid "new"
+msgstr ""
+
+msgid "nvhelp-en"
 msgstr ""
 
 msgid "words"
