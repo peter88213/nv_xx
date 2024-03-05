@@ -805,10 +805,10 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-msgid "Remove all sections from the story arc"
+msgid "Remove all sections from the plot line"
 msgstr ""
 
-msgid "Remove arc"
+msgid "Remove plot line"
 msgstr ""
 
 msgid "Remove character"
