@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: unknown\n"
-"POT-Creation-Date: 2024-03-05 09:41:32\n"
+"Project-Id-Version: 3.2.2\n"
+"POT-Creation-Date: 2024-03-17 21:44:20\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -53,13 +53,13 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-msgid "Add Plot line"
-msgstr ""
-
 msgid "Add Chapter"
 msgstr ""
 
 msgid "Add Part"
+msgstr ""
+
+msgid "Add Plot line"
 msgstr ""
 
 msgid "Add Plot point"
@@ -74,9 +74,6 @@ msgstr ""
 msgid "Add multiple sections"
 msgstr ""
 
-msgid "Add sections"
-msgstr ""
-
 msgid "Aka"
 msgstr ""
 
@@ -86,16 +83,13 @@ msgstr ""
 msgid "All files"
 msgstr ""
 
+msgid "Always discard documents after import"
+msgstr ""
+
 msgid "Append to previous section"
 msgstr ""
 
 msgid "Apply"
-msgstr ""
-
-msgid "Plot line"
-msgstr ""
-
-msgid "Plot lines"
 msgstr ""
 
 msgid "Ask before opening exported documents"
@@ -140,10 +134,16 @@ msgstr ""
 msgid "Can not do"
 msgstr ""
 
+msgid "Cancel"
+msgstr ""
+
 msgid "Cannot create directory"
 msgstr ""
 
 msgid "Cannot create file"
+msgstr ""
+
+msgid "Cannot create the element at this position"
 msgstr ""
 
 msgid "Cannot generate date/time"
@@ -359,7 +359,7 @@ msgstr ""
 msgid "Discard changes and restore the latest backup?"
 msgstr ""
 
-msgid "Discard document after import"
+msgid "Discard documents only when sections are split"
 msgstr ""
 
 msgid "Discard manuscript"
@@ -494,9 +494,6 @@ msgstr ""
 msgid "Forward"
 msgstr ""
 
-msgid "Friday"
-msgstr ""
-
 msgid "Full name"
 msgstr ""
 
@@ -530,10 +527,16 @@ msgstr ""
 msgid "How many sections to add?"
 msgstr ""
 
+msgid "Illegal value"
+msgstr ""
+
 msgid "Image file"
 msgstr ""
 
 msgid "Import"
+msgstr ""
+
+msgid "Import documents even if locked; do not discard"
 msgstr ""
 
 msgid "Import selected elements"
@@ -632,9 +635,6 @@ msgstr ""
 msgid "Module"
 msgstr ""
 
-msgid "Monday"
-msgstr ""
-
 msgid "N"
 msgstr ""
 
@@ -653,9 +653,6 @@ msgstr ""
 msgid "New"
 msgstr ""
 
-msgid "New Plot line"
-msgstr ""
-
 msgid "New Chapter"
 msgstr ""
 
@@ -672,6 +669,9 @@ msgid "New Note"
 msgstr ""
 
 msgid "New Part"
+msgstr ""
+
+msgid "New Plot line"
 msgstr ""
 
 msgid "New Plot point"
@@ -707,6 +707,9 @@ msgstr ""
 msgid "No novelibre project to write"
 msgstr ""
 
+msgid "No text available"
+msgstr ""
+
 msgid "No valid version found in file"
 msgstr ""
 
@@ -714,6 +717,12 @@ msgid "None"
 msgstr ""
 
 msgid "Normal"
+msgstr ""
+
+msgid "Not a floating point value."
+msgstr ""
+
+msgid "Not an integer."
 msgstr ""
 
 msgid "Notes"
@@ -737,6 +746,9 @@ msgstr ""
 msgid "ODS Plot list"
 msgstr ""
 
+msgid "OK"
+msgstr ""
+
 msgid "Older than the project file"
 msgstr ""
 
@@ -747,6 +759,9 @@ msgid "Open"
 msgstr ""
 
 msgid "Open Project folder"
+msgstr ""
+
+msgid "Open existing"
 msgstr ""
 
 msgid "Open installation folder"
@@ -770,10 +785,10 @@ msgstr ""
 msgid "Outline"
 msgstr ""
 
-msgid "Overwrite existing file \"{}\"?"
+msgid "Overwrite"
 msgstr ""
 
-msgid "Overwrite the current project file?"
+msgid "Overwrite existing file \"{}\"?"
 msgstr ""
 
 msgid "Part"
@@ -800,6 +815,9 @@ msgstr ""
 msgid "Please enter either a section date or a day and a reference date."
 msgstr ""
 
+msgid "Please try again"
+msgstr ""
+
 msgid "Please wait ..."
 msgstr ""
 
@@ -813,6 +831,12 @@ msgid "Plot grid"
 msgstr ""
 
 msgid "Plot grid for editing"
+msgstr ""
+
+msgid "Plot line"
+msgstr ""
+
+msgid "Plot lines"
 msgstr ""
 
 msgid "Plot point"
@@ -869,9 +893,6 @@ msgstr ""
 msgid "Remove all sections from the plot line"
 msgstr ""
 
-msgid "Remove plot line"
-msgstr ""
-
 msgid "Remove character"
 msgstr ""
 
@@ -884,6 +905,9 @@ msgstr ""
 msgid "Remove location"
 msgstr ""
 
+msgid "Remove plot line"
+msgstr ""
+
 msgid "Renamings"
 msgstr ""
 
@@ -894,9 +918,6 @@ msgid "Restore backup"
 msgstr ""
 
 msgid "Restore the latest backup?"
-msgstr ""
-
-msgid "Saturday"
 msgstr ""
 
 msgid "Save"
@@ -965,9 +986,6 @@ msgstr ""
 msgid "Short name"
 msgstr ""
 
-msgid "Show Plot lines"
-msgstr ""
-
 msgid "Show Book"
 msgstr ""
 
@@ -978,6 +996,9 @@ msgid "Show Items"
 msgstr ""
 
 msgid "Show Locations"
+msgstr ""
+
+msgid "Show Plot lines"
 msgstr ""
 
 msgid "Show Plot list"
@@ -1016,9 +1037,6 @@ msgstr ""
 msgid "Style sheet copied into the project folder."
 msgstr ""
 
-msgid "Sunday"
-msgstr ""
-
 msgid "Tagged manuscript for proofing"
 msgstr ""
 
@@ -1029,6 +1047,12 @@ msgid "Text"
 msgstr ""
 
 msgid "Text file"
+msgstr ""
+
+msgid "The allowed maximum value is"
+msgstr ""
+
+msgid "The allowed minimum value is"
 msgstr ""
 
 msgid "The change takes effect after next startup."
@@ -1070,9 +1094,6 @@ msgstr ""
 msgid "This section has no time set."
 msgstr ""
 
-msgid "Thursday"
-msgstr ""
-
 msgid "Time"
 msgstr ""
 
@@ -1085,13 +1106,16 @@ msgstr ""
 msgid "Toggle Text viewer"
 msgstr ""
 
+msgid "Too large"
+msgstr ""
+
+msgid "Too small"
+msgstr ""
+
 msgid "Tools"
 msgstr ""
 
 msgid "Trash"
-msgstr ""
-
-msgid "Tuesday"
 msgstr ""
 
 msgid "Undefined"
@@ -1115,6 +1139,9 @@ msgstr ""
 msgid "Update from manuscript"
 msgstr ""
 
+msgid "Update the project?"
+msgstr ""
+
 msgid "Use Roman chapter numbers"
 msgstr ""
 
@@ -1131,9 +1158,6 @@ msgid "View"
 msgstr ""
 
 msgid "Viewpoint"
-msgstr ""
-
-msgid "Wednesday"
 msgstr ""
 
 msgid "Words"

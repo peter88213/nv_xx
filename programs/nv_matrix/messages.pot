@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.2.0\n"
-"POT-Creation-Date: 2024-02-25 19:22:19\n"
+"Project-Id-Version: 3.0.1\n"
+"POT-Creation-Date: 2024-03-09 20:27:45\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -14,10 +14,10 @@ msgstr ""
 "Generated-By: novxlib pgettext.py 0.3\n"
 
 
-msgid "Arcs"
+msgid "Characters"
 msgstr ""
 
-msgid "Characters"
+msgid "Close"
 msgstr ""
 
 msgid "Friday"
@@ -36,6 +36,9 @@ msgid "Matrix plugin Online help"
 msgstr ""
 
 msgid "Monday"
+msgstr ""
+
+msgid "Plot lines"
 msgstr ""
 
 msgid "Saturday"
