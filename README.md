@@ -7,7 +7,7 @@ Language pack for [novelibre](https://github.com/peter88213/novelibre/).
 ## How to install the language pack
 
 1. Download the `nv_xx.zip` file.
-2. Unpack it and move the `i18n/locale` directory tree to your *novelibre* installation directory. This may be `~/.novelibre`. 
+2. Unpack it and move the `i18n/locale` directory tree to your *novelibre* installation directory. This may be `~/.novx`. 
 
 ---
 
