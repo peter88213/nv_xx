@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.0.1\n"
-"POT-Creation-Date: 2024-03-17 19:18:00\n"
+"Project-Id-Version: 4.2.1\n"
+"POT-Creation-Date: 2024-05-30 13:56:37\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -98,9 +98,6 @@ msgstr ""
 msgid "No JSON part found in timeline data"
 msgstr ""
 
-msgid "No valid version found in file"
-msgstr ""
-
 msgid "No {} file available for this project."
 msgstr ""
 
@@ -110,22 +107,16 @@ msgstr ""
 msgid "Save the project and update the timeline?"
 msgstr ""
 
-msgid "The project \"{}\" was created with a newer novelibre version."
-msgstr ""
-
-msgid "The project \"{}\" was created with an outdated novelibre version."
-msgstr ""
-
 msgid "Update the project"
 msgstr ""
 
 msgid "Update the timeline"
 msgstr ""
 
-msgid "newer"
+msgid "Update the timeline?"
 msgstr ""
 
-msgid "novelibre project"
+msgid "newer"
 msgstr ""
 
 msgid "nvhelp-en"

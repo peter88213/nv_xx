@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.2.2\n"
-"POT-Creation-Date: 2024-03-17 21:44:20\n"
+"Project-Id-Version: 4.3.4\n"
+"POT-Creation-Date: 2024-06-13 17:24:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -35,9 +35,6 @@ msgstr ""
 msgid "A"
 msgstr ""
 
-msgid "A/R"
-msgstr ""
-
 msgid "AKA"
 msgstr ""
 
@@ -45,9 +42,6 @@ msgid "Action"
 msgstr ""
 
 msgid "Action canceled by user"
-msgstr ""
-
-msgid "Action/Reaction"
 msgstr ""
 
 msgid "Add"
@@ -128,7 +122,7 @@ msgstr ""
 msgid "Brief synopsis (export only)"
 msgstr ""
 
-msgid "C"
+msgid "Broken link fixed"
 msgstr ""
 
 msgid "Can not do"
@@ -209,6 +203,9 @@ msgstr ""
 msgid "Character list"
 msgstr ""
 
+msgid "Characterization"
+msgstr ""
+
 msgid "Characters"
 msgstr ""
 
@@ -278,6 +275,9 @@ msgstr ""
 msgid "Corrupt marker"
 msgstr ""
 
+msgid "Corrupt project data"
+msgstr ""
+
 msgid "Country code"
 msgstr ""
 
@@ -294,24 +294,6 @@ msgid "Cross reference"
 msgstr ""
 
 msgid "Cross references (export only)"
-msgstr ""
-
-msgid "Custom"
-msgstr ""
-
-msgid "Custom Conflict"
-msgstr ""
-
-msgid "Custom Goal"
-msgstr ""
-
-msgid "Custom Outcome"
-msgstr ""
-
-msgid "Custom chara Bio"
-msgstr ""
-
-msgid "Custom chara Goals"
 msgstr ""
 
 msgid "Date"
@@ -392,6 +374,9 @@ msgstr ""
 msgid "Empty project"
 msgstr ""
 
+msgid "Ending"
+msgstr ""
+
 msgid "Exit"
 msgstr ""
 
@@ -443,13 +428,19 @@ msgstr ""
 msgid "Export part descriptions for editing"
 msgstr ""
 
-msgid "Export plot description"
+msgid "Export plot grid for editing"
+msgstr ""
+
+msgid "Export plot line descriptions for editing"
 msgstr ""
 
 msgid "Export plot list (spreadsheet)"
 msgstr ""
 
 msgid "Export section descriptions for editing"
+msgstr ""
+
+msgid "Export story structure description for editing"
 msgstr ""
 
 msgid "Export synopsis filtered by plot line"
@@ -713,6 +704,9 @@ msgstr ""
 msgid "No valid version found in file"
 msgstr ""
 
+msgid "No valid xml root element found in file"
+msgstr ""
+
 msgid "None"
 msgstr ""
 
@@ -720,6 +714,9 @@ msgid "Normal"
 msgstr ""
 
 msgid "Not a floating point value."
+msgstr ""
+
+msgid "Not a scene"
 msgstr ""
 
 msgid "Not an integer."
@@ -741,6 +738,9 @@ msgid "ODF Spreadsheet document"
 msgstr ""
 
 msgid "ODF Text document"
+msgstr ""
+
+msgid "ODF document"
 msgstr ""
 
 msgid "ODS Plot list"
@@ -776,7 +776,16 @@ msgstr ""
 msgid "Opened existing {0} (last saved on {1})"
 msgstr ""
 
+msgid "Opening"
+msgstr ""
+
 msgid "Options"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Other scene"
 msgstr ""
 
 msgid "Outcome"
@@ -803,6 +812,12 @@ msgstr ""
 msgid "Part number suffix"
 msgstr ""
 
+msgid "Peak em. moment"
+msgstr ""
+
+msgid "Peak emotional moment"
+msgstr ""
+
 msgid "Pick Mode (click here or press Esc to exit)"
 msgstr ""
 
@@ -824,13 +839,7 @@ msgstr ""
 msgid "Plot"
 msgstr ""
 
-msgid "Plot description"
-msgstr ""
-
 msgid "Plot grid"
-msgstr ""
-
-msgid "Plot grid for editing"
 msgstr ""
 
 msgid "Plot line"
@@ -843,6 +852,9 @@ msgid "Plot point"
 msgstr ""
 
 msgid "Plot points"
+msgstr ""
+
+msgid "Plot progress"
 msgstr ""
 
 msgid "Plugin Manager"
@@ -932,16 +944,13 @@ msgstr ""
 msgid "Save changes?"
 msgstr ""
 
+msgid "Scene"
+msgstr ""
+
 msgid "Section"
 msgstr ""
 
-msgid "Section description"
-msgstr ""
-
 msgid "Section descriptions"
-msgstr ""
-
-msgid "Section link"
 msgstr ""
 
 msgid "Section list"
@@ -951,9 +960,6 @@ msgid "Section list (export only)"
 msgstr ""
 
 msgid "Section notes"
-msgstr ""
-
-msgid "Section title"
 msgstr ""
 
 msgid "Section word count"
@@ -1176,6 +1182,9 @@ msgid "Work in progress"
 msgstr ""
 
 msgid "Work phase"
+msgstr ""
+
+msgid "World building"
 msgstr ""
 
 msgid "Writing progress"
