@@ -10,7 +10,7 @@ Language pack for [novelibre](https://github.com/peter88213/novelibre/).
 
 ### Default: Executable Python zip archive
 
-Download the installatin package [nv_xx.pyzw](https://github.com/peter88213/nv_xx/raw/main/nv_xx.pyzw)
+Download the installation package [nv_xx.pyzw](https://github.com/peter88213/nv_xx/raw/main/nv_xx.pyzw)
 
 - Launch *nv_xx.pyzw* by double-clicking (Windows/Linux desktop),
 - or execute `python nv_xx.pyzw` (Windows), resp. `python3 nv_xx.pyzw` (Linux) on the command line.
