@@ -6,8 +6,34 @@ Language pack for [novelibre](https://github.com/peter88213/novelibre/).
 
 ## How to install the language pack
 
-1. Download the `nv_xx.zip` file.
-2. Unpack it and move the `i18n/locale` directory tree to your *novelibre* installation directory. This may be `~/.novx`. 
+## Download and install
+
+### Default: Executable Python zip archive
+
+Download the installatin package [nv_xx.pyzw](https://github.com/peter88213/nv_xx/raw/main/nv_xx.pyzw)
+
+- Launch *nv_xx.pyzw* by double-clicking (Windows/Linux desktop),
+- or execute `python nv_xx.pyzw` (Windows), resp. `python3 nv_xx.pyzw` (Linux) on the command line.
+
+#### Important
+
+Many web browsers recognize the download as an executable file and offer to open it immediately. 
+This starts the installation.
+
+However, depending on your security settings, your browser may 
+initially  refuse  to download the executable file. 
+In this case, your confirmation or an additional action is required. 
+If this is not possible, you have the option of downloading 
+the zip file. 
+
+
+### Alternative: Zip file
+
+The package is also available in zip format: [nv_xx.zip](https://github.com/peter88213/nv_xx/raw/main/nv_xx.zip)
+
+- Extract the content of the downloaded zipfile "nv_xx.zip" into an empty folder.
+- Move into this folder and launch *setup.pyw* by double-clicking (Windows/Linux desktop), 
+- or execute `python setup.pyw` (Windows), resp. `python3 setup.pyw` (Linux) on the command line.
 
 ---
 

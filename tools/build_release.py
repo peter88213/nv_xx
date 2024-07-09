@@ -1,18 +1,21 @@
 """Build a novelibre language pack.
 
 - Generate the language specific '*.mo' dictionaries for novelibre and its plugins.
-- Create a zipfile for distribution.
+- Create a self-extracting Python archive for distribution.
+- Create an optional zipfile.
 
 Copyright (c) 2023 Peter Triesberger
 For further information see https://github.com/peter88213/novelibre
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
-from shutil import copyfile
-import msgfmt
+from shutil import copy2
+import zipapp
 import zipfile
-from settings import *
+
+import msgfmt
 import set_up
+from settings import *
 
 
 def main():
@@ -24,9 +27,8 @@ def main():
         return False
 
     # Create the target path.
-    i18Path = f'../i18n/locale/{languageCode}/LC_MESSAGES'
-    os.makedirs(i18Path, exist_ok=True)
-    distPath = f'../novelibre_{languageCode}.zip'
+    localePath = f'locale/{languageCode}/LC_MESSAGES'
+    os.makedirs(f'../build/{localePath}', exist_ok=True)
     moFiles = []
 
     # Create binary message catalogs.
@@ -36,17 +38,26 @@ def main():
             moName = 'novelibre.mo'
         else:
             moName = f'{programName}.mo'
-        moPath = f'{i18Path}/{moName}'
+        moPath = f'../build/{localePath}/{moName}'
         print(f'Writing "{moPath}" ...')
         msgfmt.make(poPath, moPath)
-        moFiles.append(moPath)
+        moFiles.append(f'{localePath}/{moName}')
 
     # Create the release package.
+    copy2('../src/setuplib.py', '../build')
+    distPath = f'../novelibre_{languageCode}.pyzw'
     print(f'Writing "{distPath}" ...')
-    with zipfile.ZipFile(distPath, 'w') as release:
-        os.chdir('../i18n')
+    zipapp.create_archive('../build', target=distPath, main='setuplib:main', compressed=True)
+
+    # Create the optional zip file.
+    zipPath = f'../novelibre_{languageCode}.zip'
+    print(f'Writing "{zipPath}" ...')
+    with zipfile.ZipFile(zipPath, 'w') as release:
+        os.chdir('../build')
         for file in moFiles:
             release.write(file, compress_type=zipfile.ZIP_DEFLATED)
+        release.write('setuplib.py', compress_type=zipfile.ZIP_DEFLATED)
+        release.write('../src/setup.pyw', compress_type=zipfile.ZIP_DEFLATED)
 
     print('Done.')
     return True
