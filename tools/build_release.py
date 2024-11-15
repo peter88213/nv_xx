@@ -33,11 +33,9 @@ def main():
 
     # Create binary message catalogs.
     for programName in os.listdir('../programs'):
+        print(programName)
         poPath = f'../programs/{programName}/{languageCode}.po'
-        if programName == 'novelibre':
-            moName = 'novelibre.mo'
-        else:
-            moName = f'{programName}.mo'
+        moName = f'{programName}.mo'
         moPath = f'../build/{localePath}/{moName}'
         print(f'Writing "{moPath}" ...')
         msgfmt.make(poPath, moPath)

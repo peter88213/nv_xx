@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.2.1\n"
-"POT-Creation-Date: 2024-05-30 14:11:45\n"
+"Project-Id-Version: 4.3.0\n"
+"POT-Creation-Date: 2024-10-26 21:50:05\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -15,6 +15,9 @@ msgstr ""
 
 
 msgid "Action canceled by user"
+msgstr ""
+
+msgid "Can not process file"
 msgstr ""
 
 msgid "Cannot overwrite file"

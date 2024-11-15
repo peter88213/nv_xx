@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.2.1\n"
-"POT-Creation-Date: 2024-05-30 13:56:37\n"
+"Project-Id-Version: 4.8.1\n"
+"POT-Creation-Date: 2024-11-01 05:39:39\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -44,9 +44,6 @@ msgstr ""
 msgid "Ambiguous Aeon location \"{}\"."
 msgstr ""
 
-msgid "Ambiguous novelibre arc \"{}\"."
-msgstr ""
-
 msgid "Ambiguous novelibre character \"{}\"."
 msgstr ""
 
@@ -54,6 +51,9 @@ msgid "Ambiguous novelibre item \"{}\"."
 msgstr ""
 
 msgid "Ambiguous novelibre location \"{}\"."
+msgstr ""
+
+msgid "Ambiguous novelibre plot line \"{}\"."
 msgstr ""
 
 msgid "Ambiguous novelibre section title \"{}\"."
@@ -72,9 +72,6 @@ msgid "Cannot write file"
 msgstr ""
 
 msgid "Create from Aeon Timeline 2..."
-msgstr ""
-
-msgid "Edit the timeline"
 msgstr ""
 
 msgid "File"
@@ -99,6 +96,9 @@ msgid "No JSON part found in timeline data"
 msgstr ""
 
 msgid "No {} file available for this project."
+msgstr ""
+
+msgid "Open Aeon Timeline 2"
 msgstr ""
 
 msgid "Save the project and update it?"

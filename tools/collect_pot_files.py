@@ -12,7 +12,10 @@ from settings import *
 ROOT_DIR = '../..'
 
 os.chdir(ROOT_DIR)
-for program in glob.iglob('n*', recursive=False):
+programs = ['novelibre']
+for plugin in glob.iglob('nv_*', recursive=False):
+    programs.append(plugin)
+for program in programs:
     potFile = f'{program}/i18n/messages.pot'
     if os.path.isfile(potFile):
         targetPath = f'nv_{languageCode}/programs/{program}'

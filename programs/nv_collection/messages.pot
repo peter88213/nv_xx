@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.1\n"
-"POT-Creation-Date: 2024-05-30 13:58:15\n"
+"Project-Id-Version: 4.3.4\n"
+"POT-Creation-Date: 2024-11-01 06:27:53\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -35,6 +35,9 @@ msgstr ""
 msgid "Cannot overwrite file"
 msgstr ""
 
+msgid "Cannot process file"
+msgstr ""
+
 msgid "Cannot remove book"
 msgstr ""
 
@@ -56,10 +59,16 @@ msgstr ""
 msgid "Collection saved."
 msgstr ""
 
+msgid "Ctrl"
+msgstr ""
+
 msgid "Exit"
 msgstr ""
 
 msgid "File"
+msgstr ""
+
+msgid "Help"
 msgstr ""
 
 msgid "New"
@@ -72,6 +81,9 @@ msgid "No collection found in file"
 msgstr ""
 
 msgid "No valid version found in file"
+msgstr ""
+
+msgid "Online help"
 msgstr ""
 
 msgid "Open..."

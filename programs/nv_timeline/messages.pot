@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.2.1\n"
-"POT-Creation-Date: 2024-05-30 14:07:22\n"
+"Project-Id-Version: 4.4.3\n"
+"POT-Creation-Date: 2024-11-01 06:12:59\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -38,9 +38,6 @@ msgstr ""
 msgid "Create or update the timeline"
 msgstr ""
 
-msgid "Edit the timeline"
-msgstr ""
-
 msgid "File"
 msgstr ""
 
@@ -54,6 +51,9 @@ msgid "Information"
 msgstr ""
 
 msgid "No {} file available for this project."
+msgstr ""
+
+msgid "Open Timeline"
 msgstr ""
 
 msgid "Save the project and update it?"
