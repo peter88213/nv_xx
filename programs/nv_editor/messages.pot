@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.6.2\n"
-"POT-Creation-Date: 2024-11-01 06:21:08\n"
+"Project-Id-Version: 5.2.0\n"
+"POT-Creation-Date: 2025-03-19 22:25:57\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -35,7 +35,7 @@ msgstr ""
 msgid "Cannot edit sections, because the project is locked."
 msgstr ""
 
-msgid "Cannot split the section at the cursor position."
+msgid "Cannot split the section at the cursor position"
 msgstr ""
 
 msgid "Cannot split the section, because the project is locked."
@@ -77,6 +77,9 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
+msgid "Invalid changes"
+msgstr ""
+
 msgid "Italic"
 msgstr ""
 
@@ -84,6 +87,12 @@ msgid "Light mode"
 msgstr ""
 
 msgid "Live update"
+msgstr ""
+
+msgid "Major Character"
+msgstr ""
+
+msgid "Minor Character"
 msgstr ""
 
 msgid "Move the text from the cursor position to the end into a new section"
@@ -128,10 +137,10 @@ msgstr ""
 msgid "Word count"
 msgstr ""
 
-msgid "new"
+msgid "https://peter88213.github.io/nvhelp-en"
 msgstr ""
 
-msgid "nvhelp-en"
+msgid "new"
 msgstr ""
 
 msgid "words"

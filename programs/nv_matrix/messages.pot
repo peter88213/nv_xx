@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.6.3\n"
-"POT-Creation-Date: 2024-11-10 11:11:14\n"
+"Project-Id-Version: 5.0.6\n"
+"POT-Creation-Date: 2025-02-27 15:18:01\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -29,10 +29,16 @@ msgstr ""
 msgid "Locations"
 msgstr ""
 
+msgid "Major Character"
+msgstr ""
+
 msgid "Matrix"
 msgstr ""
 
 msgid "Matrix plugin Online help"
+msgstr ""
+
+msgid "Minor Character"
 msgstr ""
 
 msgid "Plot lines"
@@ -41,5 +47,5 @@ msgstr ""
 msgid "Sections"
 msgstr ""
 
-msgid "nvhelp-en"
+msgid "https://peter88213.github.io/nvhelp-en"
 msgstr ""

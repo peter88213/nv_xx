@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.16.1\n"
-"POT-Creation-Date: 2024-11-07 21:03:14\n"
+"Project-Id-Version: 5.17.0\n"
+"POT-Creation-Date: 2025-03-19 22:25:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -36,6 +36,9 @@ msgid "A"
 msgstr ""
 
 msgid "AKA"
+msgstr ""
+
+msgid "About novelibre"
 msgstr ""
 
 msgid "Action"
@@ -83,6 +86,18 @@ msgstr ""
 msgid "All files"
 msgstr ""
 
+msgid "Alt-Down"
+msgstr ""
+
+msgid "Alt-Left"
+msgstr ""
+
+msgid "Alt-Right"
+msgstr ""
+
+msgid "Alt-Up"
+msgstr ""
+
 msgid "Always discard documents after import"
 msgstr ""
 
@@ -113,6 +128,21 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+msgid "Backup directory"
+msgstr ""
+
+msgid "Backup directory not found"
+msgstr ""
+
+msgid "Backup directory not set"
+msgstr ""
+
+msgid "Backup failed"
+msgstr ""
+
+msgid "Backup options"
+msgstr ""
+
 msgid "Bio"
 msgstr ""
 
@@ -129,9 +159,6 @@ msgid "Brief synopsis (export only)"
 msgstr ""
 
 msgid "Broken link fixed"
-msgstr ""
-
-msgid "Can not do"
 msgstr ""
 
 msgid "Cancel"
@@ -185,7 +212,13 @@ msgstr ""
 msgid "Change Level"
 msgstr ""
 
-msgid "Change icon size"
+msgid "Change backup directory"
+msgstr ""
+
+msgid "Change sections to Normal"
+msgstr ""
+
+msgid "Change sections to Unused"
 msgstr ""
 
 msgid "Chapter"
@@ -215,6 +248,9 @@ msgstr ""
 msgid "Chapters from viewpoint"
 msgstr ""
 
+msgid "Chapters moved to new file"
+msgstr ""
+
 msgid "Character"
 msgstr ""
 
@@ -230,10 +266,10 @@ msgstr ""
 msgid "Characters"
 msgstr ""
 
-msgid "Characters/locations/items data files"
+msgid "Choice"
 msgstr ""
 
-msgid "Choice"
+msgid "Chp."
 msgstr ""
 
 msgid "Clear assignment"
@@ -290,6 +326,9 @@ msgstr ""
 msgid "Convert days to dates"
 msgstr ""
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy style sheet"
 msgstr ""
 
@@ -302,16 +341,16 @@ msgstr ""
 msgid "Country code"
 msgstr ""
 
-msgid "Create a novelibre project file from {0}\nNew project: \"{1}\""
+msgid "Create a new project and move the selected chapters there?"
+msgstr ""
+
+msgid "Create backup copies"
 msgstr ""
 
 msgid "Create from ODT..."
 msgstr ""
 
 msgid "Created {0} on {1}."
-msgstr ""
-
-msgid "Critical Error"
 msgstr ""
 
 msgid "Cross reference"
@@ -321,6 +360,9 @@ msgid "Cross references (export only)"
 msgstr ""
 
 msgid "Ctrl"
+msgstr ""
+
+msgid "Cut"
 msgstr ""
 
 msgid "Date"
@@ -341,6 +383,12 @@ msgstr ""
 msgid "Death date"
 msgstr ""
 
+msgid "Default styles are already set"
+msgstr ""
+
+msgid "Default styles are restored"
+msgstr ""
+
 msgid "Del"
 msgstr ""
 
@@ -348,6 +396,9 @@ msgid "Delete"
 msgstr ""
 
 msgid "Delete file"
+msgstr ""
+
+msgid "Delete multiple elements"
 msgstr ""
 
 msgid "Delete {}?"
@@ -365,10 +416,10 @@ msgstr ""
 msgid "Discard"
 msgstr ""
 
-msgid "Discard changes and reload the project?"
+msgid "Discard changes and load the \".bak\" file?"
 msgstr ""
 
-msgid "Discard changes and restore the latest backup?"
+msgid "Discard changes and reload the project?"
 msgstr ""
 
 msgid "Discard documents only when sections are split"
@@ -392,6 +443,9 @@ msgstr ""
 msgid "Document language"
 msgstr ""
 
+msgid "Document template is set"
+msgstr ""
+
 msgid "Done"
 msgstr ""
 
@@ -408,6 +462,9 @@ msgid "Empty project"
 msgstr ""
 
 msgid "Ending"
+msgstr ""
+
+msgid "Error"
 msgstr ""
 
 msgid "Exit"
@@ -482,6 +539,9 @@ msgstr ""
 msgid "Export synopsis filtered by viewpoint"
 msgstr ""
 
+msgid "Export this chapter"
+msgstr ""
+
 msgid "Export type is not supported"
 msgstr ""
 
@@ -515,6 +575,9 @@ msgstr ""
 msgid "File written"
 msgstr ""
 
+msgid "Final manuscript document (export only)"
+msgstr ""
+
 msgid "Forward"
 msgstr ""
 
@@ -539,6 +602,9 @@ msgstr ""
 msgid "HTML Plot list"
 msgstr ""
 
+msgid "HTML Time table"
+msgstr ""
+
 msgid "Heading 3 invisible"
 msgstr ""
 
@@ -557,6 +623,9 @@ msgstr ""
 msgid "How many sections to add?"
 msgstr ""
 
+msgid "Icon size changed"
+msgstr ""
+
 msgid "Illegal value"
 msgstr ""
 
@@ -569,6 +638,9 @@ msgstr ""
 msgid "Import documents even if locked; do not discard"
 msgstr ""
 
+msgid "Import plot lines"
+msgstr ""
+
 msgid "Import selected elements"
 msgstr ""
 
@@ -578,13 +650,13 @@ msgstr ""
 msgid "Input rejected"
 msgstr ""
 
-msgid "Input: {0} \"{1}\"\nOutput: {2} \"{3}\""
-msgstr ""
-
 msgid "Insert Stage"
 msgstr ""
 
 msgid "Installed plugins"
+msgstr ""
+
+msgid "Invalid document template"
 msgstr ""
 
 msgid "Item"
@@ -650,10 +722,10 @@ msgstr ""
 msgid "Manuscript for editing"
 msgstr ""
 
-msgid "Manuscript for printing (export only)"
+msgid "Manuscript for third-party word processing"
 msgstr ""
 
-msgid "Manuscript for third-party word processing"
+msgid "Manuscript not found"
 msgstr ""
 
 msgid "Minor Character"
@@ -662,10 +734,10 @@ msgstr ""
 msgid "Minutes"
 msgstr ""
 
-msgid "Module"
+msgid "Moon phase"
 msgstr ""
 
-msgid "Moon phase"
+msgid "Move selected chapters to new project"
 msgstr ""
 
 msgid "N"
@@ -725,6 +797,12 @@ msgstr ""
 msgid "No character data found"
 msgstr ""
 
+msgid "No characters found"
+msgstr ""
+
+msgid "No date/time data found"
+msgstr ""
+
 msgid "No description"
 msgstr ""
 
@@ -734,10 +812,22 @@ msgstr ""
 msgid "No item data found"
 msgstr ""
 
+msgid "No items found"
+msgstr ""
+
 msgid "No location data found"
 msgstr ""
 
+msgid "No locations found"
+msgstr ""
+
 msgid "No novelibre project to write"
+msgstr ""
+
+msgid "No plot lines found"
+msgstr ""
+
+msgid "No project notes found"
 msgstr ""
 
 msgid "No text available"
@@ -779,6 +869,12 @@ msgstr ""
 msgid "ODF Spreadsheet document"
 msgstr ""
 
+msgid "ODF Text Document"
+msgstr ""
+
+msgid "ODF Text Document Template"
+msgstr ""
+
 msgid "ODF Text document"
 msgstr ""
 
@@ -801,6 +897,9 @@ msgid "Open"
 msgstr ""
 
 msgid "Open Project folder"
+msgstr ""
+
+msgid "Open backup directory"
 msgstr ""
 
 msgid "Open existing"
@@ -839,7 +938,7 @@ msgstr ""
 msgid "Overwrite"
 msgstr ""
 
-msgid "Overwrite existing file \"{}\"?"
+msgid "Overwrite the last saved project file with the \".bak\" file?"
 msgstr ""
 
 msgid "Part"
@@ -854,6 +953,9 @@ msgstr ""
 msgid "Part number suffix"
 msgstr ""
 
+msgid "Paste"
+msgstr ""
+
 msgid "Peak em. moment"
 msgstr ""
 
@@ -863,16 +965,22 @@ msgstr ""
 msgid "Pick Mode (click here or press Esc to exit)"
 msgstr ""
 
+msgid "Please check the setting"
+msgstr ""
+
 msgid "Please close the document first"
 msgstr ""
 
 msgid "Please close the manuscript first"
 msgstr ""
 
-msgid "Please enter a reference date."
+msgid "Please enter a reference date"
 msgstr ""
 
-msgid "Please enter either a section date or a day and a reference date."
+msgid "Please enter either a section date or a day and a reference date"
+msgstr ""
+
+msgid "Please save now"
 msgstr ""
 
 msgid "Please try again"
@@ -902,6 +1010,9 @@ msgstr ""
 msgid "Plot progress"
 msgstr ""
 
+msgid "Plugin"
+msgstr ""
+
 msgid "Plugin Manager"
 msgstr ""
 
@@ -915,6 +1026,9 @@ msgid "Project note"
 msgstr ""
 
 msgid "Project notes"
+msgstr ""
+
+msgid "Project path unknown"
 msgstr ""
 
 msgid "Project successfully restored from disk."
@@ -977,7 +1091,7 @@ msgstr ""
 msgid "Restore backup"
 msgstr ""
 
-msgid "Restore the latest backup?"
+msgid "Restore default styles"
 msgstr ""
 
 msgid "Save"
@@ -1010,9 +1124,6 @@ msgstr ""
 msgid "Section mark"
 msgstr ""
 
-msgid "Section mark unused"
-msgstr ""
-
 msgid "Section notes"
 msgstr ""
 
@@ -1022,7 +1133,7 @@ msgstr ""
 msgid "Section_20_mark"
 msgstr ""
 
-msgid "Section_20_mark_20_unused"
+msgid "Sections"
 msgstr ""
 
 msgid "Sections belonging to plot line"
@@ -1034,10 +1145,16 @@ msgstr ""
 msgid "Select characters"
 msgstr ""
 
+msgid "Select document template"
+msgstr ""
+
 msgid "Select items"
 msgstr ""
 
 msgid "Select locations"
+msgstr ""
+
+msgid "Select plot lines"
 msgstr ""
 
 msgid "Set Status"
@@ -1076,6 +1193,9 @@ msgstr ""
 msgid "Show Project notes"
 msgstr ""
 
+msgid "Show Time table"
+msgstr ""
+
 msgid "Show ages"
 msgstr ""
 
@@ -1083,6 +1203,12 @@ msgid "Show list"
 msgstr ""
 
 msgid "Show markup"
+msgstr ""
+
+msgid "Show notes"
+msgstr ""
+
+msgid "Skip"
 msgstr ""
 
 msgid "Source document deleted"
@@ -1124,16 +1250,16 @@ msgstr ""
 msgid "The allowed minimum value is"
 msgstr ""
 
-msgid "The change takes effect after next startup."
+msgid "The change takes effect after next startup"
 msgstr ""
 
-msgid "The next section has no time set."
+msgid "The next section has no time set"
 msgstr ""
 
-msgid "The plugin remains active until next start."
+msgid "The plugin remains active until next start"
 msgstr ""
 
-msgid "The previous section has no time set."
+msgid "The previous section has no time set"
 msgstr ""
 
 msgid "The project \"{}\" was created with a newer novelibre version."
@@ -1151,16 +1277,22 @@ msgstr ""
 msgid "The sections have different viewpoints"
 msgstr ""
 
+msgid "There is no next section"
+msgstr ""
+
 msgid "There is no previous section"
 msgstr ""
 
 msgid "This document is not meant to be written back"
 msgstr ""
 
-msgid "This section has no time set."
+msgid "This section has no time set"
 msgstr ""
 
 msgid "Time"
+msgstr ""
+
+msgid "Time table"
 msgstr ""
 
 msgid "Title"
@@ -1185,6 +1317,9 @@ msgid "Trash"
 msgstr ""
 
 msgid "Undefined"
+msgstr ""
+
+msgid "Unhandled exception on exit"
 msgstr ""
 
 msgid "Unknown author"
@@ -1262,9 +1397,6 @@ msgstr ""
 msgid "Wrong name"
 msgstr ""
 
-msgid "Wrong table structure"
-msgstr ""
-
 msgid "Wrong time"
 msgstr ""
 
@@ -1274,10 +1406,16 @@ msgstr ""
 msgid "XML data file"
 msgstr ""
 
+msgid "XML data files"
+msgstr ""
+
 msgid "XML item data file"
 msgstr ""
 
 msgid "XML location data file"
+msgstr ""
+
+msgid "XML plot line file"
 msgstr ""
 
 msgid "YYYY-MM-DD"
@@ -1293,6 +1431,9 @@ msgid "elements imported"
 msgstr ""
 
 msgid "hh:mm"
+msgstr ""
+
+msgid "https://peter88213.github.io/nvhelp-en"
 msgstr ""
 
 msgid "last saved on"
@@ -1313,16 +1454,19 @@ msgstr ""
 msgid "novelibre project"
 msgstr ""
 
-msgid "nvhelp-en"
-msgstr ""
-
 msgid "options"
 msgstr ""
 
 msgid "plugin-manager"
 msgstr ""
 
+msgid "tag"
+msgstr ""
+
 msgid "unknown"
+msgstr ""
+
+msgid "with"
 msgstr ""
 
 msgid "years after death"

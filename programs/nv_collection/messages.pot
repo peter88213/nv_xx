@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.3.4\n"
-"POT-Creation-Date: 2024-11-01 06:27:53\n"
+"Project-Id-Version: 5.1.0\n"
+"POT-Creation-Date: 2025-03-19 22:25:44\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -44,6 +44,9 @@ msgstr ""
 msgid "Cannot remove series"
 msgstr ""
 
+msgid "Cannot save the collection"
+msgstr ""
+
 msgid "Cannot write file"
 msgstr ""
 
@@ -69,6 +72,12 @@ msgid "File"
 msgstr ""
 
 msgid "Help"
+msgstr ""
+
+msgid "Major Character"
+msgstr ""
+
+msgid "Minor Character"
 msgstr ""
 
 msgid "New"
@@ -110,6 +119,9 @@ msgstr ""
 msgid "Series"
 msgstr ""
 
+msgid "Series removed from the collection"
+msgstr ""
+
 msgid "The collection was created with a newer plugin version."
 msgstr ""
 
@@ -134,8 +146,8 @@ msgstr ""
 msgid "Update project data from the selected book"
 msgstr ""
 
-msgid "novelibre collection"
+msgid "https://peter88213.github.io/nvhelp-en"
 msgstr ""
 
-msgid "nvhelp-en"
+msgid "novelibre collection"
 msgstr ""

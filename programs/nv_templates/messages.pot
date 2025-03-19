@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.4\n"
-"POT-Creation-Date: 2024-11-01 05:59:55\n"
+"Project-Id-Version: 5.1.0\n"
+"POT-Creation-Date: 2025-03-19 22:26:11\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -35,6 +35,12 @@ msgstr ""
 msgid "Load"
 msgstr ""
 
+msgid "Major Character"
+msgstr ""
+
+msgid "Minor Character"
+msgstr ""
+
 msgid "New Section"
 msgstr ""
 
@@ -62,5 +68,5 @@ msgstr ""
 msgid "Templates plugin Online help"
 msgstr ""
 
-msgid "nvhelp-en"
+msgid "https://peter88213.github.io/nvhelp-en"
 msgstr ""
