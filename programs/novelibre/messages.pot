@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 5.17.0\n"
-"POT-Creation-Date: 2025-03-19 22:25:09\n"
+"Project-Id-Version: 5.18.0\n"
+"POT-Creation-Date: 2025-04-02 20:57:34\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -377,6 +377,9 @@ msgstr ""
 msgid "Day"
 msgstr ""
 
+msgid "Day 0"
+msgstr ""
+
 msgid "Days"
 msgstr ""
 
@@ -395,7 +398,7 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-msgid "Delete file"
+msgid "Delete file?"
 msgstr ""
 
 msgid "Delete multiple elements"
@@ -426,6 +429,9 @@ msgid "Discard documents only when sections are split"
 msgstr ""
 
 msgid "Discard manuscript"
+msgstr ""
+
+msgid "Discard manuscript?"
 msgstr ""
 
 msgid "Display localized dates"
@@ -462,9 +468,6 @@ msgid "Empty project"
 msgstr ""
 
 msgid "Ending"
-msgstr ""
-
-msgid "Error"
 msgstr ""
 
 msgid "Exit"
@@ -672,6 +675,9 @@ msgid "Items"
 msgstr ""
 
 msgid "Join with previous"
+msgstr ""
+
+msgid "Join with previous?"
 msgstr ""
 
 msgid "Language code"
@@ -911,6 +917,9 @@ msgstr ""
 msgid "Open link"
 msgstr ""
 
+msgid "Open the created document?"
+msgstr ""
+
 msgid "Open..."
 msgstr ""
 
@@ -1061,22 +1070,22 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-msgid "Remove all sections from the plot line"
+msgid "Remove all sections from the plot line?"
 msgstr ""
 
-msgid "Remove character"
+msgid "Remove character from the list?"
 msgstr ""
 
-msgid "Remove item"
+msgid "Remove item from the list?"
 msgstr ""
 
-msgid "Remove link"
+msgid "Remove link?"
 msgstr ""
 
-msgid "Remove location"
+msgid "Remove location from the list?"
 msgstr ""
 
-msgid "Remove plot line"
+msgid "Remove plot line from the list?"
 msgstr ""
 
 msgid "Renamings"
@@ -1211,6 +1220,9 @@ msgstr ""
 msgid "Skip"
 msgstr ""
 
+msgid "Source document"
+msgstr ""
+
 msgid "Source document deleted"
 msgstr ""
 
@@ -1268,13 +1280,16 @@ msgstr ""
 msgid "The project \"{}\" was created with an outdated novelibre version."
 msgstr ""
 
-msgid "The project is locked.\nUnlock?"
+msgid "The project is locked"
 msgstr ""
 
 msgid "The sections are not of the same type"
 msgstr ""
 
 msgid "The sections have different viewpoints"
+msgstr ""
+
+msgid "There are unsaved changes"
 msgstr ""
 
 msgid "There is no next section"
@@ -1329,6 +1344,9 @@ msgid "Unknown element in File"
 msgstr ""
 
 msgid "Unlock"
+msgstr ""
+
+msgid "Unlock?"
 msgstr ""
 
 msgid "Unnamed"
@@ -1482,7 +1500,4 @@ msgid "{0} already exists.\n(last saved on {2})\n{1}.\n\nOpen this document inst
 msgstr ""
 
 msgid "{0} parts, {1} chapters, {2} sections, {3} words"
-msgstr ""
-
-msgid "{} created.\n\nOpen now?"
 msgstr ""

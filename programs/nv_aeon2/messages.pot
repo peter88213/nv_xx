@@ -3,8 +3,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 5.2.0\n"
-"POT-Creation-Date: 2025-03-19 22:25:28\n"
+"Project-Id-Version: 5.2.3\n"
+"POT-Creation-Date: 2025-03-30 15:36:04\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
@@ -132,6 +132,9 @@ msgid "Save the project and update the timeline?"
 msgstr ""
 
 msgid "Shift"
+msgstr ""
+
+msgid "There are unsaved changes"
 msgstr ""
 
 msgid "Update the project"
