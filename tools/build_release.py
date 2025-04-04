@@ -48,6 +48,7 @@ def main():
     zipapp.create_archive('../build', target=distPath, main='setuplib:main', compressed=True)
 
     # Create the optional zip file.
+    copy2('../src/setup.pyw', '../build')
     zipPath = f'../novelibre_{languageCode}.zip'
     print(f'Writing "{zipPath}" ...')
     with zipfile.ZipFile(zipPath, 'w') as release:
@@ -55,7 +56,7 @@ def main():
         for file in moFiles:
             release.write(file, compress_type=zipfile.ZIP_DEFLATED)
         release.write('setuplib.py', compress_type=zipfile.ZIP_DEFLATED)
-        release.write('../src/setup.pyw', compress_type=zipfile.ZIP_DEFLATED)
+        release.write('setup.pyw', compress_type=zipfile.ZIP_DEFLATED)
 
     print('Done.')
     return True
