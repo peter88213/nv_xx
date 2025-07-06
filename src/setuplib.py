@@ -14,7 +14,12 @@ from pathlib import Path
 try:
     from tkinter import *
 except ModuleNotFoundError:
-    print('The tkinter module is missing. Please install the tk support package for your python3 version.')
+    print(
+        (
+            'The tkinter module is missing. '
+            'Please install the tk support package for your python3 version.'
+        )
+    )
     sys.exit(1)
 
 LANGUAGE_PACK = 'nv_xx'
@@ -67,10 +72,21 @@ def main(zipped=True):
     if os.path.isdir(applicationDir):
         output('Copying locale ...')
         copy_tree('locale', applicationDir)
-        output(f'Sucessfully installed "{LANGUAGE_PACK}" at "{os.path.normpath(applicationDir)}"')
-    else:
-        output(f'ERROR: Cannot find a novelibre installation at "{applicationDir}"')
 
+        # Show a success message.
+        output(
+            (
+                f'Sucessfully installed "{LANGUAGE_PACK}" '
+                f'at "{os.path.normpath(applicationDir)}".'
+            )
+        )
+    else:
+        output(
+            (
+                'ERROR: Cannot find a novelibre installation '
+                f'at "{os.path.normpath(applicationDir)}".'
+            )
+        )
     root.quitButton = Button(text="Quit", command=quit)
     root.quitButton.config(height=1, width=30)
     root.quitButton.pack(padx=5, pady=5)
