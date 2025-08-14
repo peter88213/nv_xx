@@ -11,22 +11,8 @@ import zipfile
 import os
 import sys
 from pathlib import Path
-try:
-    from tkinter import *
-except ModuleNotFoundError:
-    input(
-        (
-            'The tkinter module is missing. '
-            'Please install the tk support package for your python3 version.'
-        )
-    )
-    sys.exit(1)
 
 LANGUAGE_PACK = 'nv_xx'
-
-root = Tk()
-processInfo = Label(root, text='')
-message = []
 
 pyz = os.path.dirname(__file__)
 
@@ -42,11 +28,6 @@ def cp_tree(sourceDir, targetDir):
     copytree(sourceDir, f'{targetDir}/{sourceDir}', dirs_exist_ok=True)
 
 
-def output(text):
-    message.append(text)
-    processInfo.config(text=('\n').join(message))
-
-
 def main(zipped=True):
     if zipped:
         copy_tree = extract_tree
@@ -57,37 +38,28 @@ def main(zipped=True):
     scriptDir = os.path.dirname(scriptPath)
     os.chdir(scriptDir)
 
-    # Open a tk window.
-    root.geometry("600x150")
-    root.title(f'Install {LANGUAGE_PACK}')
-    header = Label(root, text='')
-    header.pack(padx=5, pady=5)
-
-    # Prepare the messaging area.
-    processInfo.pack(padx=5, pady=5)
-
-    # Install the language pack.
+    print(f'*** Installing {LANGUAGE_PACK} ***')
     homePath = str(Path.home()).replace('\\', '/')
     applicationDir = f'{homePath}/.novx'
     if os.path.isdir(applicationDir):
-        output('Copying locale ...')
+
+        # Install the language pack.
+        print('Copying locale ...')
         copy_tree('locale', applicationDir)
 
         # Show a success message.
-        output(
+        print(
             (
                 f'Sucessfully installed "{LANGUAGE_PACK}" '
                 f'at "{os.path.normpath(applicationDir)}".'
             )
         )
     else:
-        output(
+        print(
             (
                 'ERROR: Cannot find a novelibre installation '
                 f'at "{os.path.normpath(applicationDir)}".'
             )
         )
-    root.quitButton = Button(text="Quit", command=quit)
-    root.quitButton.config(height=1, width=30)
-    root.quitButton.pack(padx=5, pady=5)
-    root.mainloop()
+
+    input('Press any key to quit.')
