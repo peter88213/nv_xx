@@ -1,4 +1,4 @@
-"""language pack installer library module. 
+"""Language pack installer library module. 
 
 Version @release
 
@@ -6,13 +6,13 @@ Copyright (c) 2025 Peter Triesberger
 For further information see https://github.com/peter88213/nv_xx
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
-from shutil import copytree
-import zipfile
 import os
-import sys
 from pathlib import Path
+from shutil import copytree
+import sys
+import zipfile
 
-LANGUAGE_PACK = 'nv_xx'
+PLUGIN = 'nv_xx'
 
 pyz = os.path.dirname(__file__)
 
@@ -38,28 +38,24 @@ def main(zipped=True):
     scriptDir = os.path.dirname(scriptPath)
     os.chdir(scriptDir)
 
-    print(f'*** Installing {LANGUAGE_PACK} ***')
+    print(f'*** Installing {PLUGIN} ***')
     homePath = str(Path.home()).replace('\\', '/')
     applicationDir = f'{homePath}/.novx'
     if os.path.isdir(applicationDir):
 
-        # Install the language pack.
+        # Install the localization files.
         print('Copying locale ...')
         copy_tree('locale', applicationDir)
 
         # Show a success message.
         print(
-            (
-                f'Sucessfully installed "{LANGUAGE_PACK}" '
-                f'at "{os.path.normpath(applicationDir)}".'
-            )
+            f'Sucessfully installed "{PLUGIN}" '
+            f'at "{os.path.normpath(applicationDir)}".'
         )
     else:
         print(
-            (
-                'ERROR: Cannot find a novelibre installation '
-                f'at "{os.path.normpath(applicationDir)}".'
-            )
+            'ERROR: Cannot find a novelibre installation '
+            f'at "{os.path.normpath(applicationDir)}".'
         )
 
     input('Press any key to quit.')
