@@ -49,7 +49,7 @@ def main(zipped=True):
 
         # Show a success message.
         print(
-            f'Sucessfully installed "{PLUGIN}" '
+            f'\nSucessfully installed {PLUGIN} '
             f'at "{os.path.normpath(applicationDir)}".'
         )
     else:
