@@ -32,8 +32,8 @@ the zip file.
 The package is also available in zip format: [nv_xx.zip](https://github.com/peter88213/nv_xx/raw/main/nv_xx.zip)
 
 - Extract the content of the downloaded zipfile "nv_xx.zip" into an empty folder.
-- Move into this folder and launch *setup.pyw* by double-clicking (Windows/Linux desktop), 
-- or execute `python setup.pyw` (Windows), resp. `python3 setup.pyw` (Linux) on the command line.
+- Move into this folder and launch *setup.py* by double-clicking (Windows/Linux desktop), 
+- or execute `python setup.py` (Windows), resp. `python3 setup.py` (Linux) on the command line.
 
 ---
 
