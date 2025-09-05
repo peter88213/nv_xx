@@ -12,13 +12,13 @@ Language pack for [novelibre](https://github.com/peter88213/novelibre/).
 
 Download the installation package [nv_xx.pyz](https://github.com/peter88213/nv_xx/raw/main/nv_xx.pyz)
 
-- Launch *nv_xx.pyz* by double-clicking (Windows/Linux desktop),
+- Launch *nv_xx.pyz* by double-clicking (Windows desktop),
 - or execute `python nv_xx.pyz` (Windows), resp. `python3 nv_xx.pyz` (Linux) on the command line.
 
 #### Important
 
 Many web browsers recognize the download as an executable file and offer to open it immediately. 
-This starts the installation.
+This starts the installation under Windows.
 
 However, depending on your security settings, your browser may 
 initially  refuse  to download the executable file. 
