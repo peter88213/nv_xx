@@ -38,4 +38,4 @@
 
 ---
 
-[English](https://peter88213.github.io/nvhelp-en/)
+[English manual](https://peter88213.github.io/nvhelp-en/)
