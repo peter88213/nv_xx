@@ -32,10 +32,10 @@ def main():
     moFiles = []
 
     # Create binary message catalogs.
-    for programName in os.listdir('../programs'):
-        print(programName)
-        poPath = f'../programs/{programName}/{languageCode}.po'
-        moName = f'{programName}.mo'
+    for moduleName in os.listdir('../modules'):
+        print(moduleName)
+        poPath = f'../modules/{moduleName}/{languageCode}.po'
+        moName = f'{moduleName}.mo'
         moPath = f'../build/{localePath}/{moName}'
         print(f'Writing "{moPath}" ...')
         msgfmt.make(poPath, moPath)
@@ -43,13 +43,13 @@ def main():
 
     # Create the release package.
     copy2('../src/setuplib.py', '../build')
-    distPath = f'../novelibre_{languageCode}.pyz'
+    distPath = f'../nv_{languageCode}.pyz'
     print(f'Writing "{distPath}" ...')
     zipapp.create_archive('../build', target=distPath, main='setuplib:main', compressed=True)
 
     # Create the optional zip file.
     copy2('../src/setup.py', '../build')
-    zipPath = f'../novelibre_{languageCode}.zip'
+    zipPath = f'../nv_{languageCode}.zip'
     print(f'Writing "{zipPath}" ...')
     with zipfile.ZipFile(zipPath, 'w') as release:
         os.chdir('../build')
