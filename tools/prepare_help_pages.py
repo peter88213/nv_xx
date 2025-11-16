@@ -1,51 +1,27 @@
-"""Script for help page preparation.
+"""Create help pages to translate.
 
-Requires Python 3.9+
-
-Copyright (c) 2025 Peter Triesberger
-For further information see https://github.com/peter88213/nv_xx
-License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
+Reads the ../docs/index.md file entries, and creates the listed pages.
 """
-from string import Template
+import os
+import re
 
-DIVIDER = ']('
-BULLET = '- ['
+help_dir = '../docs'
+page_pattern = re.compile(r'\[(.*?)\]\((.*?)\)')
 
-HOME_DIR = '../docs'
-HOME_PAGE = f'{HOME_DIR}/index.md'
-
-page = '''$Breadcrumbs > $Heading
-
----
-
-# $Heading
-
-'''
-
-with open(HOME_PAGE, 'r', encoding='utf-8') as f:
+with open(f'{help_dir}/index.md', 'r', encoding='utf-8') as f:
     text = f.read()
 
-header = True
-for line in text.split('\n'):
-    if header:
-        if line.startswith('---'):
-            header = False
-        elif line.startswith('['):
-            breadcrumb = f'{line}{DIVIDER}index.md)'.replace('> ', '> [')
+page_data = page_pattern.findall(text)
+for title, file_name in page_data:
+    if 'https:' in file_name:
         continue
 
-    if not line.startswith(BULLET):
-        continue
-
-    line = line.removeprefix(BULLET).removesuffix(')')
-    heading, link = line.split(DIVIDER)
-
-    mapping = dict(
-        Breadcrumbs=breadcrumb,
-        Heading=heading,
-    )
-    text = Template(page).safe_substitute(mapping)
-
-    with open(f'{HOME_DIR}/{link}', 'w', encoding='utf-8') as f:
-        f.write(text)
-
+    page_name, __ = os.path.splitext(file_name)
+    with open(f'{help_dir}/{file_name}', 'w', encoding='utf_8') as f:
+        f.write(
+            f'[Help index](index.md) > {title}'
+            '\n\n---\n\n'
+            f'# {title}\n\n'
+            '\n\n---\n\n'
+            '[English manual](https://peter88213.github.io/nvhelp-en/)'
+        )
