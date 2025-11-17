@@ -101,13 +101,13 @@ application for the link's file type.
 > the file extensions.
 >
 > Zim Desktop wiki pages are a special case. For this, the Zim program
-> is assigned to the [.zim]{.title-ref} extension.
+> is assigned to the *.zim* extension.
 >
 > This example shows a setting that makes *novelibre* open text files
 > with the *Zim Desktop Wiki* application instead of the standard text
 > editor:
 > 
-> ```INI
+> ```ini
 > [SETTINGS]
 > .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
 > ```
