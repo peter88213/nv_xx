@@ -123,7 +123,7 @@ spreadsheet with a row per section, containing the following data:
 > **Note**
 > 
 > Only "${Normal}" sections appear in the section table. Sections of the
-> "Unused" type are omitted.
+> "${Unused}" type are omitted.
 
 File name suffix is `_sectionlist`.
 
