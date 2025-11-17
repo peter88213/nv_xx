@@ -9,67 +9,67 @@ workflow.
 
 ---
 
-![${Back}](_images/goBack.png) Go back in the browsing history. Same as
+![${Back}](images/goBack.png) Go back in the browsing history. Same as
 `Alt`-`Left`.
 
-![${Forward}](_images/goForward.png) Go forward in the browsing history.
+![${Forward}](images/goForward.png) Go forward in the browsing history.
 Same as `Alt`-`Right`.
 
 ---
 
-![${Show Book}](_images/viewBook.png) Go to the \"${Book}\" branch and expand
+![${Show Book}](images/viewBook.png) Go to the \"${Book}\" branch and expand
 it. Same as **${View} \> ${Show Book}**.
 
-![${Show Characters}](_images/viewCharacters.png) Go to the \"${Characters}\"
+![${Show Characters}](images/viewCharacters.png) Go to the \"${Characters}\"
 branch and expand it. Same as **${View} \> ${Show Characters}**.
 
-![${Show Locations}](_images/viewLocations.png) Go to the \"${Locations}\"
+![${Show Locations}](images/viewLocations.png) Go to the \"${Locations}\"
 branch and expand it. Same as **${View} \> ${Show Locations}**.
 
-![${Show Items}](_images/viewItems.png) Go to the \"${Items}\" branch and
+![${Show Items}](images/viewItems.png) Go to the \"${Items}\" branch and
 expand it. Same as **${View} \> ${Show Items}**.
 
-![${Show Plot lines}](_images/viewArcs.png) Go to the \"${Plot lines}\" branch
+![${Show Plot lines}](images/viewArcs.png) Go to the \"${Plot lines}\" branch
 and expand it. Same as **${View} \> ${Show Plot lines}**.
 
-![${Show Project notes}](_images/viewProjectnotes.png) Go to the \"${Project notes}\" 
+![${Show Project notes}](images/viewProjectnotes.png) Go to the \"${Project notes}\" 
 branch and expand it. Same as **${View} \> ${Show Project notes}**.
 
 ---
 
-![${Save}](_images/save.png) Save the project. Same as **${File} \> ${Save}** or
+![${Save}](images/save.png) Save the project. Same as **${File} \> ${Save}** or
 `${Ctrl}`-`S`.
 
-![${Lock}/${Unlock}](_images/lock.png) Toggle the lock status of the project.
+![${Lock}/${Unlock}](images/lock.png) Toggle the lock status of the project.
 
-![${Update from manuscript}](_images/updateFromManuscript.png) Import the
+![${Update from manuscript}](images/updateFromManuscript.png) Import the
 current manuscript. Same as selecting the manuscript under **${Import}**.
 
-![Export manuscript](_images/manuscript.png) Export the manuscript for
+![Export manuscript](images/manuscript.png) Export the manuscript for
 editing. Same as **${Export} \> ${Manuscript for editing}**, but without
 confirmation for opening the document.
 
 ---
 
-![${Add}](_images/add.png) Add element. Same as `${Ctrl}`-`N`.
+![${Add}](images/add.png) Add element. Same as `${Ctrl}`-`N`.
 
-![${Add child}](_images/addChild.png) Add child element. Same as
+![${Add child}](images/addChild.png) Add child element. Same as
 `${Ctrl}`-`Alt`-`N`.
 
-![${Add parent}](_images/addParent.png) Add element on the parent's level.
+![${Add parent}](images/addParent.png) Add element on the parent's level.
 Same as `${Ctrl}`-`Alt`-`${Shift}`-`N`.
 
-![${Delete}](_images/remove.png) Delete selected elements. Same as `${Del}`.
+![${Delete}](images/remove.png) Delete selected elements. Same as `${Del}`.
 
 ---
 
-![${Cut}](_images/cut.png) Move the selected element from the tree to the
+![${Cut}](images/cut.png) Move the selected element from the tree to the
 clipboard. Same as `${Ctrl}`-`X`.
 
-![${Copy}](_images/copy.png) Copy the selected element to the clipboard.
+![${Copy}](images/copy.png) Copy the selected element to the clipboard.
 Same as `${Ctrl}`-`C`.
 
-![${Paste}](_images/paste.png) Paste the element stored in the clipboard to
+![${Paste}](images/paste.png) Paste the element stored in the clipboard to
 the tree. Same as `${Ctrl}`-`V`.
 
 You can copy and paste the following tree elements via the system
@@ -101,10 +101,10 @@ clipboard:
 
 ---
 
-![${Toggle Text viewer}](_images/viewer.png) Toggle Text viewer. Same as
+![${Toggle Text viewer}](images/viewer.png) Toggle Text viewer. Same as
 **${View} \> ${Toggle Text viewer}** or `${Ctrl}`-`T`.
 
-![${Toggle Properties}](_images/properties.png) Toggle Properties. Same as
+![${Toggle Properties}](images/properties.png) Toggle Properties. Same as
 **${View} \> ${Toggle Properties}** or `${Ctrl}`-`Alt`-`T`.
 
 
