@@ -115,11 +115,11 @@ application for the link's file type.
 > This example shows a setting that makes *novelibre* open text files
 > with the *Zim Desktop Wiki* application instead of the standard text
 > editor:
-
-```INI
-[SETTINGS]
-.zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
-```
+> 
+> ```INI
+> [SETTINGS]
+> .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
+> ```
 
 ## "Sticky note"
 
