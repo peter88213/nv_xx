@@ -7,9 +7,7 @@
 The toolbar provides buttons for common actions in the proposed
 workflow.
 
-![screenshot](_images/toolbar01.png)
-
-------------------------------------------------------------------------
+---
 
 ![${Go back}](_images/goBack.png) Go back in the browsing history. Same as
 `${Alt}`-`Left`.
@@ -17,7 +15,7 @@ workflow.
 ![${Go forward}](_images/goForward.png) Go forward in the browsing history.
 Same as `${Alt}`-`Right`.
 
-------------------------------------------------------------------------
+---
 
 ![${Show Book}](_images/viewBook.png) Go to the \"${Book}\" branch and expand
 it. Same as **${View} \> ${Show Book}**.
@@ -37,7 +35,7 @@ and expand it. Same as **${View} \> ${Show Plot lines}**.
 ![${Show Project notes}](_images/viewProjectnotes.png) Go to the \"${Project notes}\" 
 branch and expand it. Same as **${View} \> ${Show Project notes}**.
 
-------------------------------------------------------------------------
+---
 
 ![${Save}](_images/save.png) Save the project. Same as **${File} \> ${Save}** or
 `${Ctrl`-`S`.
@@ -51,7 +49,7 @@ current manuscript. Same as selecting the manuscript under **${Import}**.
 editing. Same as **${Export} \> ${Manuscript for editing}**, but without
 confirmation for opening the document.
 
-------------------------------------------------------------------------
+---
 
 ![${Add}](_images/add.png) Add element. Same as `${Ctrl}`-`N`.
 
@@ -63,7 +61,7 @@ Same as `${Ctrl}`-`${Alt}`-`${Shift}`-`N`.
 
 ![${Delete}](_images/remove.png) Delete selected elements. Same as `${Del}`.
 
-------------------------------------------------------------------------
+---
 
 ![${Cut}](_images/cut.png) Move the selected element from the tree to the
 clipboard. Same as `${Ctrl}`-`X`.
@@ -87,29 +85,29 @@ clipboard:
 -   items,
 -   project notes.
 
+> ---
+> 
+> **Hint**
+> 
+> 
+> If multiple elements are selected, only the first one will be copied.
+> However, if the element has \"children\", these will also be copied and
+> pasted.
+> 
+> ---
+
+
+> ---
+> 
+> **Attention**
+>
+>
+> Relationships are not included when copying to the clipboard. This also
+> applies to the section viewpoint and for plot lines/plot points.
+>
+> ---
+
 ---
-
-**Hint**
-
-
-If multiple elements are selected, only the first one will be copied.
-However, if the element has \"children\", these will also be copied and
-pasted.
-
----
-
-
----
-
-**Attention**
-
-
-Relationships are not included when copying to the clipboard. This also
-applies to the section viewpoint and for plot lines/plot points.
-
----
-
-------------------------------------------------------------------------
 
 ![${Toggle Text viewer}](_images/viewer.png) Toggle Text viewer. Same as
 **${View} \> ${Toggle Text viewer}** or `${Ctrl}`-`T`.
