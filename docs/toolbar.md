@@ -85,27 +85,19 @@ clipboard:
 -   items,
 -   project notes.
 
-> ---
-> 
 > **Hint**
 > 
 > 
 > If multiple elements are selected, only the first one will be copied.
 > However, if the element has \"children\", these will also be copied and
 > pasted.
-> 
-> ---
 
 
-> ---
-> 
 > **Attention**
 >
 >
 > Relationships are not included when copying to the clipboard. This also
 > applies to the section viewpoint and for plot lines/plot points.
->
-> ---
 
 ---
 
