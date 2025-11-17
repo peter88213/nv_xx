@@ -6,11 +6,11 @@
 
 **Plot elements operation**
 
-## Add Plot line
+## ${Add Plot line}
 
 **Add a new plot line to the story**
 
-With **Plot > Add plot line**, you can add a project note to the tree.
+With **${Plot} > ${Add plot line}**, you can add a project note to the tree.
 
 -   If a plot line is selected, the new plot line is placed after the
     selected one.
@@ -18,11 +18,11 @@ With **Plot > Add plot line**, you can add a project note to the tree.
 -   The new plot line has an auto-generated title. You can change it in
     the right pane.
 
-## Add Plot point
+## ${Add Plot point}
 
 **Add a new Plot point to the selected plot line**
 
-With **Plot > Add Plot point**, you can add a plot point to a plot line.
+With **${Plot} > ${Add Plot point}**, you can add a plot point to a plot line.
 
 -   If a plot point is selected, the new plot point is placed after the
     selected one.
@@ -32,11 +32,11 @@ With **Plot > Add Plot point**, you can add a plot point to a plot line.
 -   The new plot point has an auto-generated title. You can change it in
     the right pane.
 
-## Insert Stage
+## ${Insert Stage}
 
 **Insert a stage between the sections**
 
-With **Plot > Insert Stage**, you can insert a stage after the selected
+With **${Plot} > ${Insert Stage}**, you can insert a stage after the selected
 chapter or section.
 
 > **Hint**
@@ -44,26 +44,26 @@ chapter or section.
 > By default, the new stage is on the second level. You can change the
 > level to first (see below).
 
-## Change Level
+## ${Change Level}
 
 **Change the level of the selected stages**
 
-With **Plot > Change Level**, you can change the level of the selected
+With **${Plot} > ${Change Level}**, you can change the level of the selected
 stages.
 
--   **1st Level** is displayed in bold face.
--   **2nd Level** is displayed in regular font.
+-   **${1st Level}** is displayed in bold face.
+-   **${2nd Level}** is displayed in regular font.
 
 > **Note**
 > 
 > The stage level is only for visual distinction. It has no influence on
 > the program functions.
 
-## Import plot lines
+## ${Import plot lines}
 
 **Import plot lines with plot points from another project**
 
-With **Plot > Import plot lines**, you can import a selection of plot
+With **${Plot} > ${Import plot lines}**, you can import a selection of plot
 lines from another project. First you select an XML file containing the
 plot lines. Then you select the plot lines you want to add to the
 current project.
@@ -71,13 +71,13 @@ current project.
 > **Hint**
 > 
 > To create an XML plot lines file for the current project, use 
-> **Export XML data files**.
+> **${Export} > ${XML data files}**.
 
-## Export plot grid for editing
+## ${Export plot grid for editing}
 
 **Export an ODS document that can be imported again after editing**
 
-With **Plot > Export plot grid for editing**, you can create a
+With **${Plot} > ${Export plot grid for editing}**, you can create a
 spreadsheet with a row per section, containing the following data:
 
 -   The sequential section number as a hyperlink to the section in the
@@ -108,9 +108,9 @@ below).
 The document can be edited with *Calc* and reimported. File name suffix
 is `_grid_tmp`.
 
--   Clicking on a section number with `Ctrl` pressed, you can jump to
+-   Clicking on a section number with `${Ctrl}` pressed, you can jump to
     the corresponding section in the manuscript.
--   Clicking on a plot line title in the headline with `Ctrl` pressed,
+-   Clicking on a plot line title in the headline with `${Ctrl}` pressed,
     you can jump to the corresponding plot line description, if any (see
     below).
 
@@ -121,11 +121,11 @@ is `_grid_tmp`.
 > default, must not be changed as they contain the structural information
 > for the import.
 
-## Export story structure description for editing
+## ${Export story structure description for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Plot > Export story structure description for editing**, you can
+With **${Plot} > ${Export story structure description for editing}**, you can
 create a text document that contains all stages, each with description.
 File name suffix is `_structure_tmp`.
 
@@ -134,21 +134,21 @@ File name suffix is `_structure_tmp`.
 > This is also a full synopsis, with the emphasis on the dramaturgical
 > structure.
 
-## Export plot line descriptions for editing
+## ${Export plot line descriptions for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Plot > Export plot Export plot line descriptions for editing**,
+With **${Plot} > ${Export plot Export plot line descriptions for editing}**,
 you can create a text document that contains stages, plot lines, and
 plot points, each with description. The plot points are linked to the
 manuscript and to the section descriptions. File name suffix is
 `_plotlines_tmp`.
 
-## Plot table (export only)
+## ${Plot table (export only)}
 
 **Export an ODS document**
 
-With **Plot > Plot table (export only)**, you can create a spreadsheet
+With **${Plot} > ${Plot table (export only)}**, you can create a spreadsheet
 with a row per section and a column per plot line. Associations between
 plot lines and sections are color-highlighted. Plot point titles are
 displayed. File name suffix is `_plotlist`.
@@ -171,11 +171,11 @@ the plot description (right).
 > another folder or computer. In this case, you will have to export the
 > spreadsheet anew.
 
-## Show Plot table in browser
+## ${Show Plot table in browser}
 
 **Show an HTML report with plot elements**
 
-With **Plot > Show Plot table in browser**, You can create a HTML file
+With **${Plot} > ${Show Plot table in browser}**, You can create a HTML file
 that contains a plot table similar to the ODS plot table (see above),
 but without any hyperlinks, and launch your system's web browser for
 displaying it.

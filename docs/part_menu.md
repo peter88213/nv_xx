@@ -6,11 +6,11 @@
 
 **Part operation**
 
-## Add
+## ${Add}
 
 **Add a new part**
 
-With **Part > Add**, you can add a part to the tree.
+With **${Part} > ${Add}**, you can add a part to the tree.
 
 -   The new part is placed at the next free position on the chapter
     level after the selection, if possible.
@@ -19,19 +19,19 @@ With **Part > Add**, you can add a part to the tree.
 -   The new part has an auto-generated title. You can change it in the
     right pane.
 
-## Export part descriptions for editing
+## ${Export part descriptions for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Part > Export part descriptions for editing**, you can create a
+With **${Part} > ${Export part descriptions for editing}**, you can create a
 text document that contains a **very brief synopsis** with part headings
 and part descriptions. File name suffix is `_parts_tmp`.
 
-## Export part table
+## ${Export part table}
 
 **Export an ODS document that can be imported again after editing**
 
-With **Part > Export part table**, you can create a spreadsheet that
+With **${Part} > ${Export part table}**, you can create a spreadsheet that
 contains a row per part. File name suffix is `_partlist_tmp`.
 
 > **Note**

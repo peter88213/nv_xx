@@ -11,9 +11,9 @@ opens that belongs to the type of the selected element.
 > 
 > Greyed-out entries are not available, e.g. due to "project lock".
 
-## Book context menu entries
+## ${Book} context menu entries
 
-### Add Section
+### ${Add Section}
 
 Adds a new section.
 
@@ -30,7 +30,7 @@ Adds a new section.
 -   No plot line or tag assigned
 -   No date/time set
 
-### Add Chapter
+### ${Add Chapter}
 
 Adds a new chapter.
 
@@ -39,7 +39,7 @@ Adds a new chapter.
 -   The new chapter has an auto-generated title. You can change it in
     the right pane.
 
-### Add Part
+### ${Add Part}
 
 Adds a new part.
 
@@ -51,7 +51,7 @@ Adds a new part.
 -   The new part has an auto-generated title. You can change it in the
     right pane.
 
-### Insert Stage
+### ${Insert Stage}
 
 Inserts a new stage at the next free position at stage level after the
 selection.
@@ -60,17 +60,17 @@ selection.
     right pane.
 -   The new stage is on the second level by default.
 
-### Change Level
+### ${Change Level}
 
 Changes the level of a chapter or a stage.
 
--   **1st Level** converts a selected chapter into a part.
--   **2nd Level** converts a selected part into a chapter.
+-   **${1st Level}** converts a selected chapter into a part.
+-   **${2nd Level}** converts a selected part into a chapter.
 
-### Export this chapter
+### ${Export this chapter}
 
-Exports a [manuscript](export_menu.html#manuscript-for-editing)
-containing only the selected chapter. If a manuscript already exists,
+Exports a manuscript containing only the selected chapter. 
+If a manuscript already exists,
 confirmation is required before exporting.
 
 > **Caution**
@@ -79,38 +79,37 @@ confirmation is required before exporting.
 > If you overwrite it before reimporting, changes to other chapters may be
 > lost.
 
-### Delete
+### ${Delete}
 
 Deletes the selected tree element and its children.
 
 -   Parts and chapters are deleted.
--   Sections are marked "unused" and moved to the "Trash" chapter.
+-   Sections are marked "${Unused}" and moved to the "${Trash]" chapter.
 -   Deleting a part has no effect on its subordinate chapters.
--   Deleting a chapter moves its sections to the "Trash" chapter.
--   The "Trash" chapter is created automatically, if needed.
--   When deleting the "Trash" chapter, all its sections are deleted.
+-   Deleting a chapter moves its sections to the "${Trash]" chapter.
+-   The "${Trash]" chapter is created automatically, if needed.
+-   When deleting the "${Trash]" chapter, all its sections are deleted.
 
-### Set Type
+### ${Set Type}
 
-Sets the [type](basic_concepts.html#part-chapter-section-types) of the
-selected chapter or section. This can be *Normal* or *Unused*.
+Sets the type of the selected chapter or section. This can be 
+*${Normal}* or *${Unused}*.
 
 > **Note**
 > 
-> Setting the type of a chapter to *Unused* will also make its sections
-> *Unused*.
+> Setting the type of a chapter to *${Unused}* will also make its sections
+> *${Unused}*.
 
 
-### Set Status
+### ${Set Status}
 
-Sets the [completion status](basic_concepts.html#section-completion-status) of the selected
-section.
+Sets the completion status of the selected section.
 
 > Hint
 > 
 > Select a parent node to set the status for multiple sections.
 
-### Set Viewpoint\...
+### ${Set Viewpoint...}
 
 Sets or clears the viewpoint character of the selected section. A pop-up
 window with a dropdown list appears, containing all characters in the
@@ -123,7 +122,7 @@ of the list, this will clear the viewpoint association.
 > Select a parent node to set the viewpoint for multiple sections.
 
 
-### Join with previous
+### ${Join with previous}
 
 Joins two sections, if within the same chapter, of the same type, and
 with the same viewpoint.
@@ -148,30 +147,30 @@ with the same viewpoint.
 > 
 > Be aware, there is no "Undo" feature.
 
-### Chapter level
+### ${Chapter level}
 
 Hides the sections by collapsing the tree, so that only parts and
 chapters are visible.
 
-### Expand
+### ${Expand}
 
 Shows a whole branch by expanding the selected tree element.
 
-### Collapse
+### ${Collapse}
 
 Hides the child elements of the selected tree element.
 
-### Expand all
+### ${Expand all}
 
 Shows the whole tree.
 
-### Collapse all
+### ${Collapse all}
 
 Hides all tree elements except the main categories.
 
-## Characters/Locations/Items context menu entries
+## ${Characters}/${Locations}/${Items} context menu entries
 
-### Add
+### ${Add}
 
 Adds a new character/location/item.
 
@@ -180,11 +179,11 @@ Adds a new character/location/item.
     the right pane.
 -   The status of newly created characters is *minor*.
 
-### Export manuscript filtered by viewpoint
+### ${Export manuscript filtered by viewpoint}
 
-Exports a [manuscript](export_menu.html#manuscript-for-editing) with the
-sections that have the selected character as viewpoint. If a manuscript
-already exists, confirmation is required before exporting.
+Exports a manuscript with the sections that have the selected character 
+as viewpoint. If a manuscript already exists, confirmation 
+is required before exporting.
 
 > **Caution**
 > 
@@ -192,12 +191,11 @@ already exists, confirmation is required before exporting.
 > If you overwrite it before reimporting, changes to other sections may be
 > lost.
 
-### Export synopsis filtered by viewpoint
+### ${Export synopsis filtered by viewpoint}
 
-Exports the [descriptions of the
-sections](section_menu.html#export-section-descriptions-for-editing)
-that have the selected character as viewpoint. If a synopsis already
-exists, confirmation is required before exporting.
+Exports the descriptions of the sections that have the selected character 
+as viewpoint. If a synopsis already exists, confirmation is required 
+before exporting.
 
 > **Caution**
 > 
@@ -205,7 +203,7 @@ exists, confirmation is required before exporting.
 > If you overwrite it before reimporting, changes to other section
 > descriptions may be lost.
 
-### Delete
+### ${Delete}
 
 Deletes the selected character/location/item.
 
@@ -213,7 +211,7 @@ Deletes the selected character/location/item.
 > 
 > Be aware, there is no "Undo" feature.
 
-### Set Status
+### ${Set Status}
 
 Sets the selected character's status. This can be *major* or *minor*.
 Major characters are highlighted in the tree view.
@@ -226,11 +224,11 @@ Major characters are highlighted in the tree view.
 
 > **Hint**
 > 
-> Select the *Characters* root node to set the status for all characters.
+> Select the *${Characters}* root node to set the status for all characters.
 
 ## Plot lines context menu entries
 
-### Add Plot line
+### ${Add Plot line}
 
 Adds a new plot line
 
@@ -240,7 +238,7 @@ Adds a new plot line
 -   The new plot line has an auto-generated title. You can change it in
     the right pane.
 
-### Add Plot point
+### ${Add Plot point}
 
 Adds a new Plot point
 
@@ -252,11 +250,11 @@ Adds a new Plot point
 -   The new plot point has an auto-generated title. You can change it in
     the right pane.
 
-### Export manuscript filtered by plot line
+### ${Export manuscript filtered by plot line}
 
-Exports a [manuscript](export_menu.html#manuscript-for-editing) with the
-sections that belong to the selected plot line. If a manuscript already
-exists, confirmation is required before exporting.
+Exports a manuscript with the sections that belong to the selected 
+plot line. If a manuscript already exists, confirmation is required 
+before exporting.
 
 > **Caution**
 > 
@@ -264,12 +262,11 @@ exists, confirmation is required before exporting.
 > If you overwrite it before reimporting, changes to other sections may be
 > lost.
 
-### Export synopsis filtered by plot line
+### ${Export synopsis filtered by plot line}
 
-Exports the [descriptions of the
-sections](section_menu.html#export-section-descriptions-for-editing)
-that belong to the selected plot line. If a synopsis already exists,
-confirmation is required before exporting.
+Exports the descriptions of the sections that belong to the selected 
+plot line. If a synopsis already exists, confirmation is required 
+before exporting.
 
 > ** Caution**
 > 
@@ -277,19 +274,18 @@ confirmation is required before exporting.
 > If you overwrite it before reimporting, changes to other section
 > descriptions may be lost.
 
-### Change sections to Unused
+### ${Change sections to Unused}
 
 Set all sections that are assigned to the selected plot line to
-[Unused](basic_concepts.html#part-chapter-section-types). This excludes
-the entire plot line from the manuscript.
+${Unused}. This excludes the entire plot line from the manuscript.
 
-### Change sections to Normal
+### ${Change sections to Normal}
 
 Set all sections that are assigned to the selected plot line to
-[Normal](basic_concepts.html#part-chapter-section-types). This allows a
-plot line that has been excluded to be reintegrated into the manuscript.
+${Normal}. This allows a plot line that has been excluded to be 
+reintegrated into the manuscript.
 
-### Delete
+### ${Delete}
 
 Deletes the selected plot line/plot point.
 
@@ -300,9 +296,9 @@ Deletes the selected plot line/plot point.
 
 ## Project notes context menu entries
 
-### Add Project note
+### ${Add Project note}
 
-Adds a new Project note
+Adds a new project note.
 
 -   If a project note is selected, the new project note is placed after
     the selected one.

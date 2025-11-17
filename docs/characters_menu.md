@@ -6,11 +6,11 @@
 
 **Character operation**
 
-## Add
+## ${Add}
 
 **Add a new character**
 
-With **Characters > Add** you can add a character to the tree.
+With **${Characters} > ${Add}** you can add a character to the tree.
 
 -   If a character is selected, the new character is placed after the
     selected one.
@@ -19,11 +19,11 @@ With **Characters > Add** you can add a character to the tree.
     the right pane.
 -   The status of newly created characters is *minor*.
 
-## Set Status
+## ${Set Status}
 
 **Set the character status**
 
-With **Characters > Set Status**, you can make the selected character
+With **${Characters} > ${Set Status}**, you can make the selected character
 *major* or *minor*. Major characters are highlighted in the tree view.
 
 > **Note**
@@ -32,11 +32,11 @@ With **Characters > Set Status**, you can make the selected character
 > on the program functions. Nevertheless, you can use it to mark viewpoint
 > characters or characters with their own arcs.
 
-## Import
+## ${Import}
 
 **Import characters from another project**
 
-With **Characters > Import**, you can import a selection of characters
+With **${Characters} > ${Import}**, you can import a selection of characters
 from another project. First you select an XML file containing the
 character data. Then you select the characters you want to add to the
 current project.
@@ -44,22 +44,22 @@ current project.
 > **Hint**
 > 
 > To create an XML character data file for the current project, use
-> **Export > XML data files**.
+> **${Export} > ${XML data files}**.
 
-## Export character descriptions for editing
+## ${Export character descriptions for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Characters > Export character descriptions for editing**, you
+With **${Characters} > ${Export character descriptions for editing}**, you
 can create a text document that contains character descriptions, bio,
 goals, and notes that can be edited in Office Writer and reimported.
 File name suffix is `_characters_tmp`.
 
-## Export character table
+## ${Export character table}
 
 **Export an ODS document that can be imported again after editing**
 
-With **Characters > Export character table**, you can create a
+With **${Characters} > ${Export character table}**, you can create a
 spreadsheet that contains a row per character. The document can be
 edited with *Calc* and reimported. File name suffix is `_charlist_tmp`.
 
@@ -70,11 +70,11 @@ edited with *Calc* and reimported. File name suffix is `_charlist_tmp`.
 > default, must not be changed as they contain the structural information
 > for the import.
 
-## Show table in Browser
+## ${Show table in Browser}
 
 **Show an HTML report with characters data**
 
-With **Characters > Show table in Browser**, you can create a HTML file
+With **${Characters} > ${Show table in Browser}**, you can create a HTML file
 that contains a character table, and launch your system's web browser
 for displaying it.
 

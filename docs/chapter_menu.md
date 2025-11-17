@@ -2,15 +2,15 @@
 
 ---
 
-# Chapter menu
+# ${Chapter} menu
 
 **Chapter operation**
 
-## Add
+## ${Add}
 
 **Add a new chapter**
 
-With **Chapter > Add**, you can add a
+With **${Chapter} > ${Add}**, you can add a
 [chapter](basic_concepts.html#chapters) to the tree.
 
 -   The new chapter is placed at the next free position after the
@@ -25,11 +25,11 @@ With **Chapter > Add**, you can add a
 > To automatically name the new chapter and, if necessary, place it above
 > the "Trash Bin," subsequently press `F5`.
 
-## Add multiple chapters\...
+## ${Add multiple chapters...}
 
 **Add new chapters in bulk**
 
-With **Chapter > Add multiple chapters\...**, you can add up to 20
+With **${Chapter} > ${Add multiple chapters...}**, you can add up to 20
 chapters to the tree.
 
 -   You will be prompted to enter the number of new chapters.
@@ -44,53 +44,53 @@ chapters to the tree.
 > To automatically name the new chapters and, if necessary, place them
 > above the "Trash Bin," subsequently press `F5`.
 
-## Set Type
+## ${Set Type}
 
 **Set the type of the selected chapters**
 
-With **Chapter > Set Type**, you can set the
-type of the selected chapter to *Normal* or *Unused* .
+With **${Chapter} > ${Set Type}**, you can set the
+type of the selected chapter to *${Normal}* or *${Unused}* .
 
 > **Note**
 > 
-> Setting the type of a chapter to *Unused* will also make its sections
-> *Unused*.
+> Setting the type of a chapter to *${Unused}* will also make its sections
+> *${Unused}*.
 
-## Change Level
+## ${Change Level}
 
 **Change the level of the selected chapters**
 
-With **Chapter > Change Level**, you can turn chapters into parts and
+With **${Chapter} > ${Change Level}**, you can turn chapters into parts and
 vice versa.
 
--   **1st Level** converts the selected chapters into parts.
--   **2nd Level** converts the selected parts into chapters.
+-   **${1st Level}** converts the selected chapters into parts.
+-   **${2nd Level}** converts the selected parts into chapters.
 
-## Move selected chapters to new project
+## ${Move selected chapters to new project}
 
 **Split one book in two**
 
-With **Chapter > Move selected chapters to new project** you can create
+With **${Chapter} > ${Move selected chapters to new project}** you can create
 a new project containing the moved chapters/sections and all related
 elements and plot lines/plot points. The selected chapters are removed
 from the current project and pasted into an auto-generated project whose
 file path you define with a file selection dialog. All relationships of
 the moved sections are retained.
 
-## Export chapter descriptions for editing
+## ${Export chapter descriptions for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Chapter > Export chapter descriptions for editing**, you can
+With **${Chapter} > ${Export chapter descriptions for editing}**, you can
 create a text document that contains a **brief synopsis** with
 part/chapter headings and chapter descriptions that can be edited and
 reimported. File name suffix is `_chapters_tmp`.
 
-## Export chapter table
+## ${Export chapter table}
 
 **Export an ODS document that can be imported again after editing**
 
-With **Chapter > Export chapter table**, you can create a spreadsheet
+With **${Chapter} > ${Export chapter table}**, you can create a spreadsheet
 that contains a row per chapter. The document can be edited with *Calc*
 and reimported. File name suffix is `_chapterlist_tmp`.
 

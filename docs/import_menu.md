@@ -6,7 +6,7 @@
 
 **Update the project from a previously exported ODF document**
 
-With the **Import** main menu entry, you can open a pop-up window with a
+With the **${Import}** main menu entry, you can open a pop-up window with a
 list containing previously exported ODF documents that can be
 reimported, thus updating the current project.
 
@@ -22,19 +22,19 @@ reimported, thus updating the current project.
 
 -   You can update the project from a document either by double-clicking
     on the list entry, or by selecting the document and clicking on the
-    **Import** button.
+    **${Import}** button.
 
 -   You can discard documents by selecting them and clicking on the
-    **Discard** button.
+    **${Discard}** button.
 
      > **Hint**
      >
-     > Discard means: Rename by adding the extension *.bak* to the file
+     > ${Discard} means: Rename by adding the extension *.bak* to the file
      > name.
 
--   After closing a listed document in *Writer* while the *Exported
-    documents* window is open, you can click on the **Refresh view**
-    button.
+-   After closing a listed document in *Writer* while the 
+    *${Exported documents}* window is open, you can click on the 
+    **${Refresh view}** button.
 
 ## Discarding documents after updating the project
 
@@ -43,16 +43,16 @@ reimport in order to avoid confusion about the changed section or
 chapter structure. Concerning reimported documents that do not require
 modifying the project structure, you have three choices:
 
-### Discard documents only when sections are split
+### ${Discard documents only when sections are split}
 
 This is the default behavior. The ODF documents are kept for future use.
 
-### Always discard documents after import
+### ${Always discard documents after import}
 
 After updating the *novelibre* project from an reimported ODF
 document, this document is automatically discarded.
 
-### Import documents even if locked; do not discard
+### ${Import documents even if locked; do not discard}
 
 This is for fast and frequent project updates while keeping the ODF
 documents open in *Writer* or *Calc* for editing.

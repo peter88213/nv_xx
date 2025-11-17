@@ -6,16 +6,16 @@
 
 **File export**
 
-## Manuscript for editing
+## ${Manuscript for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Export > Manuscript for editing**, you can create a text
+With **${Export} > ${Manuscript for editing}**, you can create a text
 document that is split into sections (to be seen in the Navigator). File
 name suffix is `_manuscript_tmp`.
 
--   Only "normal" chapters and sections are exported. Chapters and
-    sections marked "unused" are not exported.
+-   Only "${Normal}" chapters and sections are exported. Chapters and
+    sections marked "${Unused}" are not exported.
 
 -   Section titles are invisible, but appear in the *Navigator*.
 
@@ -48,11 +48,11 @@ name suffix is `_manuscript_tmp`.
 -   Change tracking: All changes are accepted on import. Change tracking
     data is lost.
 
-## Manuscript for third-party word processing
+## ${Manuscript for third-party word processing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Export > Manuscript for third-party word processing**, you can
+With **${Export} > ${Manuscript for third-party word processing}**, you can
 create a text document with visible section markers. File name suffix is
 `_proof_tmp`.
 
@@ -62,8 +62,8 @@ create a text document with visible section markers. File name suffix is
 > other formats and back again. This may work with popular commercial word
 > processors and even with web-based word processors such as Google Docs.
 
--   Only "normal" chapters and sections are exported. Chapters and
-    sections marked "unused" are not exported.
+-   Only "${Normal}" chapters and sections are exported. Chapters and
+    sections marked "${Unused}" are not exported.
 
 -   The document contains chapter and section headings. However, changes
     will not be reimported.
@@ -117,11 +117,11 @@ create a text document with visible section markers. File name suffix is
 -   Change tracking: All changes are accepted on import. Change tracking
     data is lost.
 
-## Final manuscript document (export only)
+## ${Final manuscript document (export only)}
 
 **Export an ODT document**
 
-With **Export > Final manuscript document (export only)**, you can
+With **${Export} > ${Final manuscript document (export only)}**, you can
 create a text document for further use, e.g. a final document when you
 are finished with *novelibre*.
 
@@ -133,8 +133,8 @@ are finished with *novelibre*.
 
 -   The document is placed in the same folder as the project.
 -   Document's **filename**: `<project name>.odt`.
--   Only "normal" chapters and sections are exported. Chapters and
-    sections marked "unused" are not exported.
+-   Only "${Normal}" chapters and sections are exported. Chapters and
+    sections marked "${Unused}" are not exported.
 -   Part titles appear as first level heading.
 -   Chapter titles appear as second level heading.
 -   Sections are separated by `* * *`. The first line is not indented.
@@ -157,25 +157,25 @@ are finished with *novelibre*.
 > [novelibre-tools](https://github.com/peter88213/novelibre-tools/)
 > extension.
 
-## Brief synopsis (export only)
+## ${Brief synopsis (export only)}
 
 **Export an ODT document**
 
-With **Export > Brief synopsis (export only)**, you can create a text
+With **${Export} > ${Brief synopsis (export only)}**, you can create a text
 document containing a brief synopsis with part, chapter, and sections
 titles only. File name suffix is `_brf_synopsis`.
 
--   Only "normal" chapters and sections are exported. Chapters and
-    sections marked "unused" are not exported.
+-   Only "${Normal}" chapters and sections are exported. Chapters and
+    sections marked "${Unused}" are not exported.
 -   Part titles appear as first level heading.
 -   Chapter titles appear as second level heading.
 -   Section titles appear as plain paragraphs.
 
-## Cross references (export only)
+## ${Cross references (export only)
 
 **Export an ODT document**
 
-With **Export > Cross references (export only)**, you can create a text
+With **${Export} > ${Cross references (export only)}**, you can create a text
 document containing navigable cross references. File name suffix is
 `_xref`.
 
@@ -189,29 +189,29 @@ The cross references are:
 -   locations per tag,
 -   items per tag.
 
-## XML data files
+## ${XML data files}
 
 **Export XML files that can be imported into other projects**
 
-With **Export > XML data files**, you can create a set of XML files
+With **${Export} > ${XML data files}**, you can create a set of XML files
 containing the project's characters, locations, items, and plot lines
 with all their properties. These files can be used to transfer the
 elements to another projects.
 
 > **Hint**
 > 
-> To import XML data files from another project, use the **Import**
-> command in the **Characters**, **Locations**, **Items**, or **Plot**
-> menu.
+> To import XML data files from another project, use the **${Import}**
+> command in the **${Characters}**, **${Locations}**, **${Items}**, 
+> or **${Plot}** menu.
 
-## Options
+## ${Options}
 
 **Project independent program settings**
 
-With **Export > Options**, You can open a dialog for settings
+With **${Export} > ${Options}**, You can open a dialog for settings
 concerning the document export.
 
-### Ask before opening exported documents
+### ${Ask before opening exported documents}
 
 This checkbox controls the behavior on document export.
 
@@ -220,17 +220,16 @@ This checkbox controls the behavior on document export.
 -   If unticked, *novelibre* will launch *Writer* or *Calc* with the
     newly created document opened right away.
 
-### Lock the project after document export for editing
+### ${Lock the project after document export for editing}
 
 This checkbox controls the behavior on opening documents for editing.
 
--   If ticked, *novelibre* will [lock the
-    project](basic_concepts.html#project-lock) when launching *Writer*
+-   If ticked, *novelibre* will lock the project when launching *Writer*
     or *Calc*.
 -   If unticked, *novelibre* won't lock the project when launching
     *Writer* or *Calc*.
 
-### Select document template
+### ${Select document template}
 
 You can have *novelibre* apply your own styles so that the exported text
 documents better suit your taste and habits.
@@ -240,7 +239,7 @@ select either an *.ott* document template or an *.odt* document.
 *novelibre* will adopt the selected document's styles and use them for
 ODT document export.
 
-### Restore default styles
+### ${Restore default styles}
 
 If you click on this button, *novelibre* will discard the styles loaded
 with **Select document template** and revert to its built-in default

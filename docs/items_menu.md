@@ -6,11 +6,11 @@
 
 **Item operation**
 
-## Add
+## ${Add}
 
 **Add a new item**
 
-With **Items > Add**, you can add an item to the tree.
+With **${Items} > ${Add}**, you can add an item to the tree.
 
 -   If an item is selected, the new item is placed after the selected
     one.
@@ -18,32 +18,32 @@ With **Items > Add**, you can add an item to the tree.
 -   The new item has an auto-generated title. You can change it in the
     right pane.
 
-## Import
+## ${Import}
 
 **Import items from another project**
 
-With **Items > Import**, you can import a selection of items from
+With **${Items} > ${Import}**, you can import a selection of items from
 another project. First you select an XML file containing the item data.
 Then you select the items you want to add to the current project.
 
 > **Hint**
 > 
-> To create an XML item data file for the current project, use **Export >
-> XML data files**.
+> To create an XML item data file for the current project, use
+> **${Export} > ${XML data files}**.
 
-## Export item descriptions for editing
+## ${Export item descriptions for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **Items > Export item descriptions for editing**, you can create a
+With **${Items} > ${Export item descriptions for editing}**, you can create a
 text document that contains item descriptions that can be edited with
 *Writer* and reimported. File name suffix is `_items_tmp`.
 
-## Export item table
+## ${Export item table}
 
 **Export an ODS document that can be imported again after editing**
 
-With **Items > Export item table**, you can create a spreadsheet that
+With **${Items} > ${Export item table}**, you can create a spreadsheet that
 contains a row per item. The document can be edited with *Calc* and
 reimported. File name suffix is `_itemlist_tmp`.
 
@@ -54,11 +54,11 @@ reimported. File name suffix is `_itemlist_tmp`.
 > default, must not be changed as they contain the structural information
 > for the import.
 
-## Show table in Browser
+## ${Show table in Browser}
 
 **Show an HTML report with items data**
 
-With **Items > Show table in Browser**, you can create a HTML file that
+With **${Items} > ${Show table in Browser}**, you can create a HTML file that
 contains an item table, and launch your system's web browser for
 displaying it.
 
