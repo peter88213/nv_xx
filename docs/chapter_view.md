@@ -133,16 +133,15 @@ in the plot line row.
 
 ## Navigation buttons
 
-Chapter view
+### Chapter view
 
-:   -   **${Previous}** lets you navigate to the previous chapter in the
-        tree.
-    -   **${Next}** lets you navigate to the next chapter in the tree.
+-   **${Previous}** lets you navigate to the previous chapter in the tree.
+-   **${Next}** lets you navigate to the next chapter in the tree.
 
-Part view
+### Part view
 
-:   -   **${Previous}** lets you navigate to the previous part in the tree.
-    -   **${Next}** lets you navigate to the next part in the tree.
+-   **${Previous}** lets you navigate to the previous part in the tree.
+-   **${Next}** lets you navigate to the next part in the tree.
 
 ---
 
