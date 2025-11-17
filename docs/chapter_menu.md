@@ -10,8 +10,7 @@
 
 **Add a new chapter**
 
-With **${Chapter} > ${Add}**, you can add a
-[chapter](basic_concepts.html#chapters) to the tree.
+With **${Chapter} > ${Add}**, you can add a chapter to the tree.
 
 -   The new chapter is placed at the next free position after the
     selection, if possible.
