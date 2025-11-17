@@ -45,7 +45,7 @@ submenu.
 
 **Open a novel project**
 
-With **${File} > ${Open}** or `${Ctrl}`-`O`, you can open an existing project
+With **${File} > ${Open...}** or `${Ctrl}`-`O`, you can open an existing project
 file.
 
 > **Note**
