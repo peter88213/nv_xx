@@ -27,11 +27,11 @@
 ## Properties reference
 
 - [${Book} properties](book_view.md)
-- [${Chapter/part} properties](chapter_view.md)
+- [${Chapter}/${Part} properties](chapter_view.md)
 - [${Stage} properties](stage_view.md)
 - [${Section} properties](section_view.md)
 - [${Character} properties](character_view.md)
-- [${Location/item} properties](world_view.md)
+- [${Location}/${Item} properties](world_view.md)
 - [${Plot line} properties](plotline_view.md)
 - [${Plot point} properties](point_view.md)
 - [${Project note} properties](project_note_view.md)

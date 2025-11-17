@@ -1,4 +1,4 @@
-[${Home page}]('https://github.com/peter88213/novelibre') > The toolbar
+[${Home page}](https://github.com/peter88213/novelibre) > The toolbar
 
 ---
 
@@ -9,11 +9,11 @@ workflow.
 
 ---
 
-![${Go back}](_images/goBack.png) Go back in the browsing history. Same as
-`${Alt}`-`Left`.
+![${Back}](_images/goBack.png) Go back in the browsing history. Same as
+`Alt`-`Left`.
 
-![${Go forward}](_images/goForward.png) Go forward in the browsing history.
-Same as `${Alt}`-`Right`.
+![${Forward}](_images/goForward.png) Go forward in the browsing history.
+Same as `Alt`-`Right`.
 
 ---
 
@@ -38,14 +38,14 @@ branch and expand it. Same as **${View} \> ${Show Project notes}**.
 ---
 
 ![${Save}](_images/save.png) Save the project. Same as **${File} \> ${Save}** or
-`${Ctrl`-`S`.
+`${Ctrl}`-`S`.
 
-![${Lock/Unlock}](_images/lock.png) Toggle the lock status of the project.
+![${Lock}/${Unlock}](_images/lock.png) Toggle the lock status of the project.
 
 ![${Update from manuscript}](_images/updateFromManuscript.png) Import the
 current manuscript. Same as selecting the manuscript under **${Import}**.
 
-![${Export manuscript}](_images/manuscript.png) Export the manuscript for
+![Export manuscript](_images/manuscript.png) Export the manuscript for
 editing. Same as **${Export} \> ${Manuscript for editing}**, but without
 confirmation for opening the document.
 
@@ -54,10 +54,10 @@ confirmation for opening the document.
 ![${Add}](_images/add.png) Add element. Same as `${Ctrl}`-`N`.
 
 ![${Add child}](_images/addChild.png) Add child element. Same as
-`${Ctrl}`-`${Alt}`-`N`.
+`${Ctrl}`-`Alt`-`N`.
 
 ![${Add parent}](_images/addParent.png) Add element on the parent's level.
-Same as `${Ctrl}`-`${Alt}`-`${Shift}`-`N`.
+Same as `${Ctrl}`-`Alt`-`${Shift}`-`N`.
 
 ![${Delete}](_images/remove.png) Delete selected elements. Same as `${Del}`.
 
@@ -105,7 +105,7 @@ clipboard:
 **${View} \> ${Toggle Text viewer}** or `${Ctrl}`-`T`.
 
 ![${Toggle Properties}](_images/properties.png) Toggle Properties. Same as
-**${View} \> ${Toggle Properties}** or `${Ctrl}`-`${Alt}`-`T`.
+**${View} \> ${Toggle Properties}** or `${Ctrl}`-`Alt`-`T`.
 
 
 ---
