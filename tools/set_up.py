@@ -15,9 +15,12 @@ def main():
     print(f'Set up novelibre translation files for {languageName}.')
 
     translationsComplete = True
-    for programName in os.listdir('../modules'):
-        poPath = f'../modules/{programName}'
-        if not translations.main(poPath, app=programName, json=True):
+    for moduleName in os.listdir('../modules'):
+        poPath = f'../modules/{moduleName}'
+        if not os.path.isdir(poPath):
+            continue
+
+        if not translations.main(poPath, app=moduleName, json=True):
             translationsComplete = False
     return translationsComplete
 

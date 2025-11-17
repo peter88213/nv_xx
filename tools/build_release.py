@@ -33,8 +33,12 @@ def main():
 
     # Create binary message catalogs.
     for moduleName in os.listdir('../modules'):
+        if not os.path.isdir(f'../modules/{moduleName}'):
+            continue
+
         print(moduleName)
         poPath = f'../modules/{moduleName}/{languageCode}.po'
+
         moName = f'{moduleName}.mo'
         moPath = f'../build/{localePath}/{moName}'
         print(f'Writing "{moPath}" ...')
