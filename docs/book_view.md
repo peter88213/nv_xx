@@ -2,7 +2,7 @@
 
 ---
 
-# ${Book\ properties
+# ${Book} properties
 
 The ${Book} properties view opens in the right pane when you select
 \"${Book}\" in the tree, or when you click on the ![${Show Book}](images/viewBook.png) 
@@ -57,18 +57,16 @@ Expand or collapse this frame by clicking on the label.
 
 ![novelibre screenshot](images/book_view03.png)
 
-${Auto number chapters/parts when refreshing the tree}
+### ${Auto number chapters when refreshing the tree}, ${Auto number parts when refreshing the tree}
 
-:   If this checkbox is ticked, all chapters/parts are automatically
-    numbered each time [the tree is
-    refreshed](file_menu.html#refresh-tree). The chapter titles are
-    replaced with a `prefix-number-suffix` pattern (without the dashes).
+If this checkbox is ticked, all chapters/parts are automatically
+numbered each time the tree is refreshed. The chapter titles are
+replaced with a `prefix-number-suffix` pattern (without the dashes).
 
 > **Hint**
 > 
 > You can optionally exclude individual chapters/parts from
-> auto-numbering in the [Chapter/part
-> properties](chapter_view.html#do-not-auto-number-this-chapter-part).
+> auto-numbering in the Chapter/part properties.
 
 Prefix and suffix entries can be completed by pressing the `Enter` key.
 
@@ -77,17 +75,17 @@ Prefix and suffix entries can be completed by pressing the `Enter` key.
 > Make sure to add a space character to separate the prefix or suffix from
 > the chapter or part number.
 
-${Use Roman chapter numbers}
+### ${Use Roman chapter numbers}
 
-:   By default, arabic numbers, like \"1\", \"2\", \"3\" \... are used
-    for auto-numbering. If this checkbox is ticked, Roman numbers, like
-    \"I\", \"II\", \"III\", \"IV\" \... are used instead.
+By default, arabic numbers, like \"1\", \"2\", \"3\" \... are used
+for auto-numbering. If this checkbox is ticked, Roman numbers, like
+\"I\", \"II\", \"III\", \"IV\" \... are used instead.
 
-Restart chapter numbering at part beginning
+### Restart chapter numbering at part beginning
 
-:   By default, the chapters are numbered consistently across the parts.
-    If this checkbox is ticked, the chapter numbering starts again with
-    \"1\" in each part.
+By default, the chapters are numbered consistently across the parts.
+If this checkbox is ticked, the chapter numbering starts again with
+\"1\" in each part.
 
 ## ${Field names}
 
@@ -100,25 +98,24 @@ to store information that should be at hand when writing. You can name
 these fields to fit into your individual story planning concept. Editing
 the categories can be completed by pressing the `Enter` key.
 
-${Not a scene}
+### ${Not a scene}
 
-:   When you set the [Scene frame](section_view.html#scene) to **Not a
-    scene**, you see the three text boxes whose names you enter here.
-    These categories then apply to all sections that don\'t represent
-    scenes.
+When you set the Scene frame to **${Not a scene}**, 
+you see the three text boxes whose names you enter here.
+These categories then apply to all sections that don\'t represent
+scenes.
 
-${Other Scene}
+### ${Other scene}
 
-:   When you set the [Scene frame](section_view.html#scene) to
-    **Other**, you see the three text boxes whose names you enter here.
-    These categories then apply to all sections that represent scenes
-    other than \"Action\" and \"Reaction\".
+When you set the Scene frame to
+**${Other}**, you see the three text boxes whose names you enter here.
+These categories then apply to all sections that represent scenes
+other than \"Action\" and \"Reaction\".
 
-${Character}
+### ${Character}
 
-:   Here you enter the names of the two [character
-    fields](character_view.html#field-1), you can open in the character
-    properties view.
+Here you enter the names of the two character fields, 
+you can open in the character properties view.
 
 > **Hint**
 > 
@@ -132,36 +129,35 @@ Expand or collapse this frame by clicking on the label.
 ![novelibre screenshot](images/book_view05.png)
 
 To get an overview of the course of the story time, you can enter
-date/time information [for each section](section_view.html#date-time).
+date/time information for each section.
 The date can be specific *(YYYY-MM-DD)* or unspecific (number of days,
 e.g. from the beginning of the story).
 
-${Reference date}
+### ${Reference date}
 
-:   The reference date is optional. It can be used to convert relative
-    dates into absolute dates, or vice versa. The timeline software
-    plugins may use the reference date for creating events from sections
-    that have no date or an unspecific one.
+The reference date is optional. It can be used to convert relative
+dates into absolute dates, or vice versa. The timeline software
+plugins may use the reference date for creating events from sections
+that have no date or an unspecific one.
 
-    Format: *YYYY-MM-DD*, according to ISO 8601.
+Format: *YYYY-MM-DD*, according to ISO 8601.
 
 > **Hint**
 >
 > Even if you don\'t need specific dates for your story, specifying a
 > reference date might be helpful. Thus, a day of the week can be
-> displayed along with the [unspecific date](section_view.html#start),
-> and ages can be calculated for [related
-> characters](section_view.html#relationships).
+> displayed along with the unspecific date,
+> and ages can be calculated for related characters.
 
-${Convert dates to days}
+### ${Convert dates to days}
 
-:   This transforms specific section dates into days, related to the
-    reference date.
+This transforms specific section dates into days, related to the
+reference date.
 
-${Convert days to dates}
+### ${Convert days to dates}
 
-:   This transforms unspecific section dates into specific ones, using
-    the reference date.
+This transforms unspecific section dates into specific ones, using
+the reference date.
 
 > **Note**
 > 
@@ -172,8 +168,7 @@ ${Convert days to dates}
 > **Hint**
 > 
 > The commands above convert all dated sections at once. If you want to do
-> the conversion for single sections, just go to the [Section properties
-> view](section_view.html#start).
+> the conversion for single sections, just go to the Section properties.
 
 ## ${Writing progress}
 
@@ -189,48 +184,47 @@ progress.
 > Regardless of the entries made here, you can see the word count in the
 > status bar at any time.
 
-${Log writing progress}
+### ${Log writing progress}
 
-:   By default, *novelibre* stores a log entry with the word counts for
-    each day on which you edit the project. You can prevent this by
-    unticking the **Log writing progress** checkbox.
+By default, *novelibre* stores a log entry with the word counts for
+each day on which you edit the project. You can prevent this by
+unticking the **Log writing progress** checkbox.
 
- > **Hint**
- > 
- > For viewing the daily progress log, you may want to install the
- > [nv_progress plugin](https://github.com/peter88213/nv_progress/).
+> **Hint**
+> 
+> For viewing the daily progress log, you may want to install the
+> [nv_progress plugin](https://github.com/peter88213/nv_progress/).
  
-${Words to write}
+### ${Words to write}
 
-:   Here you can enter a number (without decimal points or separators)
-    indicating your writing goal in words. The entry can be completed by
-    pressing the `Enter` key.
+Here you can enter a number (without decimal points or separators)
+indicating your writing goal in words. The entry can be completed by
+pressing the `Enter` key.
 
-${Starting count}
+### ${Starting count}
 
-:   Here you can enter a number (without decimal points or separators)
-    indicating the word count you want to start from. The entry can be
-    completed by pressing the `Enter` key.
+Here you can enter a number (without decimal points or separators)
+indicating the word count you want to start from. The entry can be
+completed by pressing the `Enter` key.
 
-${Set actual wordcount as start}
+### ${Set actual wordcount as start}
 
-:   Click this button to enter your current word count in the **Starting
-    count** field.
+Click this button to enter your current word count in the **Starting
+count** field.
 
-${Words written}
+### ${Words written}
 
-:   Here the difference between your actual word count and the starting
-    count is displayed. The percentage refers to the words to write.
+Here the difference between your actual word count and the starting
+count is displayed. The percentage refers to the words to write.
 
-${Work phase}
+### ${Work phase}
 
-:   This setting is for the tree viewer [\"Work phase\" coloring
-    mode](view_menu.html#coloring-mode).
+This setting is for the tree viewer \"${Work phase}\" coloring mode.
 
-    -   Sections with the same completion status as the selected work
-        phase are black.
-    -   Sections that are ahead of the selected work phase are green.
-    -   Sections that are behind the selected work phase are magenta.
+-   Sections with the same completion status as the selected work
+    phase are black.
+-   Sections that are ahead of the selected work phase are green.
+-   Sections that are behind the selected work phase are magenta.
 
 ## ${Links}
 
@@ -259,10 +253,10 @@ system\'s standard image viewer.
 
 The links are displayed in a list in the order they are entered.
 
-${Add Link}
+### ${Add} Link
 
-:   When clicking on ![Add](images/add.png), a file selection dialog
-    opens. The selected file will be added to the link list.
+When clicking on ![${Add}](images/add.png), a file selection dialog
+opens. The selected file will be added to the link list.
 
 > **Hint**
 >
@@ -271,16 +265,16 @@ ${Add Link}
 >
 > ![Screenshot](images/filePicker01.png)
 
-${Remove Link}
+### ${Remove} Link
 
-:   When clicking on ![Remove](images/remove.png) or pressing the `Del`
-    key, the selected link is removed from the list.
+When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+key, the selected link is removed from the list.
 
-${Open Link}
+### ${Open} Link
 
-:   When double-clicking on a link, or clicking on
-    ![Goto](images/goto.png), the link is opened with the standard
-    application for the link\'s file type.
+When double-clicking on a link, or clicking on
+![${Go to}](images/goto.png), the link is opened with the standard
+application for the link\'s file type.
 
 > **Hint**
 >
@@ -297,10 +291,10 @@ ${Open Link}
 > This example shows a setting that makes *novelibre* open text files
 > with the *Zim Desktop Wiki* application instead of the standard text
 > editor:
->
+
 ```INI
-     [SETTINGS]
-     .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
+[SETTINGS]
+.zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
 ```
 
  ![Screenshot](images/launchers.png)
