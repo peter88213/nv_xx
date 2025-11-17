@@ -91,7 +91,7 @@ opens. The selected file will be added to the link list.
 
 ### ${Remove} Link
 
-When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected link is removed from the list.
 
 ### ${Open} Link

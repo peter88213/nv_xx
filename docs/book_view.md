@@ -77,9 +77,9 @@ Prefix and suffix entries can be completed by pressing the `Enter` key.
 
 ### ${Use Roman chapter numbers}
 
-By default, arabic numbers, like "1", "2", "3" \... are used
+By default, arabic numbers, like "1", "2", "3" ... are used
 for auto-numbering. If this checkbox is ticked, Roman numbers, like
-"I", "II", "III", "IV" \... are used instead.
+"I", "II", "III", "IV" ... are used instead.
 
 ### ${Restart chapter numbering at part beginning}
 
@@ -188,7 +188,7 @@ progress.
 
 By default, *novelibre* stores a log entry with the word counts for
 each day on which you edit the project. You can prevent this by
-unticking the **Log writing progress** checkbox.
+unticking the **${Log writing progress}** checkbox.
 
 > **Hint**
 > 
@@ -209,8 +209,8 @@ completed by pressing the `Enter` key.
 
 ### ${Set actual wordcount as start}
 
-Click this button to enter your current word count in the **Starting
-count** field.
+Click this button to enter your current word count in the 
+**${Starting count}** field.
 
 ### ${Words written}
 
@@ -267,7 +267,7 @@ opens. The selected file will be added to the link list.
 
 ### ${Remove} Link
 
-When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected link is removed from the list.
 
 ### ${Open} Link

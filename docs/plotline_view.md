@@ -38,8 +38,8 @@ sections from the selected plot line at once by clicking on the
 > Hint
 > 
 > A convenient way to manage and keep track of section assignments is
-> offered by the [nv_matrix
-> plugin](https://github.com/peter88213/nv_matrix/).
+> offered by the
+> [nv_matrix plugin](https://github.com/peter88213/nv_matrix/).
 
 ## ${Links}
 
@@ -82,7 +82,7 @@ opens. The selected file will be added to the link list.
 
 ### ${Remove} Link
 
-When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected link is removed from the list.
 
 ### ${Open} Link

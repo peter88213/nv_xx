@@ -17,18 +17,18 @@ The editing of the title can be completed by pressing the `Enter` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
-## Full name
+## ${Full name}
 
 The character's title as shown on the index card is used as a short
 name at several places. The full name can be entered separately. Editing
 can be completed by pressing the `Enter` key.
 
-## AKA
+## ${AKA}
 
 This entry field is for alias names. Editing can be completed by
 pressing the `Enter` key.
 
-## Tags
+## ${Tags}
 
 Tags are a very freely usable tool for labeling characters in the tree
 view. Tags do not have to be defined elsewhere, but simply entered in
@@ -46,9 +46,9 @@ pressing the `Enter` key.
 > keywords when creating a new wiki page for the character. This provides
 > a powerful navigation aid.
 
-## Major Character
+## ${Major Character}
 
-With the **Major Character** checkbox you can change the character
+With the **${Major Character}** checkbox you can change the character
 status.
 
 > **Note**
@@ -57,14 +57,14 @@ status.
 > on the program functions. Nevertheless, you can use it to mark viewpoint
 > characters or characters with their own plot lines.
 
-## Birth date and death date
+## ${Birth date} and ${Death date}
 
 Format: *YYYY-MM-DD*, according to ISO 8601.
 
 The editing of the birth and death dates can be completed by pressing
 the `Enter` key.
 
-## Field 1
+## ${Field 1}
 
 Expand or collapse this frame by clicking on the label.
 
@@ -73,10 +73,10 @@ Expand or collapse this frame by clicking on the label.
 Changes are applied when the mouse is clicked anywhere outside the text
 input field.
 
-The default name is "Bio". If this is not the right category for you,
+The default name is "${Bio}". If this is not the right category for you,
 you can change it in the book settings.
 
-## Field 2
+## ${Field 2}
 
 Expand or collapse this frame by clicking on the label.
 
@@ -85,7 +85,7 @@ Expand or collapse this frame by clicking on the label.
 Changes are applied when the mouse is clicked anywhere outside the text
 input field.
 
-The default name is "Goals". If this is not the right category for
+The default name is "${Goals}". If this is not the right category for
 you, you can change it in the book settings.
 
 ## ${Links}
@@ -129,7 +129,7 @@ opens. The selected file will be added to the link list.
 
 ### ${Remove} Link
 
-When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected link is removed from the list.
 
 ### ${Open} Link

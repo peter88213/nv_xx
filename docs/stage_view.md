@@ -3,9 +3,8 @@
 ---
 
 # ${Stage} properties
-# Stage properties
 
-The Stage properties view opens in the right pane when you select a
+The ${Stage} properties view opens in the right pane when you select a
 stage in the tree.
 
 ![Screenshot](images/stage_view01.png)
@@ -59,7 +58,7 @@ opens. The selected file will be added to the link list.
 
 ### ${Remove} Link
 
-When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected link is removed from the list.
 
 ### ${Open} Link

@@ -17,7 +17,7 @@ The editing of the title can be completed by pressing the `Enter` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
-## Tags
+## ${Tags}
 
 Tags are a very freely usable tool for labeling sections in the tree
 view. Tags do not have to be defined elsewhere, but simply entered in
@@ -29,31 +29,30 @@ pressing the `Enter` key.
 > If you want to use a tag more than once, make sure you use the same
 > spelling in the different places.
 
-## Viewpoint
+## ${Viewpoint}
 
 The viewpoint character's short name is displayed in the tree view. You
 can select it from a drop-down list containing all characters in the
 tree view's sort order. If you click on the topmost entry of the list,
 this will clear the viewpoint association.
 
-## Unused
+## ${Unused}
 
-With the **Unused** checkbox, you can change the [section
-type](basic_concepts.html#part-chapter-section-types).
+With the **${Unused}** checkbox, you can change the section type.
 
-## Append to previous section
+## ${Append to previous section}
 
 When ticked, there will be no section divider inserted above the
 selected section in exported documents. The section just starts a new
 paragraph.
 
-## Plot
+## ${Plot}
 
 Expand or collapse this frame by clicking on the label.
 
 ![Screenshot](images/section_view04.png)
 
-### Plot lines
+### ${Plot lines}
 
 Here you can assign the selected section to the plot lines it belongs
 to. The assigned plot lines are displayed in a list in the order they
@@ -62,16 +61,15 @@ are assigned to the section.
 > **Tip**
 > 
 > A more convenient way to manage and keep track of plot line assignments
-> is offered by the [nv_matrix
-> plugin](https://github.com/peter88213/nv_matrix/).
+> is offered by the 
+> [nv_matrix plugin](https://github.com/peter88213/nv_matrix/).
 > 
 > You can also assign a section to a plot line by entering text in the
-> corresponding *Plot line notes* cell of the [plot
-> grid](plotting.html#plot-grid).
+> corresponding *Plot line notes* cell of the plot grid.
 
 #### Add plot line assignment
 
-When clicking on ![Add](images/add.png), the "Pick mode" is
+When clicking on ![${Add}](images/add.png), the "Pick mode" is
 activated, and the cursor changes to a "plus" shape. By clicking
 on a plot line, it will be related with the section.
 
@@ -83,13 +81,13 @@ on a plot line, it will be related with the section.
 
 #### Remove plot line assignment
 
-When clicking on ![Remove](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected plot line is removed from the list.
 
 #### View the related element
 
 When double-clicking on a plot line, or clicking on
-![Goto](images/goto.png), the selected plot line is opened and its
+![${Go to}](images/goto.png), the selected plot line is opened and its
 properties are displayed.
 
 > **Hint**
@@ -100,8 +98,8 @@ properties are displayed.
 #### Plot line notes
 
 You can enter section-related notes for the plot line selected in
-the list of related plot lines. These notes appear in the [plot
-grid](plotting.html#plot-grid) where you also can edit them.
+the list of related plot lines. These notes appear in the plot
+grid where you also can edit them.
 
 ### Plot points
 
@@ -110,8 +108,8 @@ with their plot lines.
 
 > Hint
 > 
-> To change or clear the plot point assignment, go to the [plot point's
-> properties](point_view.html#assigned-section).
+> To change or clear the plot point assignment, go to the plot point's
+> properties.
 
 ## Scene
 
@@ -132,8 +130,7 @@ implement something like this to ensure suspense, you can do so here.
 
 If this is not for you, but you would like to use a different method to
 set up a dramaturgical scene micro-structure, you can set the section to
-**Other**, and get three [freely named](book_view.html#field-names) text
-fields.
+**${Other}**, and get three freely named text fields.
 
 Here is an example of a non-standard scene category:
 
@@ -143,14 +140,13 @@ On the other hand, not every section is a scene to which the categories
 mentioned above apply. Sections can be characterized by mode of
 discourse (e.g. Narration, Dramatic action, Dialogue, Description,
 Exposition). So if a section is not staged, you can set the section to
-**Not a scene**, and get three [freely
-named](book_view.html#field-names) text fields.
+**${Not a scene}**, and get three freely named text fields.
 
 Here is an example of a non-staged section category:
 
 ![Screenshot](images/section_view07.png)
 
-## Relationships
+## ${Relationships}
 
 Expand or collapse this frame by clicking on the label.
 
@@ -160,14 +156,14 @@ If you want to associate characters, locations, and items with the
 section, you can do it here by adding the element to a list of
 relationships.
 
-### Show ages
+### ${Show ages}
 
 If a section is dated, you can call up the ages of the related
-characters who have [birth dates](character_view.html#bio).
+characters who have birth dates.
 
 ### Add Relationship
 
-When clicking on ![Add](images/add.png), the "Pick mode" is
+When clicking on ![${Add}](images/add.png), the "Pick mode" is
 activated, and the cursor changes to a "plus" shape. By clicking
 on a character/location/item, this element will be related with the
 section.
@@ -180,13 +176,13 @@ section.
 
 ### Remove Relationship
 
-When clicking on ![Remove](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected relationship is removed from the list.
 
 ### View the related element
 
 When double-clicking on a related element, or clicking on
-![Goto](images/goto.png), the selected element is opened and its
+![${Go to}](images/goto.png), the selected element is opened and its
 properties are displayed.
 
 > **Hint**
@@ -199,7 +195,7 @@ properties are displayed.
 > A convenient way to manage and keep track of relationships is offered by
 > the [nv_matrix plugin](https://github.com/peter88213/nv_matrix/).
 
-## Date/Time
+## ${Date/Time}
 
 Here you can enter information about the selected section's story time.
 Editing can be completed by pressing the `Enter` key.
@@ -209,24 +205,24 @@ Editing can be completed by pressing the `Enter` key.
 > Dedicated timeline software offers a more convenient way of entering
 > date/time and duration information. So if chronology is important to
 > your story, you might want to take a look at the 
-> Timeline plugin](https://github.com/peter88213/nv_timeline/), or the 
+> [Timeline plugin](https://github.com/peter88213/nv_timeline/), or the 
 > [Aeon Timeline 2 plugin](https://github.com/peter88213/nv_aeon2/).
 
 ![Screenshot](images/section_view05.png)
 
-### Start
+### ${Start}
 
 If the selected section is a scene, this is when it starts:
 
-#### Date
+#### ${Date}
 
 Format: *YYYY-MM-DD*, according to ISO 8601.
 
-#### Time
+#### ${Time}
 
 Format: *hh:mm*, according to ISO 8601.
 
-#### Day
+#### ${Day}
 
 Format: Any number. Day "0" is the 
 reference date, if set.
@@ -235,7 +231,7 @@ reference date, if set.
 > 
 > All entries are optional. You can either enter a date, or a day.
 
-#### Moon phase
+#### ${Moon phase}
 
 If the required date information is set, you can call up the
 corresponding moon phase.
@@ -254,48 +250,46 @@ The moon phase information consists of:
 > algorithm by John Conway. In its current form, it's only valid for
 > the 20th and 21st centuries.
 
-#### Clear date/time
+#### ${Clear date/time}
 
-This will reset *Date*, *Time*, and *Day* simultaneously.
+This will reset *${Date}*, *${Time}*, and *${Day}* simultaneously.
 
-#### Generate
+#### ${Generate
 
 This generates date and time from the date/time/duration data of the
-[previous section](#navigation-buttons), so the selected section
-follows directly the previous one.
+previous section, so the selected section follows directly the previous one.
 
-#### Convert date/day
+#### ${Convert date/day}
 
-If the [reference date](book_view.html#narrative-time) is set, The
-unspecific *Day* can be transformed into a specific *Date*, and vice
-versa.
+If the reference date is set, The unspecific *${Day}* can be transformed 
+into a specific *${Date}*, and vice versa.
 
 > **Hint**
 > 
 > If necessary, you can convert all sections at once in the 
-> Book properties view](book_view.html#narrative-time).
+> ${Book} properties view).
 
-### Duration
+### ${Duration}
 
-#### Days
+#### ${Days}
 
 Any number should be accepted.
 
-#### Hours
+#### ${Hours}
 
 If a number greater than 24 is entered, the number of days will be
 automatically increased.
 
-#### Minutes
+#### ${Minutes}
 
 If a number greater than 60 is entered, the number of hours will be
 automatically increased.
 
-#### Clear duration
+#### ${Clear duration}
 
-This will reset *Days*, *Hours*, and *Minutes* simultaneously.
+This will reset *${Days}*, *${Hours}*, and *${Minutes}* simultaneously.
 
-#### Generate
+#### ${Generate}
 
 This generates the duration from the date/time data of the next
 section, so the next section follows directly the current one.
@@ -341,7 +335,7 @@ opens. The selected file will be added to the link list.
 
 ### ${Remove} Link
 
-When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected link is removed from the list.
 
 ### ${Open} Link

@@ -3,7 +3,6 @@
 ---
 
 # ${Location}/${Item} properties
-# Location/item properties
 
 The Location/item properties view opens in the right pane when you
 select a location or an item in the tree.
@@ -18,12 +17,12 @@ The editing of the title can be completed by pressing the `Enter` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
-## AKA
+## ${AKA}
 
 This entry field is for alias names. Editing can be completed by
 pressing the `Enter` key.
 
-## Tags
+## ${Tags}
 
 Tags are a very freely usable tool for labeling locations and items in
 the tree view. Tags do not have to be defined elsewhere, but simply

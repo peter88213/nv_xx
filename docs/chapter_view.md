@@ -10,9 +10,9 @@ selected chapter or part.
 
 > **Hint**
 > 
-> You can change any chapter into a part or vice versa via the **Change
-> Level** entry in the context menu, the **Part** menu, or the **Chapter**
-> menu.
+> You can change any chapter into a part or vice versa via the 
+> **${Change Level}** entry in the context menu, 
+> the **${Part}** menu, or the **${Chapter}** menu.
 
 ![Screenshot](images/chapter_view01.png)
 
@@ -32,22 +32,19 @@ anywhere outside the text input field.
 > numbering is activated and the selected chapter or part is not excluded
 > from auto numbering (see below).
 
-## Unused
+## ${Unused}
 
-With the **Unused** checkbox, you can change the [chapter
-type](basic_concepts.html#part-chapter-section-types).
+With the **${Unused}** checkbox, you can change the chapter type.
 
-## Do not auto-number this chapter/part
+## ${Do not auto-number this chapter}/${Do not auto-number this part}
 
 If this checkbox is ticked, the selected chapter or part will be
-excluded from [auto numbering](book_view.html#auto-numbering), and the
-title you enter manually will persist.
+excluded from auto numbering, and the title you enter manually will persist.
 
-## The first section is an epigraph
+## ${The first section is an epigraph}
 
 If this checkbox is ticked, the chapter's first section is formatted as
-an [epigraph](basic_concepts.html#epigraph), if it is of the *Normal*
-type.
+an epigraph, if it is of the *${Normal}* type.
 
 ## ${Links}
 
@@ -90,7 +87,7 @@ opens. The selected file will be added to the link list.
 
 ### ${Remove} Link
 
-When clicking on ![${Remove}](images/remove.png) or pressing the `Del`
+When clicking on ![${Remove}](images/remove.png) or pressing the `${Del}`
 key, the selected link is removed from the list.
 
 ### ${Open} Link
@@ -133,7 +130,7 @@ in the plot line row.
 
 ## Navigation buttons
 
-### Chapter view
+### ${Chapter} view
 
 -   **${Previous}** lets you navigate to the previous chapter in the tree.
 -   **${Next}** lets you navigate to the next chapter in the tree.
