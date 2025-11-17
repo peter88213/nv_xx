@@ -85,17 +85,17 @@ saved project file. You will get a warning, because changes may be lost.
 > After restoring the backup, a backup copy is no longer available in the
 > project directory. A new backup copy is created when saving the project.
 
-## ${Refresh tree}
+## ${Refresh Tree}
 
 **Enforce tree refresh after making changes**
 
-With **${File} > ${Refresh tree}** or `F5`, you can refresh the tree.
+With **${File} > ${Refresh Tree}** or `F5`, you can refresh the tree.
 
 -   "${Normal}" sections that have been moved to an "${Unused}" chapter
     are made "${Unused}".
 -   Parts and chapters are renumbered according to the Auto numbering
     settings.
--   The "${Trash]" chapter is moved to the end of the book, if necessary.
+-   The "${Trash}" chapter is moved to the end of the book, if necessary.
 
 ## ${Lock}
 

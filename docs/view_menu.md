@@ -43,27 +43,27 @@ main categories.
 
 **Go to the "${Book}" branch and expand it**
 
-With **${View} > ${View Book}**, you can select and open the "Book" branch.
+With **${View} > ${Show Book}**, you can select and open the "Book" branch.
 
 ## ${Show Characters}
 
 **Go to the "${Characters}" branch and expand it**
 
-With **${View} > ${View Characters}**, you can select and open the
+With **${View} > ${Show Characters}**, you can select and open the
 "${Characters}" branch.
 
 ## ${Show Locations}
 
 **Go to the "Locations" branch and expand it**
 
-With **${View} > ${View Locations}**, you can select and open the
+With **${View} > ${Show Locations}**, you can select and open the
 "${Locations}" branch.
 
-## ${Show Items
+## ${Show Items}
 
 **Go to the "${Items}" branch and expand it**
 
-With **${View} > ${View Items}**, you can select and open the "${Items}"
+With **${View} > ${Show Items}**, you can select and open the "${Items}"
 branch.
 
 ## ${Show Plot lines}
@@ -77,7 +77,7 @@ With **${View} > ${Show Plot lines}**, you can select and open the
 
 **Go to the "${Project notes}" branch and expand it**
 
-With **${View} > ${View Planning}**, you can select and open the 
+With **${View} > ${Show Project notes}**, you can select and open the 
 "${Project notes}" branch.
 
 ## ${Toggle Text viewer}

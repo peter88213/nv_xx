@@ -62,11 +62,11 @@ plugins.
 
 ------------------------------------------------------------------------
 
-## ${Plugin manager}
+## ${Plugin Manager}
 
 **Display and manage installed plugins**
 
-With **${Tools} > ${Plugin manager}**, you can open the 
+With **${Tools} > ${Plugin Manager}**, you can open the 
 *${Installed plugins}* dialog.
 
 ![novelibre screenshot](images/tools_menu01.png)

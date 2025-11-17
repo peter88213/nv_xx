@@ -84,11 +84,11 @@ confirmation is required before exporting.
 Deletes the selected tree element and its children.
 
 -   Parts and chapters are deleted.
--   Sections are marked "${Unused}" and moved to the "${Trash]" chapter.
+-   Sections are marked "${Unused}" and moved to the "${Trash}" chapter.
 -   Deleting a part has no effect on its subordinate chapters.
--   Deleting a chapter moves its sections to the "${Trash]" chapter.
--   The "${Trash]" chapter is created automatically, if needed.
--   When deleting the "${Trash]" chapter, all its sections are deleted.
+-   Deleting a chapter moves its sections to the "${Trash}" chapter.
+-   The "${Trash}" chapter is created automatically, if needed.
+-   When deleting the "${Trash}" chapter, all its sections are deleted.
 
 ### ${Set Type}
 

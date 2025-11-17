@@ -171,7 +171,7 @@ titles only. File name suffix is `_brf_synopsis`.
 -   Chapter titles appear as second level heading.
 -   Section titles appear as plain paragraphs.
 
-## ${Cross references (export only)
+## ${Cross references (export only)}
 
 **Export an ODT document**
 

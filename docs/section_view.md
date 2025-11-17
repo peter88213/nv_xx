@@ -254,7 +254,7 @@ The moon phase information consists of:
 
 This will reset *${Date}*, *${Time}*, and *${Day}* simultaneously.
 
-#### ${Generate
+#### ${Generate}
 
 This generates date and time from the date/time/duration data of the
 previous section, so the selected section follows directly the previous one.

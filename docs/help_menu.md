@@ -25,9 +25,9 @@ browser with the *novelibre* online user guide URL.
 With **${Help} > ${About novelibre}** you get a pop-up window with the
 version number and a legal notice.
 
-## novelibre ${home page}
+## novelibre ${Home page}
 
-With **${Help} > novelibre ${home page}** you can launch your system web
+With **${Help} > novelibre ${Home page}** you can launch your system web
 browser with the *novelibre* home page URL.
 
 > **Hint**

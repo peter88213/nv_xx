@@ -10,7 +10,7 @@
 
 **Add a new plot line to the story**
 
-With **${Plot} > ${Add plot line}**, you can add a project note to the tree.
+With **${Plot} > ${Add Plot line}**, you can add a project note to the tree.
 
 -   If a plot line is selected, the new plot line is placed after the
     selected one.
@@ -138,7 +138,7 @@ File name suffix is `_structure_tmp`.
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Plot} > ${Export plot Export plot line descriptions for editing}**,
+With **${Plot} > ${Export plot line descriptions for editing}**,
 you can create a text document that contains stages, plot lines, and
 plot points, each with description. The plot points are linked to the
 manuscript and to the section descriptions. File name suffix is

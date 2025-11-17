@@ -64,7 +64,7 @@ Format: *YYYY-MM-DD*, according to ISO 8601.
 The editing of the birth and death dates can be completed by pressing
 the `Enter` key.
 
-## ${Field 1}
+## ${Field} 1
 
 Expand or collapse this frame by clicking on the label.
 
@@ -76,7 +76,7 @@ input field.
 The default name is "${Bio}". If this is not the right category for you,
 you can change it in the book settings.
 
-## ${Field 2}
+## ${Field} 2
 
 Expand or collapse this frame by clicking on the label.
 
