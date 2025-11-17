@@ -43,7 +43,7 @@ main categories.
 
 **Go to the "${Book}" branch and expand it**
 
-With **${View} > ${Show Book}**, you can select and open the "Book" branch.
+With **${View} > ${Show Book}**, you can select and open the "${Book}" branch.
 
 ## ${Show Characters}
 
