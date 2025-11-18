@@ -1,13 +1,13 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [${Online help}](index.md) > ${Stage} properties
+[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > ${Character} properties
 
 ---
 
-# ${Stage} properties
+# ${Character} properties
 
-The ${Stage} properties view opens in the right pane when you select a
-stage in the tree.
+The Character properties view opens in the right pane when you select a
+character in the tree.
 
-![Screenshot](images/stage_view01.png)
+![Screenshot](images/character_view01.png)
 
 ## Title and description
 
@@ -16,6 +16,77 @@ Title and description are displayed in an editable "index card".
 The editing of the title can be completed by pressing the `Enter` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
+
+## ${Full name}
+
+The character's title as shown on the index card is used as a short
+name at several places. The full name can be entered separately. Editing
+can be completed by pressing the `Enter` key.
+
+## ${AKA}
+
+This entry field is for alias names. Editing can be completed by
+pressing the `Enter` key.
+
+## ${Tags}
+
+Tags are a very freely usable tool for labeling characters in the tree
+view. Tags do not have to be defined elsewhere, but simply entered in
+the input field separated by semicolons. Editing can be completed by
+pressing the `Enter` key.
+
+> **Caution**
+> 
+> If you want to use a tag more than once, make sure you use the same
+> spelling in the different places.
+
+> **Hint*
+> 
+> The [nv_zim plugin](https://github.com/peter88213/nv_zim/) can adopt
+> keywords when creating a new wiki page for the character. This provides
+> a powerful navigation aid.
+
+## ${Major Character}
+
+With the **${Major Character}** checkbox you can change the character
+status.
+
+> **Note**
+> 
+> The character status is only for visual distinction. It has no influence
+> on the program functions. Nevertheless, you can use it to mark viewpoint
+> characters or characters with their own plot lines.
+
+## ${Birth date} and ${Death date}
+
+Format: *YYYY-MM-DD*, according to ISO 8601.
+
+The editing of the birth and death dates can be completed by pressing
+the `Enter` key.
+
+## ${Field} 1
+
+Expand or collapse this frame by clicking on the label.
+
+![Screenshot](images/character_view02.png)
+
+Changes are applied when the mouse is clicked anywhere outside the text
+input field.
+
+The default name is "${Bio}". If this is not the right category for you,
+you can change it in the book settings.
+
+## ${Field} 2
+
+Expand or collapse this frame by clicking on the label.
+
+![Screenshot](images/character_view03.png)
+
+Changes are applied when the mouse is clicked anywhere outside the text
+input field.
+
+The default name is "${Goals}". If this is not the right category for
+you, you can change it in the book settings.
 
 ## ${Links}
 
@@ -88,7 +159,6 @@ application for the link's file type.
 > .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
 > ```
 
-
 ## "Sticky note"
 
 The yellow text area is for notes. Changes are applied when the mouse is
@@ -101,9 +171,9 @@ in the plot line row.
 
 ## Navigation buttons
 
--   **${Previous}** lets you navigate to the previous stage in the
+-   **${Previous}** lets you navigate to the previous character in the
     tree.
--   **${Next}** lets you navigate to the next stage in the tree.
+-   **${Next}** lets you navigate to the next character in the tree.
 
 ---
 

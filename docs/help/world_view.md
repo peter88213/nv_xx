@@ -1,15 +1,15 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [${Online help}](index.md) > ${Plot line} properties
+[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > ${Location}/${Item} properties
 
 ---
 
-# ${Plot line} properties
+# ${Location}/${Item} properties
 
-The ${Plot line} properties view opens in the right pane when you select a
-plot line in the tree.
-
-![novelibre screenshot](images/plotline_view01.png)
+The Location/item properties view opens in the right pane when you
+select a location or an item in the tree.
 
 ## Title and description
+
+![Screenshot](images/world_view01.png)
 
 Title and description are displayed in an editable "index card".
 
@@ -17,29 +17,28 @@ The editing of the title can be completed by pressing the `Enter` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
-## ${Short name}
+## ${AKA}
 
-Be sure to enter a short name to be displayed as a reference in the
-tree. A single character like "A", "B", "C" is recommended.
+This entry field is for alias names. Editing can be completed by
+pressing the `Enter` key.
 
-The following example shows plot line short names as displayed in the
-tree:
+## ${Tags}
 
-![novelibre screenshot](images/plotline_view02.png)
+Tags are a very freely usable tool for labeling locations and items in
+the tree view. Tags do not have to be defined elsewhere, but simply
+entered in the input field separated by semicolons. Editing can be
+completed by pressing the `Enter` key.
 
-## Section assignments
-
-The number of sections that belong to the selected plot line is shown
-below the "${Short name}" entry. The assignments can be made in the
-section properties view. You can unlink all
-sections from the selected plot line at once by clicking on the 
-**${Clear section assignments}** button.
-
-> Hint
+> **Caution**
 > 
-> A convenient way to manage and keep track of section assignments is
-> offered by the
-> [nv_matrix plugin](https://github.com/peter88213/nv_matrix/).
+> If you want to use a tag more than once, make sure you use the same
+> spelling in the different places.
+
+> **Hint**
+> 
+> The [nv_zim plugin](https://github.com/peter88213/nv_zim/) can adopt
+> keywords when creating a new wiki page for the location or item. This
+> provides a powerful navigation aid.
 
 ## ${Links}
 
@@ -124,9 +123,15 @@ in the plot line row.
 
 ## Navigation buttons
 
--   **${Previous}** lets you navigate to the previous plot line in the
-    tree.
--   **${Next}** lets you navigate to the next plot linie in the tree.
+### Location view
+
+-   **${Previous}** lets you navigate to the previous location in the tree.
+-   **${Next}** lets you navigate to the next location in the tree.
+
+### Item view
+
+-   **${Previous}** lets you navigate to the previous item in the tree.
+-   **${Next}** lets you navigate to the next item in the tree.
 
 ---
 

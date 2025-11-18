@@ -1,21 +1,54 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [${Online help}](index.md) > ${Project note} properties
+[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > ${Plot point} properties
 
 ---
 
-# ${Project note} properties
+# ${Plot point} properties
 
-The ${Project note} properties view opens in the right pane when you select
-a project note in the tree.
+The ${Plot point} properties view opens in the right pane when you select a
+plot point in the tree.
 
-## Title and content
+![Screenshot](images/point_view01.png)
 
-![Screenshot](images/project_note_view01.png)
+## Title and description
 
-Title and content are displayed in an editable "index card".
+Title and description are displayed in an editable "index card".
 
-The editing of the title can be completed by pressing the `Enter` key.
-Changes to the content are applied when the mouse is clicked anywhere
-outside the text input field.
+The editing of The editing of the title can be completed by pressing the
+`Enter` key. Changes to the description are applied when the mouse is
+clicked anywhere outside the text input field.
+
+## Assigned section
+
+You can connect the plot point to a section in the book. The label below
+"${Section}" displays the section title.
+
+### ${Assign section}
+
+When clicking on the **${Assign section}** button, the "Pick mode" is
+activated, and the cursor changes to a "plus" shape. By clicking
+on a section, this section will be assigned to the plot point.
+
+> **Hint**
+>
+> You can exit the "Pick mode" without selecting a section by
+> clicking on the highlighted status bar, or by pressing the `Esc`
+> key.
+
+
+### ${Clear assignment}
+
+If a section is assigned to the plot point, you can disconnect it by
+clicking on the **${Clear assignment}** button.
+
+### ${Go to section}
+
+When clicking on the **${Go to section}** button, the selected section
+is opened and its properties are displayed.
+
+> **Hint**
+>
+> You can go back to the initially selected plot point with 
+> ![${Back}](images/goBack.png).
 
 ## ${Links}
 
@@ -88,13 +121,21 @@ application for the link's file type.
 > .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
 > ```
 
+## "Sticky note"
+
+The yellow text area is for notes. Changes are applied when the mouse is
+clicked anywhere outside the text input field.
+
+When the "sticky note" of a plot point contains text, "${N}" is
+displayed in the tree view as a reminder. If the branch of a plot line
+with plot points containing notes is collapsed, the "${N}" is displayed
+in the plot line row.
 
 ## Navigation buttons
 
--   **${Previous}** lets you navigate to the previous project note in the
+-   **${Previous}** lets you navigate to the previous plot point in the
     tree.
--   **${Next}** lets you navigate to the next project note in the tree.
-
+-   **${Next}** lets you navigate to the next plot point in the tree.
 
 ---
 

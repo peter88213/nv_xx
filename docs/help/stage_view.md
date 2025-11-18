@@ -1,44 +1,21 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [${Online help}](index.md) > ${Location}/${Item} properties
+[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > ${Stage} properties
 
 ---
 
-# ${Location}/${Item} properties
+# ${Stage} properties
 
-The Location/item properties view opens in the right pane when you
-select a location or an item in the tree.
+The ${Stage} properties view opens in the right pane when you select a
+stage in the tree.
+
+![Screenshot](images/stage_view01.png)
 
 ## Title and description
-
-![Screenshot](images/world_view01.png)
 
 Title and description are displayed in an editable "index card".
 
 The editing of the title can be completed by pressing the `Enter` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
-
-## ${AKA}
-
-This entry field is for alias names. Editing can be completed by
-pressing the `Enter` key.
-
-## ${Tags}
-
-Tags are a very freely usable tool for labeling locations and items in
-the tree view. Tags do not have to be defined elsewhere, but simply
-entered in the input field separated by semicolons. Editing can be
-completed by pressing the `Enter` key.
-
-> **Caution**
-> 
-> If you want to use a tag more than once, make sure you use the same
-> spelling in the different places.
-
-> **Hint**
-> 
-> The [nv_zim plugin](https://github.com/peter88213/nv_zim/) can adopt
-> keywords when creating a new wiki page for the location or item. This
-> provides a powerful navigation aid.
 
 ## ${Links}
 
@@ -111,6 +88,7 @@ application for the link's file type.
 > .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe 
 > ```
 
+
 ## "Sticky note"
 
 The yellow text area is for notes. Changes are applied when the mouse is
@@ -123,15 +101,9 @@ in the plot line row.
 
 ## Navigation buttons
 
-### Location view
-
--   **${Previous}** lets you navigate to the previous location in the tree.
--   **${Next}** lets you navigate to the next location in the tree.
-
-### Item view
-
--   **${Previous}** lets you navigate to the previous item in the tree.
--   **${Next}** lets you navigate to the next item in the tree.
+-   **${Previous}** lets you navigate to the previous stage in the
+    tree.
+-   **${Next}** lets you navigate to the next stage in the tree.
 
 ---
 

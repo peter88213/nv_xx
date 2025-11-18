@@ -1,54 +1,50 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [${Online help}](index.md) > ${Plot point} properties
+[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > ${Chapter}/${Part} properties
 
 ---
 
-# ${Plot point} properties
+# ${Chapter}/${Part} properties
 
-The ${Plot point} properties view opens in the right pane when you select a
-plot point in the tree.
+The Chapter/part properties view opens in the right pane when you select
+a chapter or a part in the tree. You can edit the properties of the
+selected chapter or part.
 
-![Screenshot](images/point_view01.png)
+> **Hint**
+> 
+> You can change any chapter into a part or vice versa via the 
+> **${Change Level}** entry in the context menu, 
+> the **${Part}** menu, or the **${Chapter}** menu.
+
+![Screenshot](images/chapter_view01.png)
 
 ## Title and description
 
 Title and description are displayed in an editable "index card".
 
-The editing of The editing of the title can be completed by pressing the
-`Enter` key. Changes to the description are applied when the mouse is
-clicked anywhere outside the text input field.
+The editing of the title can be completed by pressing the `Enter` key.
+Changes to the description are applied when the mouse is clicked
+anywhere outside the text input field.
 
-## Assigned section
+> **Note**
+> 
+> Depending on your [Book settings](book_view.html#auto-numbering),
+> *novelibre* might overwrite the title the next time the tree is
+> refreshed. Thus, you don't need to edit the capter/part title, if auto
+> numbering is activated and the selected chapter or part is not excluded
+> from auto numbering (see below).
 
-You can connect the plot point to a section in the book. The label below
-"${Section}" displays the section title.
+## ${Unused}
 
-### ${Assign section}
+With the **${Unused}** checkbox, you can change the chapter type.
 
-When clicking on the **${Assign section}** button, the "Pick mode" is
-activated, and the cursor changes to a "plus" shape. By clicking
-on a section, this section will be assigned to the plot point.
+## ${Do not auto-number this chapter}/${Do not auto-number this part}
 
-> **Hint**
->
-> You can exit the "Pick mode" without selecting a section by
-> clicking on the highlighted status bar, or by pressing the `Esc`
-> key.
+If this checkbox is ticked, the selected chapter or part will be
+excluded from auto numbering, and the title you enter manually will persist.
 
+## ${The first section is an epigraph}
 
-### ${Clear assignment}
-
-If a section is assigned to the plot point, you can disconnect it by
-clicking on the **${Clear assignment}** button.
-
-### ${Go to section}
-
-When clicking on the **${Go to section}** button, the selected section
-is opened and its properties are displayed.
-
-> **Hint**
->
-> You can go back to the initially selected plot point with 
-> ![${Back}](images/goBack.png).
+If this checkbox is ticked, the chapter's first section is formatted as
+an epigraph, if it is of the *${Normal}* type.
 
 ## ${Links}
 
@@ -131,11 +127,18 @@ displayed in the tree view as a reminder. If the branch of a plot line
 with plot points containing notes is collapsed, the "${N}" is displayed
 in the plot line row.
 
+
 ## Navigation buttons
 
--   **${Previous}** lets you navigate to the previous plot point in the
-    tree.
--   **${Next}** lets you navigate to the next plot point in the tree.
+### ${Chapter} view
+
+-   **${Previous}** lets you navigate to the previous chapter in the tree.
+-   **${Next}** lets you navigate to the next chapter in the tree.
+
+### Part view
+
+-   **${Previous}** lets you navigate to the previous part in the tree.
+-   **${Next}** lets you navigate to the next part in the tree.
 
 ---
 
