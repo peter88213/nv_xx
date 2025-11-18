@@ -9,6 +9,13 @@ This page refers to the
 You can open it with **${Help} \> ${Online user guide}**.
 
 
+> **Note**
+> 
+> This online manual is to be translated. 
+> For the time being, most of the content is in English, but the terms of the
+> user interface are consistently referred to in their translated form.
+
+
 ## Command reference
 
 - [${File} menu](file_menu.md)
