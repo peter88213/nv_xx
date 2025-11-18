@@ -20,6 +20,7 @@ characters, locations, and items to the sections.
 assigned to the sections.
 
 - [Online help](help) 
+- [Language package download page](https://github.com/peter88213/nv_xx)
 - [Home Page (English)](https://github.com/peter88213/novelibre) 
 - [Give feedback or ask a question (English)](https://github.com/peter88213/novelibre/discussions)
 
