@@ -8,6 +8,13 @@ This page refers to the
 [novelibre](https://github.com/peter88213/novelibre/) application. 
 You can open it with **${Help} \> ${Online user guide}**.
 
+Here you will find the most important help pages from the novelibre user manual. 
+More information on installing and uninstalling novelibre, interesting details 
+on the user concept, and “How Tos” can be found in the 
+[English version](https://peter88213.github.io/nvhelp-en/). 
+
+There is also a [wiki](https://github.com/peter88213/nv_xx/wiki) 
+where users can publish further instructions, tips, and tutorials in xxx.
 
 > **Note**
 > 
