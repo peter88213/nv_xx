@@ -11,7 +11,7 @@ help_dir = '../docs/help'
 index_page = f'{help_dir}/index.md'
 json_dict = '../dictionary/msg_dict.json'
 page_link_pattern = re.compile(r'- \[(.*?)\]\((.*?)\)')
-page_template = '''[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > $Heading
+page_template = '''[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](./) > $Heading
 
 ---
 
@@ -38,7 +38,7 @@ def translate_special_terms():
         print(f'Translating "{page_path}"...')
         with open(page_path, 'r', encoding='utf-8') as f:
             text = f.read()
-        text = MyTemplate(text).safe_substitute(dictionary)
+        text = MyTemplate(text).substitute(dictionary)
         with open(page_path, 'w', encoding='utf-8') as f:
             f.write(text)
 
