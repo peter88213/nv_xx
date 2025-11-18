@@ -1,4 +1,4 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > ${Plot point} properties
+[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](./) > ${Plot point} properties
 
 ---
 

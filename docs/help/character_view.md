@@ -1,4 +1,4 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](index.md) > ${Character} properties
+[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](./) > ${Character} properties
 
 ---
 
