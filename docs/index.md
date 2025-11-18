@@ -23,13 +23,12 @@ This is the manuscript to work on. *novelibre* generated it and passed it to Lib
 
 ---
 
-- [Online help](help) 
-- [Application download page (English)](https://github.com/peter88213/novelibre) 
-- [Language package download page](https://github.com/peter88213/nv_xx)
-- [Give feedback or ask a question (English)](https://github.com/peter88213/novelibre/discussions)
+## Links
 
-If your computer's system language is xxx, and if you have installed the xxx language package, the *novelibre* user interface will appear in xxx. 
-For the time being, most of the user manual content is in English, but the terms of the user interface are consistently referred to in their translated form. 
+- [**Application download** page (English)](https://github.com/peter88213/novelibre) 
+- [**Language package download** page](https://github.com/peter88213/nv_xx)
+- [Online help](help) 
+- [Give feedback or ask a question (English)](https://github.com/peter88213/novelibre/discussions)
 
 ---
 
