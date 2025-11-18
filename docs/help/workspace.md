@@ -16,7 +16,7 @@ The project tree in the left pane shows the organization of the project.
 
 -   The tree elements are color-coded according to the section type.
     *${Normal}* type sections are highlighted according to the selected
-    coloring mode (see *${Options}* in the ${View} menu]).
+    coloring mode (see *${Options}* in the ${View} menu).
 -   The order of the columns can be changed (see *${Options}* in the ${View} menu).
 -   Right-clicking on a tree element opens a context menu with several options.
 -   The type of chapters and sections, as well as the completion status
