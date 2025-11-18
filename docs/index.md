@@ -19,7 +19,7 @@ characters, locations, and items to the sections.
 *novelibre* can hold information about plot lines and plot points that are
 assigned to the sections.
 
-- [Aiuto in linea](help) 
+- [Online help](help) 
 - [Home Page](https://github.com/peter88213/novelibre) 
 - [Give feedback or ask a question](https://github.com/peter88213/novelibre/discussions)
 

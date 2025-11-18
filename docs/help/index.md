@@ -2,7 +2,7 @@
 
 ---
 
-# novelibre ${Online help}
+# ![N](../img/nLogo32.png) novelibre ${Online help}
 
 This page refers to the
 [novelibre](https://github.com/peter88213/novelibre/) application. 
