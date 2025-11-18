@@ -15,6 +15,10 @@ You can open it with **${Help} \> ${Online user guide}**.
 > For the time being, most of the content is in English, but the terms of the
 > user interface are consistently referred to in their translated form.
 
+## General
+
+- [The Workspace](workspace.md)
+
 
 ## Command reference
 
