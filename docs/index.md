@@ -21,7 +21,7 @@ assigned to the sections.
 
 - [Online help](help) 
 - [Home Page](https://github.com/peter88213/novelibre) 
-- [Give feedback or ask a question](https://github.com/peter88213/novelibre/discussions)
+- [Give feedback or ask a question (English)](https://github.com/peter88213/novelibre/discussions)
 
 ---
 
