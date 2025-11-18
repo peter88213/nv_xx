@@ -18,6 +18,7 @@ You can open it with **${Help} \> ${Online user guide}**.
 ## General
 
 - [The Workspace](workspace.md)
+- [Basic concepts](basic_concepts.md)
 
 
 ## Command reference
