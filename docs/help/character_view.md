@@ -92,7 +92,7 @@ you, you can change it in the book settings.
 
 Expand or collapse this frame by clicking on the label.
 
-![Screenshot](images/world_view02.png)
+![Screenshot](images/character_view04.png)
 
 This is a list for image and research document links.
 
@@ -171,8 +171,7 @@ in the plot line row.
 
 ## Navigation buttons
 
--   **${Previous}** lets you navigate to the previous character in the
-    tree.
+-   **${Previous}** lets you navigate to the previous character in the tree.
 -   **${Next}** lets you navigate to the next character in the tree.
 
 ---
