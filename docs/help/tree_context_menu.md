@@ -1,4 +1,4 @@
-[${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](./) > Tree view context menu
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](./) > Tree view context menu
 
 ---
 
