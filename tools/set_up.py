@@ -7,12 +7,17 @@ For further information see https://github.com/peter88213/nv_xx
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
+
 from settings import *
 import translations
 
 
+def output(message):
+    print(f'(set_up) {message}')
+
+
 def main():
-    print(f'Set up novelibre translation files for {languageName}.')
+    output(f'Set up novelibre translation files for {languageName}.')
 
     translationsComplete = True
     for moduleName in os.listdir('../modules'):
@@ -20,7 +25,7 @@ def main():
         if not os.path.isdir(poPath):
             continue
 
-        if not translations.main(poPath, app=moduleName, json=True):
+        if not translations.main(poPath, app=moduleName):
             translationsComplete = False
     return translationsComplete
 
