@@ -1,4 +1,4 @@
-"""Provide a class to handle GNU gettext translation files.
+"""Update the .po and .json translation files.
 
 Requires Python 3.9+
 
@@ -6,6 +6,7 @@ Copyright (c) 2025 Peter Triesberger
 For further information see https://github.com/peter88213/novelibre
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
+from datetime import datetime
 import json
 import os
 
@@ -54,10 +55,10 @@ class PoFile:
         output(f'{len(self.messages)} entries read.')
 
     def write(self, potMsgList, jsonMessages, version):
-        """Write translations to the '.po' file.
+        """Write translations to the '.po' file, if there are changes.
 
-        Return True, if all messages have translations.
-        Return False, if messages need to be translated. 
+        Create a backup file, if necessary.
+        Raise RuntimeError, if messages need to be translated. 
         """
         missingCount = 0
         changesCount = 0
@@ -80,35 +81,37 @@ class PoFile:
                 f'"{self.filePath}" remains unchanged '
                 f'(total: {len(self.messages)}).'
             )
-            return
+        else:
+            self.data['PO-Revision-Date'] = datetime.today().replace(
+                microsecond=0).isoformat(sep=' ')
 
-        lines = self.headings.copy()
-        lines.append('msgid ""')
-        lines.append('msgstr ""')
+            lines = self.headings.copy()
+            lines.append('msgid ""')
+            lines.append('msgstr ""')
 
-        if version is not None:
-            self.data['Project-Id-Version'] = version
-        for key in self.data:
-            lines.append(f'"{key}: {self.data[key]}\\n"')
+            if version is not None:
+                self.data['Project-Id-Version'] = version
+            for key in self.data:
+                lines.append(f'"{key}: {self.data[key]}\\n"')
 
-        lines.append('\n')
-        for msg in self.messages:
-            lines.append(f'msgid "{msg}"\nmsgstr "{self.messages[msg]}"\n')
+            lines.append('\n')
+            for msg in self.messages:
+                lines.append(f'msgid "{msg}"\nmsgstr "{self.messages[msg]}"\n')
 
-        backedUp = False
-        output(f'Writing "{self.filePath}" ...')
-        try:
-            if os.path.isfile(self.filePath):
-                os.replace(self.filePath, f'{self.filePath}.bak')
-                backedUp = True
-            with open(self.filePath, 'w', encoding='utf-8') as f:
-                f.write('\n'.join(lines))
-        except Exception as ex:
-            if backedUp:
-                os.replace(f'{self.filePath}.bak', self.filePath)
-            raise ex
+            backedUp = False
+            output(f'Writing "{self.filePath}" ...')
+            try:
+                if os.path.isfile(self.filePath):
+                    os.replace(self.filePath, f'{self.filePath}.bak')
+                    backedUp = True
+                with open(self.filePath, 'w', encoding='utf-8') as f:
+                    f.write('\n'.join(lines))
+            except Exception as ex:
+                if backedUp:
+                    os.replace(f'{self.filePath}.bak', self.filePath)
+                raise ex
 
-        output(f'{len(self.messages)} entries written.')
+            output(f'{len(self.messages)} entries written.')
         if missingCount > 0:
             output(f'NOTE: {missingCount} translations missing.')
             raise RuntimeError
@@ -127,9 +130,9 @@ class JsonDict:
         output(f'{len(self.messages)} translations total.')
 
     def write(self, poMessages):
-        """Add new translations to a JSON translation dictionary.
+        """Add new translations to the JSON translation dictionary.
         
-        Create a backup file.
+        Create a backup file, if necessary.
         """
         newMsgCount = 0
         for msg in poMessages:
@@ -172,12 +175,7 @@ class JsonDict:
         )
 
 
-def main(
-        potFilePath,
-        poFilePath,
-        jsonDictPath,
-        version=None,
-    ):
+def main(potFilePath, poFilePath, jsonDictPath, version=None):
     potFile = PoFile(potFilePath)
     potFile.read()
     poFile = PoFile(poFilePath)
@@ -190,4 +188,5 @@ def main(
         jsonDict.messages,
         version,
     )
+    return poFile.data['Project-Id-Version']
 
