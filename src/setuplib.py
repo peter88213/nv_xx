@@ -15,7 +15,7 @@ import sys
 import zipfile
 from tkinter import messagebox
 
-PLUGIN = 'nv_xx'
+PLUGIN = 'nv_xx.py'
 VERSION = '@release'
 
 pyz = os.path.dirname(__file__)
@@ -27,11 +27,11 @@ def check_locale():
     except:
         # Fallback for old Windows versions.
         CURRENT_LANGUAGE = locale.getdefaultlocale()[0][:2]
-    languageCode = PLUGIN[3:]
+    languageCode = PLUGIN[3:].replace('.py', '')
     if CURRENT_LANGUAGE != languageCode:
         messagebox.showwarning(
-            title=f'{PLUGIN} installation warning',
-            message='Translations cannot be applied.',
+            title=f'{PLUGIN.replace(".py", "")} installation warning',
+            message='The installed translations will not be applied.',
             detail=f'The system language is not "{languageCode}".',
         )
 
