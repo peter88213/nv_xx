@@ -170,8 +170,7 @@ File name suffix is
 
 #### ${Export} > ${Plot grid}
 
-This allows you to create a spreadsheet as described in the 
-[Plotting with novelibre](../plotting.html#plot-grid) chapter. 
+This allows you to create a spreadsheet. 
 File name suffix is `_grid_tmp`.
 
 #### ${Export} > ${Character descriptions}
