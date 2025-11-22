@@ -15,7 +15,6 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 """
-import locale
 import os
 import shutil
 import sys
@@ -25,20 +24,18 @@ TRANSLATIONS_DIR = f'{os.path.dirname(sys.argv[0])}/locale/{LANGUAGE_CODE}'
 
 
 class Plugin:
-    """Template plugin class."""
+    """Language package plugin class."""
     VERSION = '@release'
     API_VERSION = '5.43'
     DESCRIPTION = 'xxx language package'
     URL = 'https://github.com/peter88213/nv_xx'
 
     def install(self, model, view, controller):
-        try:
-            CURRENT_LANGUAGE = locale.getlocale()[0][:2]
-        except:
-            # Fallback for old Windows versions.
-            CURRENT_LANGUAGE = locale.getdefaultlocale()[0][:2]
-        if CURRENT_LANGUAGE != LANGUAGE_CODE:
-            raise UserWarning(f'The system language is not "{LANGUAGE_CODE}".')
+        if not os.path.isdir(TRANSLATIONS_DIR):
+            raise UserWarning(
+                'Translations not found:'
+                f'"{os.path.normpath(TRANSLATIONS_DIR)}".'
+            )
 
     def uninstall(self):
         shutil.rmtree(TRANSLATIONS_DIR, ignore_errors=True)
