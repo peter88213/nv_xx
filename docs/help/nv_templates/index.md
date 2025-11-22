@@ -11,9 +11,8 @@ This page refers to the latest
 [nv_templates](https://github.com/peter88213/nv_templates/) release. You
 can open it with **${Help} > ${Templates plugin Online help}**.
 
-With *novelibre*, you can define a narrative structure with stages. See
-[Plotting with novelibre](../plotting.html). *nv_templates* faciliates
-the reuse of narrative structures.
+With *novelibre*, you can define a narrative structure with stages. 
+*nv_templates* faciliates the reuse of narrative structures.
 
 The plugin adds a **${Story Templates}** entry to the *novelibre* **${Tools}**
 menu, a **${${Create from Template\...}** entry to the **File} > ${New}**
@@ -40,10 +39,9 @@ template file.
 -   First, a file select dialog asks for the new project's file name
     (novelibre v1.4+). If you cancel the dialog, you can select the file
     name later when saving the project.
--   Then a second file select dialog asks for the template file to
-    apply.
+-   Then a second file select dialog asks for the template file to apply.
 
-### Tools > Story Templates
+### ${Tools} > ${Story Templates}
 
 #### ${Load\...}
 
@@ -51,13 +49,13 @@ This loads the narrative structure from a Markdown template file.
 
 -   A file select dialog asks for the template file to apply.
 
-#### Save\...
+#### ${Save\...}
 
 This saves the narrative structure to a Markdown template file.
 
 -   A file select dialog asks for the new template's file name.
 
-#### Open folder
+#### ${Open folder}
 
 This opens the templates folder with the OS file manager, so you can
 manage and edit the templates.
