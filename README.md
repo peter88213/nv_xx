@@ -4,37 +4,6 @@ Language package for [novelibre](https://github.com/peter88213/novelibre/).
 
 ---
 
-## How to install the language package
-
-## Download and install
-
-### Default: Executable Python zip archive
-
-Download the installation package [nv_xx.pyz](https://github.com/peter88213/nv_xx/raw/main/nv_xx.pyz)
-
-- Launch *nv_xx.pyz* by double-clicking (Windows desktop),
-- or execute `python nv_xx.pyz` (Windows), resp. `python3 nv_xx.pyz` (Linux) on the command line.
-
-> [!IMPORTANT]
-> Many web browsers recognize the download as an executable file and offer to open it immediately. 
-> This starts the installation under Windows.
-> 
-> However, depending on your security settings, your browser may 
-> initially  refuse  to download the executable file. 
-> In this case, your confirmation or an additional action is required. 
-> If this is not possible, you have the option of downloading 
-> the zip file. 
-
-
-### Alternative: Zip file
-
-The package is also available in zip format: [nv_xx.zip](https://github.com/peter88213/nv_xx/raw/main/nv_xx.zip)
-
-- Extract the content of the downloaded zipfile "nv_xx.zip" into an empty folder.
-- Move into this folder and launch *setup.py* by double-clicking (Windows/Linux desktop), 
-- or execute `python setup.py` (Windows), resp. `python3 setup.py` (Linux) on the command line.
-
----
 
 ## How to create/update the language pack
 
