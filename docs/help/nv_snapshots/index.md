@@ -9,11 +9,11 @@
 
 This page refers to the latest
 [nv_snapshots](https://github.com/peter88213/nv_snapshots/) release. You
-can open it with **Help > Snapshots Online help** or `F1`.
+can open it with **${Help} > ${Snapshots Online help}** or `F1`.
 
-The plugin adds a **Snapshots** entry to the *novelibre* **Tools** menu,
-a **Snapshot** entry to the **File** menu, and a **Snapshots Online
-help** entry to the **Help** menu.
+The plugin adds a **Snapshots** entry to the *novelibre* **${Tools}** menu,
+a **Snapshot** entry to the **File** menu, and a 
+**Snapshots Online help** entry to the **${Help}** menu.
 
 ## General
 
@@ -21,11 +21,11 @@ A snapshot is a compressed, titled, and commented version of a *.novx*
 file. *nv_snapshots* creates such snapshots on demand and stores them in
 a subdirectory of the project folder. This subdirectory is named
 *"Snapshots"* and is created automatically if required. Saving a
-snapshot is manually triggered via `${Ctrl}`-`Alt`-`S` or the **File >
-Snapshot** menu command.
+snapshot is manually triggered via `${Ctrl}`-`Alt`-`S` or the 
+**${File} > ${Snapshot}** menu command.
 
-Use the **Tools > Snapshots** menu command to start the **snapshot
-manager**. The snapshot manager displays the snapshots of the currently
+Use the **${Tools} > ${Snapshots}** menu command to start the 
+**snapshot manager**. The snapshot manager displays the snapshots of the currently
 open project in list form. You can select individual snapshots and
 export documents from them. LibreOffice/OpenOffice has a document
 comparison function that allows you to find and edit the differences
@@ -44,7 +44,7 @@ LibreOffice/OpenOffice.
 2.  Export a document of the same kind from the current project and open
     it.
 3.  Select **Edit - Track Changes - Compare Document\...**
-    (LibreOffice), or **Edit > Compare Document** (OpenOffice).
+    (LibreOffice), or **${Edit} > ${Compare Document}** (OpenOffice).
 4.  A file selection dialog opens. Select the "snapshot document" and
     click **Insert**.
 
@@ -64,46 +64,44 @@ transfer the revised state to the project.
 
 ### *novelibre* main menu entries
 
-#### File > Snapshot
+#### ${File} > ${Snapshot}
 
 Creates a snapshot as a zip file in the *"Snapshots"* subdirectory of
 the current project folder. A dialog for entering a title and a
 description will pop up.
 
-Ok
+##### Ok
 
-:   Confirm the entry and create the snapshot.
+Confirm the entry and create the snapshot.
 
-Online help
+##### ${Online help}
 
-:   Go to this help page.
+Go to this help page.
 
-Cancel
+##### ${Cancel}
 
-:   Close the dialog without creating a snapshot.
+Close the dialog without creating a snapshot.
 
 
+> **Hint**
+> 
+> If you leave the entry fields empty, the snapshot is given the title
+> "Undefined" and can only be identified by its creation date.
 
-Hint
-:::
-
-If you leave the entry fields empty, the snapshot is given the title
-"Undefined" and can only be identified by its creation date.
-:::
 
 -   If there are unsaved changes in the project, you will be prompted to
     save them.
 -   If there is already an up-to-date snapshot, no further snapshot will
     be created.
 
-#### Tools > Snapshots
+#### ${Tools} > ${Snapshots}
 
 Opens the snapshot manager window. It contains the list of snapshots and
 a display field for the title and description of the selected snapshot.
 The functions of the snapshot manager are accessed via the menu
 described below.
 
-#### Help > Snapshots Online help
+#### ${Help} > ${Snapshots Online help}
 
 Starts the system web browser with this page.
 
@@ -111,92 +109,88 @@ Starts the system web browser with this page.
 
 ### The snapshot manager menu
 
-#### File > Open Snapshot folder
+#### ${File} > ${Open Snapshot folder}
 
 Opens the current project's snapshot folder with the file manager.
 
-#### File > Clean up Snapshot folder
+#### ${File} > ${Clean up Snapshot folder}
 
-Deletes ODF documents, XML data files, and document backups in the
-snapshot folder.
+Deletes ODF documents, XML data files, and document backups in the snapshot folder.
 
-#### File > Snapshot
+#### ${File} > ${Snapshot}
 
 Creates a snapshot (see above).
 
-#### File > Remove
+#### ${File} > ${Remove}
 
 Deletes the selected snapshot.
 
-#### File > Revert
+#### ${File} > ${Revert}
 
 Overwrites the current project file with the version of the selected
 snapshot and reloads the project in *novelibre*. A snapshot of the
 current project file is created automatically beforehand.
 
-#### File > Close
+#### ${File} > ${Close}
 
 Closes the snapshot manager window.
 
 ------------------------------------------------------------------------
 
-#### Export > Manuscript
+#### ${Export} > ${Manuscript}
 
 This allows you to create a text document that is split into sections.
 File name suffix is `_manuscript_tmp`.
 
-#### Export > Part descriptions
+#### ${Export} > ${Part descriptions}
 
-This allows you to create a text document that contains a **very brief
-synopsis** with part headings and part descriptions. File name suffix is
-`_parts_tmp`.
+This allows you to create a text document that contains a **very brief synopsis** with part headings and part descriptions. 
+File name suffix is `_parts_tmp`.
 
-#### Export > Chapter descriptions
+#### ${Export} > ${Chapter descriptions}
 
-This allows you to create a text document that contains a **brief
-synopsis** with part/chapter headings and chapter descriptions. File
-name suffix is `_chapters_tmp`.
+This allows you to create a text document that contains a **brief synopsis** with part/chapter headings and chapter descriptions. 
+File name suffix is `_chapters_tmp`.
 
-#### Export > Section descriptions
+#### ${Export} > ${Section descriptions}
 
-This allows you to create a text document with a **full synopsis**
-containing part/chapter headings and section descriptions. File name
-suffix is `_sections_tmp`.
+This allows you to create a text document with a **full synopsis** containing part/chapter headings and section descriptions. 
+File name suffix is `_sections_tmp`.
 
-#### Export > Story structure
+#### ${Export} > ${Story structure}
 
-This allows you to create a text document that contains all stages, each
-with description. File name suffix is `_structure_tmp`.
+This allows you to create a text document that contains all stages, each with description. 
+File name suffix is `_structure_tmp`.
 
-#### Export > Plot line descriptions
+#### ${Export} > ${Plot line descriptions}
 
-This allows you to create a text document that contains stages, plot
-lines, and plot points, each with description. File name suffix is
+This allows you to create a text document that contains stages, plot lines, and plot points, each with description. 
+File name suffix is
 `_plotlines_tmp`.
 
-#### Export > Plot grid
+#### ${Export} > ${Plot grid}
 
-This allows you to create a spreadsheet as described in the [Plotting
-with novelibre](../plotting.html#plot-grid) chapter. File name suffix is
-`_grid_tmp`.
+This allows you to create a spreadsheet as described in the 
+[Plotting with novelibre](../plotting.html#plot-grid) chapter. 
+File name suffix is `_grid_tmp`.
 
-#### Export > Character descriptions
+#### ${Export} > ${Character descriptions}
 
 This allows you to create a text document that contains character
 descriptions, bio, goals, and notes. File name suffix is
 `_characters_tmp`.
 
-#### Export > Location descriptions
+#### ${Export} > ${Location descriptions}
 
 This allows you to create a text document that contains location
 descriptions. File name suffix is `_locations_tmp`.
 
-#### Export > Item descriptions
+#### ${Export} > ${Item descriptions}
 
 This allows you to create a text document that contains item
 descriptions. File name suffix is `_items_tmp`.
 
-#### Export > XML data files
+#### ${Export} > ${XML data files}
 
 This allows you to create a set of XML files containing the project's
 characters, locations, items, and plot lines with all their properties.
@@ -205,6 +199,6 @@ individually or in groups from the snapshot to the current project.
 
 ------------------------------------------------------------------------
 
-#### Help > Online help
+#### ${Help} > ${Online help}
 
 Starts the system web browser with this page.

@@ -9,16 +9,15 @@
 
 This page refers to the latest
 [nv_zim](https://github.com/peter88213/nv_zim/) release. You can open it
-with **Help > Zim connection Online help**.
+with **${Help} > ${Zim connection Online help}**.
 
 *nv_zim* is a plugin that connects *novelibre* projects with a *Zim
 Desktop Wiki*. This is mainly intended for world building documentation.
 
-The plugin adds an **Zim Desktop Wiki** entry to the *novelibre*
-**Tools** menu, and a **Zim connection Online help** entry to the
-**Help** menu. The property views of characters, locations, items, and
-book get a ![Zim](images/zim.png) button. The Toolbar gets a
-![Zim](images/zim.png) button.
+The plugin adds an **${Zim Desktop Wiki}** entry to the *novelibre*
+**${Tools}** menu, and a **${Zim connection Online help}** entry to the
+**${Help}** menu. The property views of characters, locations, items, and
+book get a ![Zim](images/zim.png) button. The Toolbar gets a ![Zim](images/zim.png) button.
 
 ## Setting up Zim Desktop Wiki
 
@@ -30,23 +29,21 @@ installed Zim in the default directory, there is nothing to do here.
 
 
 
-Note
-:::
-
-At program startup, *nv_zim* checks the *launchers.ini* file in the
-*novelibre* configuration directory. Here is an example with a Windows
-entry:
-
-    [SETTINGS]
-    .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
-
-If this file doesn't exist, or the path doesn't fit, the program
-searches the default installation paths for the 32-bit and the 64-bit
-versions under Windows, as well as `/usr/bin/zim` under Linux. If this
-fails, it opens a file selection dialog, asking for the location. The
-proper location is then automatically entered in the *launchers.ini*
-file.
-:::
+> **Note**
+>
+> At program startup, *nv_zim* checks the `launchers.ini` file in the
+> *novelibre* configuration directory. Here is an example with a Windows entry:
+> 
+> ```    
+> [SETTINGS]
+>     .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
+> ```
+> 
+> If this file doesn't exist, or the path doesn't fit, the program
+> searches the default installation paths for the 32-bit and the 64-bit
+> versions under Windows, as well as `/usr/bin/zim` under Linux. If this
+> fails, it opens a file selection dialog, asking for the location. The
+> proper location is then automatically entered in the `launchers.ini` file.
 
 ## Zim notebooks as project wikis
 
@@ -69,8 +66,7 @@ put into a subdirectory of the *novelibre* project, named
     time you open it from within *novelibre* you can select it with a
     file selection dialog and link to it again.
 -   If you move the project wiki to another location together with the
-    *novelibre* project, the program can automatically correct the wiki
-    links.
+    *novelibre* project, the program can automatically correct the wiki links.
 -   Even if you leave the project wiki where it is, but move the
     *novelibre* project somewhere else, the program can automatically
     correct the wiki links.
@@ -106,21 +102,20 @@ the status bar.
 
 
 
-Tip
-:::
+> **Tip**
+> 
+> If you want to link more than one wiki page with a character, location,
+> item, or the entire book, you can use regular
+> [links](../world_view.html#links). When the *nv_zim* is installed,
+> *novelibre* will recognize wiki pages among the links and open them with
+> the *Zim* application.
 
-If you want to link more than one wiki page with a character, location,
-item, or the entire book, you can use regular
-[links](../world_view.html#links). When the *nv_zim* is installed,
-*novelibre* will recognize wiki pages among the links and open them with
-the *Zim* application.
-:::
 
-## Zim Desktop Wiki menu
+## ${Zim Desktop Wiki} menu
 
-### Open project wiki
+### ${Open project wiki}
 
-With **Tools > Zim Desktop Wiki > Open project wiki**, or clicking on
+With **${Tools} > ${Zim Desktop Wiki} > ${Open project wiki}**, or clicking on
 the ![Zim](images/zim.png) button on the toolbar, you can open the Zim
 notebook linked with the project.
 
@@ -128,58 +123,53 @@ If there is no link yet, or if the saved link address is not valid, you
 will be asked whether you want to open an existing wiki or create a new
 one:
 
-Browse
+#### ${Browse}
 
-:   this opens a file picker dialog to search for a Zim wiki file with
-    the extension *.zim*. Zim is launched with the selected project wiki
-    open.
-
-    
-    
-    Note
-    :::
-
-    The selected file will be linked as the project wiki, if the project
-    is not locked. If the project is locked, you can open the project
-    wiki from within *novelibre* during the current session, but you may
-    have to re-select it in the next session.
-    :::
-
-Create
-
-:   this auto-creates a new blank Zim notebook in a subdirectory of the
-    project directory, and opens it with Zim.
-
-    
-    
-    Note
-    :::
-
-    The new *.zim* file will be linked as the project wiki, if the
-    project is not locked. If the project is locked, you can open the
-    project wiki from within *novelibre* during the current session, but
-    you may have to re-select it in the next session.
-    :::
-
-Cancel
-
-:   Aborts the operation without launching Zim.
+this opens a file picker dialog to search for a Zim wiki file with
+the extension `.zim`. Zim is launched with the selected project wiki
+open.
 
 
 
-Hint
-:::
+> **Note**
+> 
+> The selected file will be linked as the project wiki, if the project
+> is not locked. If the project is locked, you can open the project
+> wiki from within *novelibre* during the current session, but you may
+> have to re-select it in the next session.
 
-If you want to open the project wiki or a wiki page from within
-*novelibre*, but don't see any reaction, please take a look at the
-taskbar and see whether the *Zim Desktop Wiki* application is already
-open, but is covered by other open windows, e.g. by *novelibre*. In this
-case, the "Zim" window is not automatically lifted to the foreground.
-:::
 
-### Create project wiki
+#### ${Create}
 
-With **Tools > Zim Desktop Wiki > Create project wiki** you can create
+this auto-creates a new blank Zim notebook in a subdirectory of the
+project directory, and opens it with Zim.
+
+
+
+> **Note**
+> 
+> The new *.zim* file will be linked as the project wiki, if the
+> project is not locked. If the project is locked, you can open the
+> project wiki from within *novelibre* during the current session, but
+> you may have to re-select it in the next session.
+
+#### ${Cancel}
+
+Aborts the operation without launching Zim.
+
+
+>  **Hint**
+> 
+> If you want to open the project wiki or a wiki page from within
+> *novelibre*, but don't see any reaction, please take a look at the
+> taskbar and see whether the *Zim Desktop Wiki* application is already
+> open, but is covered by other open windows, e.g. by *novelibre*. In this
+> case, the "Zim" window is not automatically lifted to the foreground.
+
+
+### ${Create project wiki}
+
+With **${Tools} > ${Zim Desktop Wiki} > ${Create project wiki}** you can create
 a new Zim notebook in a subdirectory of the project directory and open
 it with Zim. The generated project wiki contains pages for the book and
 for all characters, locations, and items. If there is already a Zim
@@ -188,32 +178,31 @@ renamed and kept as a backup.
 
 
 
-Note
-:::
+> **Note**
+> 
+> The new *.zim* file will be linked as the project wiki, if the project
+> is not locked. If the project is locked, you can open the project wiki
+> from within *novelibre* during the current session, but you may have to
+> re-select it in the next session.
 
-The new *.zim* file will be linked as the project wiki, if the project
-is not locked. If the project is locked, you can open the project wiki
-from within *novelibre* during the current session, but you may have to
-re-select it in the next session.
-:::
 
-### Remove wiki links
+### ${Remove wiki links}
 
-With **Tools > Zim Desktop Wiki > Remove wiki links** you can remove
+With **${Tools} > ${Zim Desktop Wiki} > ${Remove wiki links}** you can remove
 saved wiki links from the project file. This takes effect when saving
 the next time.
 
 A submenu offers two options:
 
-Selected pages
+#### ${Selected pages}
 
-:   This will remove the Zim wiki links of the selected elements. This
-    command only refers to linked pages, but not to the project wiki.
+This will remove the Zim wiki links of the selected elements. This
+command only refers to linked pages, but not to the project wiki.
 
-All
+#### ${All}
 
-:   This will remove all Zim wiki links. This command refers both to
-    linked pages and to the project wiki.
+This will remove all Zim wiki links. This command refers both to
+linked pages and to the project wiki.
 
 ## Book/Characters/Locations/Items properties
 
@@ -223,8 +212,7 @@ All
 
 #### Opening/creating a wiki page
 
-By clicking on the Wiki page button you open a linked wiki page with
-Zim.
+By clicking on the Wiki page button you open a linked wiki page with Zim.
 
 If no wiki page is linked yet, the program first tries to find a page in
 the project wiki whose name matches the title of the book, the location
@@ -237,44 +225,39 @@ project wiki and gives you the option of selecting or creating it (see
 above). You will then be asked whether you want to open an existing wiki
 page or create a new one:
 
-Browse
+##### ${Browse}
 
-:   this opens a file picker dialog to search for a Zim page file with
-    the extension *.txt*. Zim is launched with the selected wiki page
-    open.
+this opens a file picker dialog to search for a Zim page file with
+the extension *.txt*. Zim is launched with the selected wiki page
+open.
 
-    
-    
-    Note
-    :::
 
-    The selected file will be linked with the element currently selected
-    in *novelibre*, if the project is not locked. If the project is
-    locked, you can open the wiki page from within *novelibre* during
-    the current session, but you may have to re-select it in the next
-    session.
-    :::
+> **Note**
+> 
+> The selected file will be linked with the element currently selected
+> in *novelibre*, if the project is not locked. If the project is
+> locked, you can open the wiki page from within *novelibre* during
+> the current session, but you may have to re-select it in the next session.
 
-Create
 
-:   this auto-creates a new wiki page as a part of the project wiki, and
-    opens it with Zim.
+##### ${Create}
 
-    
-    
-    Note
-    :::
+this auto-creates a new wiki page as a part of the project wiki, and
+opens it with Zim.
 
-    The new *.txt* file will be linked with the element currently
-    selected in *novelibre*, if the project is not locked. If the
-    project is locked, you can open the wiki page from within
-    *novelibre* during the current session, but you may have to
-    re-select it in the next session.
-    :::
 
-Cancel
+> **Note**
+> 
+> The new *.txt* file will be linked with the element currently
+> selected in *novelibre*, if the project is not locked. If the
+> project is locked, you can open the wiki page from within
+> *novelibre* during the current session, but you may have to
+> re-select it in the next session.
 
-:   Aborts the operation without launching Zim.
+
+##### ${Cancel}
+
+Aborts the operation without launching Zim.
 
 #### Removing a wiki page link
 

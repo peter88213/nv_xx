@@ -8,25 +8,23 @@
 **User guide**
 
 This page refers to the latest
-[nv_progress](https://github.com/peter88213/nv_progress/) release. You
-can open it with **Help > Progress viewer Online help**.
+[nv_progress](https://github.com/peter88213/nv_progress/) release. 
+You can open it with **${Help} > ${Progress viewer Online help}**.
 
-The plugin adds a **Daily progress log** entry to the *novelibre*
-**Tools** menu.
+The plugin adds a **${Daily progress log}** entry to the *novelibre*
+**${Tools}** menu.
 
 
+> **Important**
+> 
+> To see the daily writing progress, please make sure that it is actually
+> [logged](../book_view.html#writing-progress) for your project.
 
-Important
-:::
-
-To see the daily writing progress, please make sure that it is actually
-[logged](../book_view.html#writing-progress) for your project.
-:::
 
 ## Launch the program
 
--   Open the progress log viewer from the main menu: **Tools > Daily
-    progress log**.
+-   Open the progress log viewer from the main menu: 
+    **${Tools} > ${Daily progress log}**.
 -   While the *nv_progress* window is open, the actual word count is
     automatically updated.
 

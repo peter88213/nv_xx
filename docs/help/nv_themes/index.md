@@ -10,33 +10,27 @@
 This page refers to the latest
 [nv_themes](https://github.com/peter88213/nv_themes/) release.
 
-The plugin adds a **Change theme** entry to the *novelibre* **View**
-menu.
+The plugin adds a **${Change theme}** entry to the *novelibre* **${View}** menu.
 
 
-
-Important
-:::
-
-If you just want a dark mode for *novelibre*, do install the
-[nv_dark](https://github.com/peter88213/nv_dark/) plugin instead of
-*nv_themes*. Changing the theme is not enough to get a dark mode. You
-also need a modified color palette so that the colored text stands out
-against the dark background. *nv_dark* comes with such a color palette.
-:::
+> **Important**
+> 
+> If you just want a dark mode for *novelibre*, do install the
+> [nv_dark](https://github.com/peter88213/nv_dark/) plugin instead of
+> *nv_themes*. Changing the theme is not enough to get a dark mode. You
+> also need a modified color palette so that the colored text stands out
+> against the dark background. *nv_dark* comes with such a color palette.
 
 
+> **Note**
+> 
+> Actually, this plugin is more intended for Linux, where the default
+> theme looks pretty stale, and there are plenty of desktops, each with a
+> different look.
+> 
+> On Windows, *novelibre* uses a lot of native widgets by default. You can
+> hardly do better with custom themes.
 
-Note
-:::
-
-Actually, this plugin is more intended for Linux, where the default
-theme looks pretty stale, and there are plenty of desktops, each with a
-different look.
-
-On Windows, *novelibre* uses a lot of native widgets by default. You can
-hardly do better with custom themes.
-:::
 
 ## Install additional themes
 
@@ -53,18 +47,15 @@ Here is an example with *Synaptic* on Linux Mint:
 
 ## Start the dialog
 
-Start the theme changer from the main menu: **View > Change theme**.
+Start the theme changer from the main menu: **${View} > ${Change theme}**.
 You can select the new theme from a drop-down list.
 
 ![Windows screenshot](images/nv_themes02.png)
 
 
+> **Important**
+> 
+> When you select a theme, the display changes immediately. However, this
+> is only a non-binding preview. Not all display elements may have their
+> final color. Better restart *novelibre* after you have changed the theme.
 
-Important
-:::
-
-When you select a theme, the display changes immediately. However, this
-is only a non-binding preview. Not all display elements may have their
-final color. Better restart *novelibre* after you have changed the
-theme.
-:::

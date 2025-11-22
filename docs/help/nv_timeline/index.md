@@ -9,11 +9,11 @@
 
 This page refers to the latest
 [nv_timeline](https://github.com/peter88213/nv_timeline/) release. You
-can open it with **Help > Timeline plugin Online help**.
+can open it with **${Help} > ${Timeline plugin Online help}**.
 
-The plugin adds a **Timeline** entry to the *novelibre* **Tools** menu,
-a **Create from Timeline\...** to the **File > New** submenu, and a
-**Timeline plugin Online Help** entry to the **Help** menu. The Toolbar
+The plugin adds a **${Timeline}** entry to the *novelibre* **${Tools}** menu,
+a **${Create from Timeline\...}** to the **${File} > ${New}** submenu, and a
+**${Timeline plugin Online Help}** entry to the **${Help}** menu. The Toolbar
 gets a ![Timeline](images/tl.png) button.
 
 ## Command reference
@@ -25,23 +25,20 @@ gets a ![Timeline](images/tl.png) button.
 
 ### Tools > Timeline > Create or update the timeline
 
-If a timeline exists, update it from *novelibre*, otherwise create a new
-timeline.
+If a timeline exists, update it from *novelibre*, otherwise create a new timeline.
 
 ### Tools > Timeline > Update the project
 
 Update the *novelibre* project from the timeline, if existing.
 
 
+> **Important**
+> 
+> Please make sure to save the timeline before trying to sync with
+> *novelibre*. Since *nv_timeline* reads the .timeline file, unsaved
+> changes may not be recognized. In case of doubt, close *Timeline* before
+> syncing with *novelibre*.
 
-Important
-:::
-
-Please make sure to save the timeline before trying to sync with
-*novelibre*. Since *nv_timeline* reads the .timeline file, unsaved
-changes may not be recognized. In case of doubt, close *Timeline* before
-syncing with *novelibre*.
-:::
 
 ### Tools > Timeline > Open Timeline
 
@@ -58,19 +55,16 @@ Open a file dialog to select a timeline. If no *novelibre* project with
 the timeline's file name exists, create a new one from the timeline.
 
 
+> **Hint**
+> 
+> To become sections in *novelibre*, *Timeline* Events need a "Section" label.
+> 
+> ![Timeline Screenshot](images/event01.png)
+> 
+> The idea behind this is that only selected events should be included as
+> sections in the *novelibre* project. There may also be background
+> events, for example, that should not be synchronized.
 
-Hint
-:::
-
-To become sections in *novelibre*, *Timeline* Events need a "Section"
-label.
-
-![Timeline Screenshot](images/event01.png)
-
-The idea behind this is that only selected events should be included as
-sections in the *novelibre* project. There may also be background
-events, for example, that should not be synchronized.
-:::
 
 ## Custom configuration
 
@@ -113,28 +107,31 @@ You best make a copy and edit it.
 
 This is the configuration file explained:
 
-    [SETTINGS]
+```ini
+[SETTINGS]
 
-    section_label = Section
+section_label = Section
 
-    # Events with this label become sections in a newly created 
-    # novelibre project. 
+# Events with this label become sections in a newly created 
+# novelibre project. 
 
-    section_color = 170,240,160
+section_color = 170,240,160
 
-    # Color for events imported as sections from novelibre.
+# Color for events imported as sections from novelibre.
 
-    new_event_spacing = 1
+new_event_spacing = 1
 
-    # Days between events with automatically generated dates.  
+# Days between events with automatically generated dates.  
 
 
-    [OPTIONS]
+[OPTIONS]
 
-    lock_on_export = No
+lock_on_export = No
 
-    # Yes: Lock the novelibre project when opening the timeline.
-    # No: Do not lock the novelibre project when opening the timeline.
+# Yes: Lock the novelibre project when opening the timeline.
+# No: Do not lock the novelibre project when opening the timeline.
+```
+
 
 ### How to reset the configuration to defaults
 
@@ -152,16 +149,14 @@ Just delete your global and local configuration files.
     synchronized against each other.
 
 
+> **Caution**
+> 
+> Synchronizing means overwriting target data with source data. Since
+> *nv_timeline* works in both directions, there is always a danger of
+> confusing source and target, thus losing changes. So if the program asks
+> you for confirmation to overwrite a file, better check if it's actually
+> the target file.
 
-Caution
-:::
-
-Synchronizing means overwriting target data with source data. Since
-*nv_timeline* works in both directions, there is always a danger of
-confusing source and target, thus losing changes. So if the program asks
-you for confirmation to overwrite a file, better check if it's actually
-the target file.
-:::
 
 ### On the novelibre side
 
