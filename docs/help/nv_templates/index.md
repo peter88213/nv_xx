@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_templates/)
 
 ------------------------------------------------------------------------
@@ -9,19 +9,19 @@
 
 This page refers to the latest
 [nv_templates](https://github.com/peter88213/nv_templates/) release. You
-can open it with **Help \> Templates plugin Online help**.
+can open it with **Help > Templates plugin Online help**.
 
 With *novelibre*, you can define a narrative structure with stages. See
 [Plotting with novelibre](../plotting.html). *nv_templates* faciliates
 the reuse of narrative structures.
 
 The plugin adds a **Story Templates** entry to the *novelibre* **Tools**
-menu, a **Create from Template\...** entry to the **File \> New**
+menu, a **Create from Template\...** entry to the **File > New**
 submenu, and a **Template plugin Online Help** entry to the **Help**
 menu.
 
-::: important
-::: title
+
+
 Important
 :::
 
@@ -33,7 +33,7 @@ them.
 
 ## Command reference
 
-### File \> New
+### File > New
 
 #### Create from template\...
 
@@ -46,7 +46,7 @@ template file.
 -   Then a second file select dialog asks for the template file to
     apply.
 
-### Tools \> Story Templates
+### Tools > Story Templates
 
 #### Load\...
 
@@ -129,4 +129,4 @@ The final moment of the story's conflict.
 
 This file generates the following structure in an empty project:
 
-![Screenshot](_images/structure01.png)
+![Screenshot](images/structure01.png)

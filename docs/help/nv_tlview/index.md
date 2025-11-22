@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_tlview/)
 
 ------------------------------------------------------------------------
@@ -9,34 +9,34 @@
 
 This page refers to the latest
 [nv_tlview](https://github.com/peter88213/nv_tlview/) release. You can
-open it with **Help \> Timeline view Online help** or with `F1`.
+open it with **Help > Timeline view Online help** or with `F1`.
 
 *nv_tlview* is a plugin providing a timeline view with sections that are
 given a narrative date/day and time.
 
 The plugin adds a **Timeline view** entry to the *novelibre* **Tools**
 menu, and a **Timeline view Online help** entry to the **Help** menu.
-The Toolbar gets a ![Timeline](_images/tlview.png) button.
+The Toolbar gets a ![Timeline](images/tlview.png) button.
 
-![novelibre Screenshot](_images/screen01.png)
+![novelibre Screenshot](images/screen01.png)
 
 ## Operation
 
 ### Start the Timeline view
 
--   Open the Timeline view either from the main menu: **Tools \>
+-   Open the Timeline view either from the main menu: **Tools >
     Timeline view**,
--   or via the ![Timeline](_images/tlview.png) button in the toolbar.
+-   or via the ![Timeline](images/tlview.png) button in the toolbar.
 
 ### Mouse scrolling
 
--   Scroll the timeline horizontally with `Shift`-`Mousewheel`.
+-   Scroll the timeline horizontally with `${Shift}`-`Mousewheel`.
 -   Scroll the timeline vertically with the mousewheel.
 -   Scroll the timeline in any direction by right-clicking on the canvas
     and dragging the mouse.
--   Increase or reduce the time scale with `Ctrl`-`Mousewheel`.
+-   Increase or reduce the time scale with `${Ctrl}`-`Mousewheel`.
 -   Change the distance limits for stacking with
-    `Shift`-`Ctrl`-`Mousewheel`.
+    `${Shift}`-`${Ctrl}`-`Mousewheel`.
 
 ### Selecting a section in the *novelibre* project tree
 
@@ -45,29 +45,29 @@ The Toolbar gets a ![Timeline](_images/tlview.png) button.
 
 ### Shifting a section in time
 
--   Hold down the `Shift` button and click on the timeline marker, then
+-   Hold down the `${Shift}` button and click on the timeline marker, then
     drag it with the mouse. This will move the section forward or
     backward in time while keeping the duration.
 
 ### Shifting the section end
 
--   Hold down the `Ctrl` and `Shift` buttons and click on the timeline
+-   Hold down the `${Ctrl}` and `${Shift}` buttons and click on the timeline
     marker, then drag it with the mouse. This will increase or decrease
-    the section\'s duration while keeping the start date/time.
+    the section's duration while keeping the start date/time.
 
-::: hint
-::: title
+
+
 Hint
 :::
 
 \- Shifting operations with the mouse can be aborted with the `Esc` key
 before releasing the mouse button. - Shifting operations with the mouse
-can be undone with ![undo](_images/undo.png).
+can be undone with ![undo](images/undo.png).
 :::
 
 ## Command reference
 
-### \"Go to\" menu
+### "Go to" menu
 
 First section
 
@@ -84,7 +84,7 @@ Selected section
 :   Shift the timeline so that the section selected in the *novelibre*
     project tree is positioned in the center of the window.
 
-### \"Scale\" menu
+### "Scale" menu
 
 Hours
 
@@ -103,7 +103,7 @@ Fit to window
 :   This sets the scale and moves the timeline, so that all sections
     with valid or substituted date/time information fit into the window.
 
-### \"Cascading\" menu
+### "Cascading" menu
 
 The section marks are stacked on the timeline canvas, so that they would
 not overlap or cover the title of previous sections. If the stacking
@@ -123,25 +123,25 @@ Standard
 
 :   Reset the cascading to default.
 
-::: hint
-::: title
+
+
 Hint
 :::
 
-You can fine-tune the stacking limits with `Shift`-`Ctrl`-`Mousewheel`.
+You can fine-tune the stacking limits with `${Shift}`-`${Ctrl}`-`Mousewheel`.
 :::
 
-### \"Options\" menu
+### "Options" menu
 
 Use 00:00 for missing times
 
-:   -   If ticked, \"00:00\" is used as display time for sections
+:   -   If ticked, "00:00" is used as display time for sections
         without time information. This does not affect the section
         properties.
     -   If unticked, sections without time information are not
         displayed.
 
-### \"Help\" menu
+### "Help" menu
 
 Online help
 
@@ -149,63 +149,63 @@ Online help
 
 ### Buttons in the footer toolbar
 
-![rewindLeft](_images/rewindLeft.png) Go one page back
+![rewindLeft](images/rewindLeft.png) Go one page back
 
 :   Shift the timeline to go about one screen width back in time. Same
-    as the \"back\" mouse button (Windows).
+    as the "back" mouse button (Windows).
 
-![arrowLeft](_images/arrowLeft.png) Scroll back
+![arrowLeft](images/arrowLeft.png) Scroll back
 
 :   Shift the timeline to go 1/5 screen width back in time. You can move
     it more precisely with the mouse wheel.
 
-![goToFirst](_images/goToFirst.png) Go to the first section
+![goToFirst](images/goToFirst.png) Go to the first section
 
 :   Shift the timeline so that the earliest section is positioned near
     the left edge of the window.
 
-![goToSelected](_images/goToSelected.png) Go to the selected section
+![goToSelected](images/goToSelected.png) Go to the selected section
 
 :   Shift the timeline so that the section selected in the *novelibre*
     project tree is positioned in the center of the window.
 
-![goToLast](_images/goToLast.png) Go to the last section
+![goToLast](images/goToLast.png) Go to the last section
 
 :   Shift the timeline so that the latest section is positioned near the
     right edge of the window.
 
-![arrowRight](_images/arrowRight.png) Scroll forward
+![arrowRight](images/arrowRight.png) Scroll forward
 
 :   Shift the timeline to go 1/5 screen width forward in time. You can
     move it more precisely with the mouse wheel.
 
-![rewindRight](_images/rewindRight.png) Go one page forward
+![rewindRight](images/rewindRight.png) Go one page forward
 
 :   Shift the timeline to go about one screen width forward in time.
-    Same as the \"forward\" mouse button (Windows).
+    Same as the "forward" mouse button (Windows).
 
-![arrowDown](_images/arrowDown.png) Reduce the time scale
+![arrowDown](images/arrowDown.png) Reduce the time scale
 
 :   Reduce the time scale in major steps. Fine scaling is meant to be
     done with the mouse wheel.
 
-![fitToWindow](_images/fitToWindow.png) Fit to window
+![fitToWindow](images/fitToWindow.png) Fit to window
 
 :   This sets the scale and moves the timeline, so that all sections
     with valid or substituted date/time information fit into the window.
 
-![arrowUp](_images/arrowUp.png) Increase the time scale
+![arrowUp](images/arrowUp.png) Increase the time scale
 
 :   Increase the time scale in major steps. Fine scaling is meant to be
     done with the mouse wheel.
 
-![undo](_images/undo.png) Undo the last change
+![undo](images/undo.png) Undo the last change
 
 :   This restores date/time/duration before the last mouse operation on
     a section.
 
-    ::: caution
-    ::: title
+    
+    
     Caution
     :::
 
@@ -215,5 +215,5 @@ Online help
 
 Close
 
-:   Close the timeline viewer window. Same as `Ctrl`-`Q` (Linux) or
+:   Close the timeline viewer window. Same as `${Ctrl}`-`Q` (Linux) or
     `Alt`-`F4` (Windows).

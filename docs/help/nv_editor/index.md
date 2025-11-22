@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_editor/)
 
 ------------------------------------------------------------------------
@@ -9,7 +9,7 @@
 
 This page refers to the latest
 [nv_editor](https://github.com/peter88213/nv_editor/) release. You can
-open it with **Help \> Editor plugin Online help**.
+open it with **Help > Editor plugin Online help**.
 
 You can use the section editor to quickly edit and split individual
 sections. The editor provides access to the internal markup, which is
@@ -18,11 +18,11 @@ similar to HTML.
 ## Launch the section editor
 
 Open a section editor window by double-clicking on a section, or via the
-**Section \> Edit** menu entry when a section is selected, or by hitting
+**Section > Edit** menu entry when a section is selected, or by hitting
 the `Enter` key.
 
-::: note
-::: title
+
+
 Note
 :::
 
@@ -35,19 +35,19 @@ Note
 
 -   Select a word via double-clicking.
 -   Select a paragraph via triple-clicking.
--   Extend the selection via `Shift`-`Arrow`.
--   Extend the selection to the next word via `Ctrl`-`Shift`-`Arrow`.
--   `Ctrl`-`A` selects the whole text.
+-   Extend the selection via `${Shift}`-`Arrow`.
+-   Extend the selection to the next word via `${Ctrl}`-`${Shift}`-`Arrow`.
+-   `${Ctrl}`-`A` selects the whole text.
 
 ## Copy/Paste text
 
--   `Ctrl`-`C` copies the selected text to the clipboard.
--   `Ctrl`-`X` cuts the selected text and moves it to the clipboard.
--   `Ctrl`-`V` pastes the clipboard text content to the cursor position.
+-   `${Ctrl}`-`C` copies the selected text to the clipboard.
+-   `${Ctrl}`-`X` cuts the selected text and moves it to the clipboard.
+-   `${Ctrl}`-`V` pastes the clipboard text content to the cursor position.
 
 ## Format text
 
--   `Ctrl`-`I` places \"emphasized\" markup around the selected text or
+-   `${Ctrl}`-`I` places "emphasized" markup around the selected text or
     at the cursor, like so:
 
     `<em>Example</em>`{.html}
@@ -55,24 +55,24 @@ Note
     If the selection is already emphasized, the command removes the
     markup.
 
--   `Ctrl`-`B` places \"strong\" markup around the selected text or at
+-   `${Ctrl}`-`B` places "strong" markup around the selected text or at
     the cursor, like so:
 
     `<strong>Example</strong>`{.html}
 
     If the selection is already strong, the command removes the markup.
 
--   `Ctrl`-`M` removes \"emphasized\" and \"strong\" markup from the
+-   `${Ctrl}`-`M` removes "emphasized" and "strong" markup from the
     selection.
 
 ## Undo/Redo
 
--   `Ctrl`-`Z` undoes the last editing. Multiple undo is possible.
--   `Ctrl`-`Y` redoes the last undo. Multiple redo is possible.
+-   `${Ctrl}`-`Z` undoes the last editing. Multiple undo is possible.
+-   `${Ctrl}`-`Y` redoes the last undo. Multiple redo is possible.
 
 ## Split a section
 
-With **File \> Split at cursor position** or `Ctrl`-`Alt`-`S`, you can
+With **File > Split at cursor position** or `${Ctrl}`-`Alt`-`S`, you can
 split the section at the cursor position.
 
 -   All the text from the cursor position is cut and pasted into a newly
@@ -89,7 +89,7 @@ split the section at the cursor position.
 
 ## Create a section
 
-With **File \> Create section** or `Ctrl`-`Alt`-`N`, you can create a
+With **File > Create section** or `${Ctrl}`-`Alt`-`N`, you can create a
 section.
 
 -   The new section is placed after the currently edited section.
@@ -101,13 +101,13 @@ section.
 -   The section word count is displayed at the status bar at the bottom
     of the window.
 -   By default, word count is updated manually, either by pressing the
-    `F5` key, or via the **Word count \> Update** menu entry.
--   The word count can be updated \"live\", i.e. just while entering
-    text. This is enabled or disabled via the **Word count \> Live
+    `F5` key, or via the **Word count > Update** menu entry.
+-   The word count can be updated "live", i.e. just while entering
+    text. This is enabled or disabled via the **Word count > Live
     update** menu checkbox.
 
-::: note
-::: title
+
+
 Note
 :::
 
@@ -117,14 +117,14 @@ program when editing big sections. This is why it's disabled by default.
 
 ## Apply changes
 
-With `Ctrl`-`S`, you can apply changes to the section. Then \"Modified\"
+With `${Ctrl}`-`S`, you can apply changes to the section. Then "Modified"
 status is displayed in *novelibre*.
 
 -   If the project is locked in *novelibre*, you will be asked to unlock
     it before changes can be applied.
 
-::: note
-::: title
+
+
 Note
 :::
 
@@ -136,9 +136,9 @@ validity. Malformed XML will not be accepted.
 
 -   To close the editor window, click on the **Close** button, or just
     close the window.
--   Under Windows you can optionally exit with **Section \> Exit** or
+-   Under Windows you can optionally exit with **Section > Exit** or
     `Alt`-`F4`.
--   Otherwise you can optionally exit with **Section \> Quit** or
-    `Ctrl`-`Q`.
+-   Otherwise you can optionally exit with **Section > Quit** or
+    `${Ctrl}`-`Q`.
 -   When closing the editor window, you will be asked for applying
     changes.

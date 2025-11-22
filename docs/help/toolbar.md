@@ -17,27 +17,27 @@ Same as `Alt`-`Right`.
 
 ---
 
-![${Show Book}](images/viewBook.png) Go to the \"${Book}\" branch and expand
-it. Same as **${View} \> ${Show Book}**.
+![${Show Book}](images/viewBook.png) Go to the "${Book}" branch and expand
+it. Same as **${View} > ${Show Book}**.
 
-![${Show Characters}](images/viewCharacters.png) Go to the \"${Characters}\"
-branch and expand it. Same as **${View} \> ${Show Characters}**.
+![${Show Characters}](images/viewCharacters.png) Go to the "${Characters}"
+branch and expand it. Same as **${View} > ${Show Characters}**.
 
-![${Show Locations}](images/viewLocations.png) Go to the \"${Locations}\"
-branch and expand it. Same as **${View} \> ${Show Locations}**.
+![${Show Locations}](images/viewLocations.png) Go to the "${Locations}"
+branch and expand it. Same as **${View} > ${Show Locations}**.
 
-![${Show Items}](images/viewItems.png) Go to the \"${Items}\" branch and
-expand it. Same as **${View} \> ${Show Items}**.
+![${Show Items}](images/viewItems.png) Go to the "${Items}" branch and
+expand it. Same as **${View} > ${Show Items}**.
 
-![${Show Plot lines}](images/viewArcs.png) Go to the \"${Plot lines}\" branch
-and expand it. Same as **${View} \> ${Show Plot lines}**.
+![${Show Plot lines}](images/viewArcs.png) Go to the "${Plot lines}" branch
+and expand it. Same as **${View} > ${Show Plot lines}**.
 
-![${Show Project notes}](images/viewProjectnotes.png) Go to the \"${Project notes}\" 
-branch and expand it. Same as **${View} \> ${Show Project notes}**.
+![${Show Project notes}](images/viewProjectnotes.png) Go to the "${Project notes}" 
+branch and expand it. Same as **${View} > ${Show Project notes}**.
 
 ---
 
-![${Save}](images/save.png) Save the project. Same as **${File} \> ${Save}** or
+![${Save}](images/save.png) Save the project. Same as **${File} > ${Save}** or
 `${Ctrl}`-`S`.
 
 ![${Lock}/${Unlock}](images/lock.png) Toggle the lock status of the project.
@@ -46,7 +46,7 @@ branch and expand it. Same as **${View} \> ${Show Project notes}**.
 current manuscript. Same as selecting the manuscript under **${Import}**.
 
 ![Export manuscript](images/manuscript.png) Export the manuscript for
-editing. Same as **${Export} \> ${Manuscript for editing}**, but without
+editing. Same as **${Export} > ${Manuscript for editing}**, but without
 confirmation for opening the document.
 
 ---
@@ -89,7 +89,7 @@ clipboard:
 > 
 > 
 > If multiple elements are selected, only the first one will be copied.
-> However, if the element has \"children\", these will also be copied and
+> However, if the element has "children", these will also be copied and
 > pasted.
 
 
@@ -102,10 +102,10 @@ clipboard:
 ---
 
 ![${Toggle Text viewer}](images/viewer.png) Toggle Text viewer. Same as
-**${View} \> ${Toggle Text viewer}** or `${Ctrl}`-`T`.
+**${View} > ${Toggle Text viewer}** or `${Ctrl}`-`T`.
 
 ![${Toggle Properties}](images/properties.png) Toggle Properties. Same as
-**${View} \> ${Toggle Properties}** or `${Ctrl}`-`Alt`-`T`.
+**${View} > ${Toggle Properties}** or `${Ctrl}`-`Alt`-`T`.
 
 
 ---

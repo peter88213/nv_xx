@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_themes/)
 
 ------------------------------------------------------------------------
@@ -13,8 +13,8 @@ This page refers to the latest
 The plugin adds a **Change theme** entry to the *novelibre* **View**
 menu.
 
-::: important
-::: title
+
+
 Important
 :::
 
@@ -25,8 +25,8 @@ also need a modified color palette so that the colored text stands out
 against the dark background. *nv_dark* comes with such a color palette.
 :::
 
-::: note
-::: title
+
+
 Note
 :::
 
@@ -42,24 +42,24 @@ hardly do better with custom themes.
 
 By default, you can choose from a few themes that are not particularly
 attractive. To take full advantage of this plugin, you need the
-**ttkthemes** package, which is recommended on the plugin\'s homepage.
+**ttkthemes** package, which is recommended on the plugin's homepage.
 If you are familiar with Python, you can install it using *pip*, as
 described by the provider. On Linux, it may be more convenient to use
-the distribution\'s package manager.
+the distribution's package manager.
 
 Here is an example with *Synaptic* on Linux Mint:
 
-![Linux Mint screenshot](_images/nv_themes01.png)
+![Linux Mint screenshot](images/nv_themes01.png)
 
 ## Start the dialog
 
-Start the theme changer from the main menu: **View \> Change theme**.
+Start the theme changer from the main menu: **View > Change theme**.
 You can select the new theme from a drop-down list.
 
-![Windows screenshot](_images/nv_themes02.png)
+![Windows screenshot](images/nv_themes02.png)
 
-::: important
-::: title
+
+
 Important
 :::
 

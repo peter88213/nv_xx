@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_statistics/)
 
 ------------------------------------------------------------------------
@@ -9,18 +9,18 @@
 
 This page refers to the latest
 [nv_statistics](https://github.com/peter88213/nv_statistics/) release.
-You can open it with **Help \> Project statistics Online help**.
+You can open it with **Help > Project statistics Online help**.
 
 The plugin adds a **Project statistics view** entry to the *novelibre*
 **Tools** menu, and a **Project statistics Online help** entry to the
-**Help** menu. The Toolbar gets a ![Statistics](_images/statistics.png)
+**Help** menu. The Toolbar gets a ![Statistics](images/statistics.png)
 button.
 
 ## Launch the program
 
--   Open the project statistics viewer from the main menu: **Tools \>
+-   Open the project statistics viewer from the main menu: **Tools >
     Project statistics view**,
--   or via the ![Statistics](_images/statistics.png) button in the
+-   or via the ![Statistics](images/statistics.png) button in the
     toolbar.
 
 ## Charts

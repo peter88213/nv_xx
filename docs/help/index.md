@@ -6,7 +6,7 @@ novelibre [${Home page}](https://github.com/peter88213/novelibre) > [Index](../)
 
 This page refers to the
 [novelibre](https://github.com/peter88213/novelibre/) application. 
-You can open it with **${Help} \> ${Online user guide}**.
+You can open it with **${Help} > ${Online user guide}**.
 
 Here you will find the most important help pages from the novelibre user manual. 
 More information on installing and uninstalling novelibre, interesting details 

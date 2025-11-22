@@ -176,7 +176,7 @@ A backup copy is then automatically created.
 
 **Save the project with another file name/at another place**
 
-With **${File} > ${Save as...}** or `${Ctrl}`-`Shift`-`S`, you can save the
+With **${File} > ${Save as...}** or `${Ctrl}`-`${Shift}`-`S`, you can save the
 project with another file name/at another place. Then a file select
 dialog opens to specify the new path and file name.
 

@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_updater/)
 
 ------------------------------------------------------------------------
@@ -9,7 +9,7 @@
 
 This page refers to the latest
 [nv_updater](https://github.com/peter88213/nv_updater/) release. You can
-open it with **Help \> Update checker Online help**.
+open it with **Help > Update checker Online help**.
 
 The plugin adds a **Check for updates** entry to the *novelibre*
 **Tools** menu, and an **Update checker Online help** entry to the
@@ -17,21 +17,21 @@ The plugin adds a **Check for updates** entry to the *novelibre*
 
 ## Start the update checker
 
-Open the update checker from the main menu: **Tools \> Check for
+Open the update checker from the main menu: **Tools > Check for
 updates**.
 
 A list pops up, showing installed software components and their version
 information. Outdated list entries are colored red.
 
-![novelibre Screenshot](_images/screen02.png)
+![novelibre Screenshot](images/screen02.png)
 
-::: hint
-::: title
+
+
 Hint
 :::
 
 If no connection to the repository can be established, the current
-version is indicated as \"unknown\".
+version is indicated as "unknown".
 :::
 
 ### Buttons below the component list
@@ -39,12 +39,12 @@ version is indicated as \"unknown\".
 Update (or double-click on a list entry)
 
 :   starts your web browser with the download URL of the selected
-    software component, if the installed version doesn\'t match the
+    software component, if the installed version doesn't match the
     latest version. After giving this command, the list entry is colored
     blue.
 
-    ::: important
-    ::: title
+    
+    
     Important
     :::
 
@@ -67,8 +67,8 @@ Close
 
 :   Closes the update manager window and stops pending version checks.
 
-    ::: important
-    ::: title
+    
+    
     Important
     :::
 

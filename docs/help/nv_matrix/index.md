@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_matrix/)
 
 ------------------------------------------------------------------------
@@ -9,38 +9,38 @@
 
 This page refers to the latest
 [nv_matrix](https://github.com/peter88213/nv_matrix/) release. You can
-open it with **Help \> Matrix plugin Online help**.
+open it with **Help > Matrix plugin Online help**.
 
 The plugin adds a **Matrix** entry to the *novelibre* **Tools** menu,
 and a **Matrix plugin Online help** entry to the **Help** menu. The
-Toolbar gets a ![Matrix](_images/matrix.png) button.
+Toolbar gets a ![Matrix](images/matrix.png) button.
 
 ## Start the matrix manager
 
--   Open the matrix manager either from the main menu: **Tools \>
-    Matrix**,
--   or via the ![Matrix](_images/matrix.png) button in the toolbar.
+-   Open the matrix manager either from the main menu: 
+    **Tools > Matrix**,
+-   or via the ![Matrix](images/matrix.png) button in the toolbar.
 
 ## Hovertips
 
 Some fields display hovertips when you move the mouse cursor over them.
 
 -   Plot line heading: Plot line title.
--   Plot line node: The section\'s [Plot line
+-   Plot line node: The section's [Plot line
     notes](../section_view.html#plot-lines), if any.
 -   Character heading: Full name and aka, if any.
 
-![nv_matrix screenshot](_images/nv_matrix01.png)
+![nv_matrix screenshot](images/nv_matrix01.png)
 
 ## Add/remove relationships
 
--   Add/Remove relationships by klicking on the nodes with the `Ctrl`
+-   Add/Remove relationships by klicking on the nodes with the `${Ctrl}`
     key pressed.
 
 ## Mouse wheel scrolling
 
 -   Use the mouse wheel for vertical scrolling.
--   Use the mouse wheel with the `Shift` key pressed for horizontal
+-   Use the mouse wheel with the `${Shift}` key pressed for horizontal
     scrolling.
 
 ## The footer bar

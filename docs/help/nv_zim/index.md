@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_zim/)
 
 ------------------------------------------------------------------------
@@ -9,7 +9,7 @@
 
 This page refers to the latest
 [nv_zim](https://github.com/peter88213/nv_zim/) release. You can open it
-with **Help \> Zim connection Online help**.
+with **Help > Zim connection Online help**.
 
 *nv_zim* is a plugin that connects *novelibre* projects with a *Zim
 Desktop Wiki*. This is mainly intended for world building documentation.
@@ -17,8 +17,8 @@ Desktop Wiki*. This is mainly intended for world building documentation.
 The plugin adds an **Zim Desktop Wiki** entry to the *novelibre*
 **Tools** menu, and a **Zim connection Online help** entry to the
 **Help** menu. The property views of characters, locations, items, and
-book get a ![Zim](_images/zim.png) button. The Toolbar gets a
-![Zim](_images/zim.png) button.
+book get a ![Zim](images/zim.png) button. The Toolbar gets a
+![Zim](images/zim.png) button.
 
 ## Setting up Zim Desktop Wiki
 
@@ -28,8 +28,8 @@ To launch the [Zim Desktop Wiki](https://zim-wiki.org/) application,
 *nv_zim* must know the location of its installation. If you have
 installed Zim in the default directory, there is nothing to do here.
 
-::: note
-::: title
+
+
 Note
 :::
 
@@ -40,7 +40,7 @@ entry:
     [SETTINGS]
     .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
 
-If this file doesn\'t exist, or the path doesn\'t fit, the program
+If this file doesn't exist, or the path doesn't fit, the program
 searches the default installation paths for the 32-bit and the 64-bit
 versions under Windows, as well as `/usr/bin/zim` under Linux. If this
 fails, it opens a file selection dialog, asking for the location. The
@@ -77,8 +77,8 @@ put into a subdirectory of the *novelibre* project, named
 
 ### Notebook structure
 
-Auto-generated project wikis have a \"flat\" structure, which means: all
-wiki pages are located in the Zim notebook\'s *Home* folder. Groupings
+Auto-generated project wikis have a "flat" structure, which means: all
+wiki pages are located in the Zim notebook's *Home* folder. Groupings
 and tree structures can be created using links on appropriately
 structured overview pages. Compared to a folder structure, this has the
 advantage that each page can be categorized under several different
@@ -104,8 +104,8 @@ subsequently unlock the project and reopen the wiki or a page, it will
 automatically save the file paths and display a corresponding message on
 the status bar.
 
-::: tip
-::: title
+
+
 Tip
 :::
 
@@ -120,8 +120,8 @@ the *Zim* application.
 
 ### Open project wiki
 
-With **Tools \> Zim Desktop Wiki \> Open project wiki**, or clicking on
-the ![Zim](_images/zim.png) button on the toolbar, you can open the Zim
+With **Tools > Zim Desktop Wiki > Open project wiki**, or clicking on
+the ![Zim](images/zim.png) button on the toolbar, you can open the Zim
 notebook linked with the project.
 
 If there is no link yet, or if the saved link address is not valid, you
@@ -134,8 +134,8 @@ Browse
     the extension *.zim*. Zim is launched with the selected project wiki
     open.
 
-    ::: note
-    ::: title
+    
+    
     Note
     :::
 
@@ -150,8 +150,8 @@ Create
 :   this auto-creates a new blank Zim notebook in a subdirectory of the
     project directory, and opens it with Zim.
 
-    ::: note
-    ::: title
+    
+    
     Note
     :::
 
@@ -165,29 +165,29 @@ Cancel
 
 :   Aborts the operation without launching Zim.
 
-::: hint
-::: title
+
+
 Hint
 :::
 
 If you want to open the project wiki or a wiki page from within
-*novelibre*, but don\'t see any reaction, please take a look at the
+*novelibre*, but don't see any reaction, please take a look at the
 taskbar and see whether the *Zim Desktop Wiki* application is already
 open, but is covered by other open windows, e.g. by *novelibre*. In this
-case, the \"Zim\" window is not automatically lifted to the foreground.
+case, the "Zim" window is not automatically lifted to the foreground.
 :::
 
 ### Create project wiki
 
-With **Tools \> Zim Desktop Wiki \> Create project wiki** you can create
+With **Tools > Zim Desktop Wiki > Create project wiki** you can create
 a new Zim notebook in a subdirectory of the project directory and open
 it with Zim. The generated project wiki contains pages for the book and
 for all characters, locations, and items. If there is already a Zim
 notebook in the target directory, this directory is automatically
 renamed and kept as a backup.
 
-::: note
-::: title
+
+
 Note
 :::
 
@@ -199,7 +199,7 @@ re-select it in the next session.
 
 ### Remove wiki links
 
-With **Tools \> Zim Desktop Wiki \> Remove wiki links** you can remove
+With **Tools > Zim Desktop Wiki > Remove wiki links** you can remove
 saved wiki links from the project file. This takes effect when saving
 the next time.
 
@@ -217,9 +217,9 @@ All
 
 ## Book/Characters/Locations/Items properties
 
-![novelibre Screenshot](_images/wiki_button01.png)
+![novelibre Screenshot](images/wiki_button01.png)
 
-### ![Zim](_images/zim.png) Wiki page button
+### ![Zim](images/zim.png) Wiki page button
 
 #### Opening/creating a wiki page
 
@@ -243,8 +243,8 @@ Browse
     the extension *.txt*. Zim is launched with the selected wiki page
     open.
 
-    ::: note
-    ::: title
+    
+    
     Note
     :::
 
@@ -260,8 +260,8 @@ Create
 :   this auto-creates a new wiki page as a part of the project wiki, and
     opens it with Zim.
 
-    ::: note
-    ::: title
+    
+    
     Note
     :::
 

@@ -1,4 +1,4 @@
-![external-link](../_images/external-link.png)
+![external-link](../images/external-link.png)
 [Deutsch](https://peter88213.github.io/nvhelp-de/nv_timeline/)
 
 ------------------------------------------------------------------------
@@ -9,31 +9,31 @@
 
 This page refers to the latest
 [nv_timeline](https://github.com/peter88213/nv_timeline/) release. You
-can open it with **Help \> Timeline plugin Online help**.
+can open it with **Help > Timeline plugin Online help**.
 
 The plugin adds a **Timeline** entry to the *novelibre* **Tools** menu,
-a **Create from Timeline\...** to the **File \> New** submenu, and a
+a **Create from Timeline\...** to the **File > New** submenu, and a
 **Timeline plugin Online Help** entry to the **Help** menu. The Toolbar
-gets a ![Timeline](_images/tl.png) button.
+gets a ![Timeline](images/tl.png) button.
 
 ## Command reference
 
-### Tools \> Timeline \> Information
+### Tools > Timeline > Information
 
 -   Show information about an existing *Timeline* project, if any.
     *Timeline* and *novelibre* file dates are compared.
 
-### Tools \> Timeline \> Create or update the timeline
+### Tools > Timeline > Create or update the timeline
 
 If a timeline exists, update it from *novelibre*, otherwise create a new
 timeline.
 
-### Tools \> Timeline \> Update the project
+### Tools > Timeline > Update the project
 
 Update the *novelibre* project from the timeline, if existing.
 
-::: important
-::: title
+
+
 Important
 :::
 
@@ -43,29 +43,29 @@ changes may not be recognized. In case of doubt, close *Timeline* before
 syncing with *novelibre*.
 :::
 
-### Tools \> Timeline \> Open Timeline
+### Tools > Timeline > Open Timeline
 
-Same as clicking on the ![Timeline](_images/tl.png) button on the
+Same as clicking on the ![Timeline](images/tl.png) button on the
 toolbar.
 
 Open the project's timeline, if existing, with the *Timeline*
 application. Depending on the configuration (see below), the project is
 automatically locked.
 
-### File \> New \> Create from Timeline\...
+### File > New > Create from Timeline\...
 
 Open a file dialog to select a timeline. If no *novelibre* project with
 the timeline's file name exists, create a new one from the timeline.
 
-::: hint
-::: title
+
+
 Hint
 :::
 
-To become sections in *novelibre*, *Timeline* Events need a \"Section\"
+To become sections in *novelibre*, *Timeline* Events need a "Section"
 label.
 
-![Timeline Screenshot](_images/event01.png)
+![Timeline Screenshot](images/event01.png)
 
 The idea behind this is that only selected events should be included as
 sections in the *novelibre* project. There may also be background
@@ -104,7 +104,7 @@ values in the *novelibre* installation directory under
 
 You best make a copy and edit it.
 
--   The SETTINGS section comprises the program \"constants\". If you
+-   The SETTINGS section comprises the program "constants". If you
     change them, the program might behave differently than described in
     the documentation. So only touch them if you are clear about the
     consequences.
@@ -151,8 +151,8 @@ Just delete your global and local configuration files.
     other file for the first time. After that, the two files can be
     synchronized against each other.
 
-::: caution
-::: title
+
+
 Caution
 :::
 
@@ -184,13 +184,13 @@ the target file.
 
 ### On the Timeline side
 
--   A section ID is a string looking like \"sc1\". It is auto-generated
+-   A section ID is a string looking like "sc1". It is auto-generated
     and must not be changed manually.
--   Only events with a label containing the string \"Section\" (user
+-   Only events with a label containing the string "Section" (user
     input) or a section ID (auto-generated) are exported as sections to
     a new *novelibre* project.
 -   When creating a new *novelibre* project from a timeline the first
-    time, \"Section\" labels are replaced with section ID labels.
+    time, "Section" labels are replaced with section ID labels.
 -   If a new *novelibre* project is generated again with the same
     timeline, the section ID labels may change.
 -   Only events with a label containing a section ID are synchronized
