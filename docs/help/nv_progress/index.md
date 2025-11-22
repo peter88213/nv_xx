@@ -17,8 +17,8 @@ The plugin adds a **${Daily progress log}** entry to the *novelibre*
 
 > **Important**
 > 
-> To see the daily writing progress, please make sure that it is actually
-> [logged](../book_view.html#writing-progress) for your project.
+> To see the daily writing progress, please make sure that 
+> ${Log writing progress} is activated for your project.
 
 
 ## Launch the program
