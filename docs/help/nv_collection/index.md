@@ -1,7 +1,6 @@
-![external-link](../images/external-link.png)
-[Deutsch](https://peter88213.github.io/nvhelp-de/nv_collection/)
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > nv_collection
 
-------------------------------------------------------------------------
+---
 
 # nv_collection
 
@@ -101,3 +100,10 @@ collection, use **${Series} > ${Remove selected series}**.
 -   Under Windows you can exit with **${File} > ${Exit}** or `Alt`-`F4`.
 -   Otherwise you can exit with **${File} > ${Quit}** or `${Ctrl}`-`Q`.
 
+
+---
+
+[English manual](https://peter88213.github.io/nvhelp-en/)
+
+
+Copyright (c) 2025 by Peter Triesberger. All rights reserved.

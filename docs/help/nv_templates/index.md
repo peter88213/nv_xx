@@ -1,7 +1,6 @@
-![external-link](../images/external-link.png)
-[Deutsch](https://peter88213.github.io/nvhelp-de/nv_templates/)
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > nv_templates
 
-------------------------------------------------------------------------
+---
 
 # nv_templates
 
@@ -126,3 +125,10 @@ The final moment of the story's conflict.
 This file generates the following structure in an empty project:
 
 ![Screenshot](images/structure01.png)
+
+---
+
+[English manual](https://peter88213.github.io/nvhelp-en/)
+
+
+Copyright (c) 2025 by Peter Triesberger. All rights reserved.

@@ -1,7 +1,6 @@
-![external-link](../images/external-link.png)
-[Deutsch](https://peter88213.github.io/nvhelp-de/nv_zim/)
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > nv_zim
 
-------------------------------------------------------------------------
+---
 
 # nv_zim
 
@@ -263,3 +262,10 @@ Aborts the operation without launching Zim.
 
 Clicking on the Wiki page button while holding down the `Alt` key
 removes the link after confirmation.
+
+---
+
+[English manual](https://peter88213.github.io/nvhelp-en/)
+
+
+Copyright (c) 2025 by Peter Triesberger. All rights reserved.

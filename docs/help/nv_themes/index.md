@@ -1,7 +1,6 @@
-![external-link](../images/external-link.png)
-[Deutsch](https://peter88213.github.io/nvhelp-de/nv_themes/)
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > nv_themes
 
-------------------------------------------------------------------------
+---
 
 # nv_themes
 
@@ -59,3 +58,10 @@ You can select the new theme from a drop-down list.
 > is only a non-binding preview. Not all display elements may have their
 > final color. Better restart *novelibre* after you have changed the theme.
 
+
+---
+
+[English manual](https://peter88213.github.io/nvhelp-en/)
+
+
+Copyright (c) 2025 by Peter Triesberger. All rights reserved.

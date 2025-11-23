@@ -1,7 +1,6 @@
-![external-link](../images/external-link.png)
-[Deutsch](https://peter88213.github.io/nvhelp-de/nv_tlview/)
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > nv_tlview
 
-------------------------------------------------------------------------
+---
 
 # nv_tlview
 
@@ -196,3 +195,10 @@ This restores date/time/duration before the last mouse operation on a section.
 
 Close the timeline viewer window. Same as `${Ctrl}`-`Q` (Linux) or `Alt`-`F4` (Windows).
 
+
+---
+
+[English manual](https://peter88213.github.io/nvhelp-en/)
+
+
+Copyright (c) 2025 by Peter Triesberger. All rights reserved.

@@ -1,4 +1,4 @@
-novelibre [${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > ${Online help}
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > ${Online help}
 
 ---
 
@@ -59,6 +59,23 @@ where users can publish further instructions, tips, and tutorials in xxx.
 - [${Plot line} properties](plotline_view.md)
 - [${Plot point} properties](point_view.md)
 - [${Project note} properties](project_note_view.md)
+
+
+## Plugins 
+
+- [nv_collection](nv_collection/)
+- [nv_editor](nv_editor/)
+- [nv_matrix](nv_matrix/)
+- [nv_progress](nv_progress/)
+- [nv_snapshots](nv_snapshots/)
+- [nv_statistics](nv_statistics/)
+- [nv_templates](nv_templates/)
+- [nv_themes](nv_themes/)
+- [nv_timeline](nv_timeline/)
+- [nv_tlview](nv_tlview/)
+- [nv_updater](nv_updater/)
+- [nv_zim](nv_zim/)
+
 
 ---
 

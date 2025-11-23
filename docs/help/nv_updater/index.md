@@ -1,7 +1,6 @@
-![external-link](../images/external-link.png)
-[Deutsch](https://peter88213.github.io/nvhelp-de/nv_updater/)
+novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > nv_updater
 
-------------------------------------------------------------------------
+---
 
 # nv_updater
 
@@ -65,3 +64,10 @@ Closes the update manager window and stops pending version checks.
 > **Important**
 > 
 > To take effect, update installations require a *novelibre* restart.
+
+---
+
+[English manual](https://peter88213.github.io/nvhelp-en/)
+
+
+Copyright (c) 2025 by Peter Triesberger. All rights reserved.
