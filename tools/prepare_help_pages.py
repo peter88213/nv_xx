@@ -11,7 +11,7 @@ help_dir = '../docs/help'
 index_page = f'{help_dir}/index.md'
 json_dict = '../dictionary/msg_dict.json'
 page_link_pattern = re.compile(r'- \[(.*?)\]\((.*?)\)')
-page_template = '''[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [Index](../) > [${Online help}](./) > $Heading
+page_template = '''[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > $Heading
 
 ---
 
@@ -31,14 +31,16 @@ def translate_special_terms():
     with open(json_dict, 'r', encoding='utf-8') as f:
         dictionary = json.load(f)
     for page_name in os.listdir(help_dir):
-        if not page_name.endswith('.md'):
-            continue
-
         page_path = f'{help_dir}/{page_name}'
+        if not page_path.endswith('.md'):
+            page_path = f'{page_path}/index.md'
+            if not os.path.isfile(page_path):
+                continue
+
         print(f'Translating "{page_path}"...')
         with open(page_path, 'r', encoding='utf-8') as f:
             text = f.read()
-        text = MyTemplate(text).substitute(dictionary)
+        text = MyTemplate(text).safe_substitute(dictionary)
         with open(page_path, 'w', encoding='utf-8') as f:
             f.write(text)
 
@@ -69,7 +71,7 @@ def create_missing_pages(skip=True):
 
 
 def main():
-    create_missing_pages()
+    # create_missing_pages()
     translate_special_terms()
     print('Done.')
 
