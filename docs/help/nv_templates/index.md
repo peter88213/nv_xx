@@ -1,4 +1,4 @@
-novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../../) > [${Online help}](../) > nv_templates
+[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../../) > [${Online help}](../) > nv_templates
 
 ---
 

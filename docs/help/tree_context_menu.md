@@ -1,4 +1,4 @@
-novelibre [${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > Tree view context menu
+[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > Tree view context menu
 
 ---
 
@@ -10,6 +10,50 @@ opens that belongs to the type of the selected element.
 > **Hint**
 > 
 > Greyed-out entries are not available, e.g. due to "project lock".
+
+## Common context menu entries for the tree view
+
+### ${Expand all}
+
+Shows the whole tree.
+
+### ${Collapse all}
+
+Hides all tree elements except the main categories.
+
+### ${Chapter level}
+
+Hides the sections by collapsing the tree, so that only parts and
+chapters are visible.
+
+## Common context menu entries for clipboard operations
+
+> **Hint**
+>
+>   If the selected element has "children", these will also be copied and pasted.
+
+> **Attention**
+>
+>   Relationships are not included when copying to the clipboard.
+>   This also applies to the section viewpoint and for plot lines/plot points.   
+
+
+### ${Cut}
+
+Move the selected element from the tree to the clipboard.
+Same as ${`Ctrl`}-`X`.
+
+### ${Copy}
+
+Copy the selected element to the clipboard.
+Same as ${`Ctrl`}-`C`.
+
+### ${Paste}
+
+Paste the element stored in the clipboard to the tree.
+Same as ${`Ctrl`}-`V`.
+
+
 
 ## ${Book} context menu entries
 
@@ -146,27 +190,6 @@ with the same viewpoint.
 > **Caution**
 > 
 > Be aware, there is no "Undo" feature.
-
-### ${Chapter level}
-
-Hides the sections by collapsing the tree, so that only parts and
-chapters are visible.
-
-### ${Expand}
-
-Shows a whole branch by expanding the selected tree element.
-
-### ${Collapse}
-
-Hides the child elements of the selected tree element.
-
-### ${Expand all}
-
-Shows the whole tree.
-
-### ${Collapse all}
-
-Hides all tree elements except the main categories.
 
 ## ${Characters}/${Locations}/${Items} context menu entries
 
