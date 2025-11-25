@@ -87,7 +87,7 @@ With **${Tools} > ${Plugin Manager}**, you can open the
 
 ### How to uninstall a plugin
 
-Select the plugin, and click on the **${Delete}** button.
+Select the plugin, and click on the **${Uninstall}** button.
 
 > **About version compatibility**
 > 
