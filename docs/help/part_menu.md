@@ -27,6 +27,8 @@ With **${Part} > ${Export part descriptions for editing}**, you can create a
 text document that contains a **very brief synopsis** with part headings
 and part descriptions. File name suffix is `_parts_tmp`.
 
+---
+
 ## ${Export part table}
 
 **Export an ODS document that can be imported again after editing**

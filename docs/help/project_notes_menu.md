@@ -18,6 +18,8 @@ With **${Project notes} > ${Add}**, you can add a project note to the tree.
 -   The new project note has an auto-generated title. You can change it
     in the right pane.
 
+---
+
 ## ${Show table in Browser}
 
 **Show an HTML report with project notes**

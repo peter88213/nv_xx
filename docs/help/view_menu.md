@@ -6,39 +6,6 @@
 
 **Control the display**
 
-## ${Chapter level}
-
-**Hide the sections**
-
-With **${View} > ${Chapter level}** or `${Ctrl}`-`Alt`-`C`, you can collapse the
-tree, so that only parts and chapters are visible.
-
-## ${Expand selected}
-
-**Show a whole branch**
-
-With **${View} > ${Expand selected}**, you can expand a selected tree
-element.
-
-## ${Collapse selected}
-
-**Hide child elements**
-
-With **${View} > ${Collapse selected}**, you can collapse a selected branch.
-
-## ${Expand all}
-
-**Show the whole tree**
-
-With **${View} > ${Expand all}**, you can expand the whole tree.
-
-## ${Collapse all}
-
-**Hide child elements**
-
-With **${View} > ${Collapse all}**, you can hide all tree elements except the
-main categories.
-
 ## ${Show Book}
 
 **Go to the "${Book}" branch and expand it**
@@ -79,6 +46,43 @@ With **${View} > ${Show Plot lines}**, you can select and open the
 
 With **${View} > ${Show Project notes}**, you can select and open the 
 "${Project notes}" branch.
+
+---
+
+## ${Chapter level}
+
+**Hide the sections**
+
+With **${View} > ${Chapter level}** or `${Ctrl}`-`Alt`-`C`, you can collapse the
+tree, so that only parts and chapters are visible.
+
+## ${Expand all}
+
+**Show the whole tree**
+
+With **${View} > ${Expand all}**, you can expand the whole tree.
+
+## ${Collapse all}
+
+**Hide child elements**
+
+With **${View} > ${Collapse all}**, you can hide all tree elements except the
+main categories.
+
+## ${Expand selected}
+
+**Show a whole branch**
+
+With **${View} > ${Expand selected}**, you can expand a selected tree
+element.
+
+## ${Collapse selected}
+
+**Hide child elements**
+
+With **${View} > ${Collapse selected}**, you can collapse a selected branch.
+
+---
 
 ## ${Toggle Text viewer}
 

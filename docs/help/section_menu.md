@@ -39,6 +39,8 @@ sections to the tree.
     selection, if possible.
 -   Otherwise, no new section is generated.
 
+---
+
 ## ${Set Type}
 
 **Set the type of the selected section**
@@ -82,6 +84,8 @@ the viewpoint association.
 > 
 > Select a parent node to set the viewpoint for all subordinate sections.
 
+---
+
 ## ${Export section descriptions for editing}
 
 **Export an ODT document that can be imported again after editing**
@@ -90,6 +94,8 @@ With **${Section} > ${Export section descriptions for editing}**, you can
 create a text document with a **full synopsis** containing part/chapter
 headings and section descriptions that can be edited and reimported.
 File name suffix is `_sections_tmp`.
+
+---
 
 ## ${Section table (export only)}
 

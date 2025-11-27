@@ -117,6 +117,8 @@ create a text document with visible section markers. File name suffix is
 -   Change tracking: All changes are accepted on import. Change tracking
     data is lost.
 
+---
+
 ## ${Final manuscript document (export only)}
 
 **Export an ODT document**
@@ -189,6 +191,8 @@ The cross references are:
 -   locations per tag,
 -   items per tag.
 
+---
+
 ## ${XML data files}
 
 **Export XML files that can be imported into other projects**
@@ -203,6 +207,8 @@ elements to another projects.
 > To import XML data files from another project, use the **${Import}**
 > command in the **${Characters}**, **${Locations}**, **${Items}**, 
 > or **${Plot}** menu.
+
+---
 
 ## ${Options}
 

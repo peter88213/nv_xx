@@ -85,6 +85,8 @@ saved project file. You will get a warning, because changes may be lost.
 > After restoring the backup, a backup copy is no longer available in the
 > project directory. A new backup copy is created when saving the project.
 
+---
+
 ## ${Refresh Tree}
 
 **Enforce tree refresh after making changes**
@@ -112,6 +114,8 @@ With **${File} > ${Lock}** or `${Ctrl}`-`L`, you can lock the project.
 **Make the project editable**
 
 With **${File} > ${Unlock}** or `${Ctrl}`-`U`, you can unlock the project.
+
+---
 
 ## ${Open Project folder}
 
@@ -159,6 +163,7 @@ made with *novelibre* and *Writer*.
 > You can also discard any previously exported document "for editing"
 > via the ${Import} dialog.
 
+---
 
 ## ${Save}
 

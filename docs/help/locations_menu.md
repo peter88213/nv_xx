@@ -18,6 +18,8 @@ With **${Locations} > ${Add}**, you can add a location to the tree.
 -   The new location has an auto-generated title. You can change it in
     the right pane.
 
+---
+
 ## ${Import}
 
 **Import locations from another project**
@@ -31,6 +33,8 @@ current project.
 > 
 > To create an XML location data file for the current project, use
 > **${Export} > ${XML data files}**.
+
+---
 
 ## ${Export location descriptions for editing}
 
@@ -55,6 +59,8 @@ and reimported. File name suffix is `_loclist_tmp`.
 > reimport. Only the first column and the first row, which are hidden by
 > default, must not be changed as they contain the structural information
 > for the import.
+
+---
 
 ## ${Show table in Browser}
 
