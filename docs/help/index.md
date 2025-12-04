@@ -12,15 +12,19 @@ Here you will find the most important help pages from the novelibre user manual.
 More information on installing and uninstalling novelibre, interesting details 
 on the user concept, and "How To" guides can be found in the 
 [English version](https://peter88213.github.io/nvhelp-en/). 
+The [novelibre wiki](https://github.com/peter88213/novelibre/wiki)
+provides further detailed instructions in English.
 
 There is also a [wiki](https://github.com/peter88213/nv_xx/wiki) 
 where users can publish further instructions, tips, and tutorials in xxx.
+
 
 > **Note**
 > 
 > This online manual is to be translated. 
 > For the time being, most of the content is in English, but the terms of the
 > user interface are consistently referred to in their translated form.
+
 
 ## General
 
