@@ -249,6 +249,18 @@ Major characters are highlighted in the tree view.
 > 
 > Select the *${Characters}* root node to set the status for all characters.
 
+
+### ${Highlight sections with this viewpoint}
+
+Highlights the sections that are narrated from the viewpoint
+of the selected character.
+
+
+### ${Highlight related sections}
+
+Highlights the sections to which the selected character, location,
+or item is related.
+
 ## Plot lines context menu entries
 
 ### ${Add Plot line}
@@ -316,6 +328,14 @@ Deletes the selected plot line/plot point.
 > 
 > Be aware, there is no "Undo" feature. If you delete a plot line, all
 > its plot points will be deleted, too.
+
+
+### ${Highlight related sections}
+
+Highlights the sections that are related to the selected plot line
+or plot point.
+
+
 
 ## Project notes context menu entries
 

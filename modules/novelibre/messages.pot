@@ -1,17 +1,17 @@
 # novelibre Dictionary
-# Copyright (C) 2023 Peter Triesberger
+# Copyright (C) 2025 Peter Triesberger
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 5.42.1\n"
-"POT-Creation-Date: 2025-11-14 18:55:34\n"
+"Project-Id-Version: 5.45.0\n"
+"POT-Creation-Date: 2025-12-12 18:28:10\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: novxlib pgettext.py 0.3\n"
+"Generated-By: novelibre pgettext.py 1.0\n"
 
 
 msgid "\"Export\" options"
@@ -60,9 +60,6 @@ msgid "Add Plot line"
 msgstr ""
 
 msgid "Add Plot point"
-msgstr ""
-
-msgid "Add Project note"
 msgstr ""
 
 msgid "Add Section"
@@ -308,9 +305,6 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-msgid "Collapse"
-msgstr ""
-
 msgid "Collapse all"
 msgstr ""
 
@@ -497,9 +491,6 @@ msgstr ""
 msgid "Exit"
 msgstr ""
 
-msgid "Expand"
-msgstr ""
-
 msgid "Expand all"
 msgstr ""
 
@@ -648,6 +639,12 @@ msgid "Heading_20_3_20_invisible"
 msgstr ""
 
 msgid "Help"
+msgstr ""
+
+msgid "Highlight related sections"
+msgstr ""
+
+msgid "Highlight sections with this viewpoint"
 msgstr ""
 
 msgid "Home page"
@@ -878,6 +875,12 @@ msgstr ""
 msgid "No project notes found"
 msgstr ""
 
+msgid "No relationship found"
+msgstr ""
+
+msgid "No section tagged with"
+msgstr ""
+
 msgid "No text available"
 msgstr ""
 
@@ -897,6 +900,9 @@ msgid "Not a floating point value."
 msgstr ""
 
 msgid "Not a scene"
+msgstr ""
+
+msgid "Not a viewpoint character"
 msgstr ""
 
 msgid "Not an integer."
@@ -920,9 +926,6 @@ msgstr ""
 msgid "ODF Text Document"
 msgstr ""
 
-msgid "ODF Text Document Template"
-msgstr ""
-
 msgid "ODF Text document"
 msgstr ""
 
@@ -939,9 +942,6 @@ msgid "Older than the project file"
 msgstr ""
 
 msgid "Online help"
-msgstr ""
-
-msgid "Online user guide"
 msgstr ""
 
 msgid "Open"
@@ -1157,6 +1157,9 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
+msgid "Reset Highlighting"
+msgstr ""
+
 msgid "Restart chapter numbering at part beginning"
 msgstr ""
 
@@ -1313,6 +1316,9 @@ msgstr ""
 msgid "Style sheet copied into the project folder."
 msgstr ""
 
+msgid "Tag"
+msgstr ""
+
 msgid "Tagged manuscript for proofing"
 msgstr ""
 
@@ -1410,6 +1416,12 @@ msgid "Undefined"
 msgstr ""
 
 msgid "Unhandled exception on exit"
+msgstr ""
+
+msgid "Uninstall"
+msgstr ""
+
+msgid "Uninstalled {}"
 msgstr ""
 
 msgid "Unknown author"
@@ -1536,9 +1548,6 @@ msgid "days after death"
 msgstr ""
 
 msgid "days old"
-msgstr ""
-
-msgid "deleted"
 msgstr ""
 
 msgid "elements imported"

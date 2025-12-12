@@ -101,6 +101,11 @@ clipboard:
 
 ---
 
+![Reset highlighting](images/highlight.png) Reset the highlighting of sections.
+While sections are highlighted, the criterion is displayed on the right of the button.
+
+---
+
 ![${Toggle Text viewer}](images/viewer.png) Toggle Text viewer. Same as
 **${View} > ${Toggle Text viewer}** or `${Ctrl}`-`T`.
 
