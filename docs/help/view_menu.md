@@ -6,6 +6,18 @@
 
 **Control the display**
 
+
+## ${Highlight tagged elements}
+
+With **${View} > ${Highlight tagged elements}**,
+you can highlight elements with a specified tag. This opens a tag selection dialog.
+
+## ${Reset Highlighting}
+
+With **${View} > ${Reset Highlighting}**,
+you can reset the highlighting of tree elements.
+
+---
 ## ${Show Book}
 
 **Go to the "${Book}" branch and expand it**
