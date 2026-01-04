@@ -257,6 +257,21 @@ supported by *novelibre*.
 
 ---
 
+## Global search and replace
+
+If you want to change a name throughout the novel, you can export, 
+edit and reimport the two relevant documents: 
+
+- The ${Manuscript including unused text}
+- The ${Metadata text table for editing}
+ 
+Together, these two documents contain both the novel text and the contents 
+of unused sections or sections that have been moved to the trash, all headings, 
+names, titles, descriptions, and other metadata texts.
+
+
+---
+
 ## Project lock
 
 When exporting a document that can be edited outsides *novelibre*, the
