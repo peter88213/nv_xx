@@ -1,17 +1,17 @@
-# nv_statistics Dictionary
-# Copyright (C) 2026 Peter Triesberger
+# nv_assistant Dictionary
+# Copyright (C) 2023 Peter Triesberger
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 5.7.0\n"
-"POT-Creation-Date: 2026-01-12 16:56:17\n"
+"Project-Id-Version: 0.1.0\n"
+"POT-Creation-Date: 2025-09-17 21:31:51\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: LANGUAGE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: novelibre pgettext.py 1.0\n"
+"Generated-By: novxlib pgettext.py 0.3\n"
 
 
 msgid "1st Edit"
@@ -23,16 +23,13 @@ msgstr ""
 msgid "Bio"
 msgstr ""
 
-msgid "Chapters"
-msgstr ""
-
 msgid "Characterization"
 msgstr ""
 
 msgid "Close"
 msgstr ""
 
-msgid "Ctrl"
+msgid "Create"
 msgstr ""
 
 msgid "Done"
@@ -53,47 +50,32 @@ msgstr ""
 msgid "Minor Character"
 msgstr ""
 
+msgid "New project assistant"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
 msgid "Opening"
 msgstr ""
 
 msgid "Outline"
 msgstr ""
 
-msgid "Parts"
-msgstr ""
-
 msgid "Peak emotional moment"
-msgstr ""
-
-msgid "Plot lines"
 msgstr ""
 
 msgid "Plot progress"
 msgstr ""
 
-msgid "Plot structure"
+msgid "Previous"
 msgstr ""
 
-msgid "Project statistics Online help"
-msgstr ""
-
-msgid "Project statistics view"
-msgstr ""
-
-msgid "Sections"
-msgstr ""
-
-msgid "Stages (first level)"
-msgstr ""
-
-msgid "Stages (second level)"
-msgstr ""
-
-msgid "Viewpoints"
+msgid "Step"
 msgstr ""
 
 msgid "World building"
 msgstr ""
 
-msgid "https://peter88213.github.io/nvhelp-en"
+msgid "nv_assistant Online help"
 msgstr ""
