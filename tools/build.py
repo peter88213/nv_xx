@@ -1,9 +1,9 @@
-"""Build the nv_xx novelibre plugin package.
+"""Build the nv_it novelibre plugin package.
         
 Note: VERSION must be updated manually before starting this script.
 
 Copyright (c) 2025 Peter Triesberger
-For further information see https://github.com/peter88213/nv_xx
+For further information see https://github.com/peter88213/nv_it
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
 import os
@@ -17,8 +17,8 @@ from settings import *
 
 sys.path.insert(0, f'{os.getcwd()}/../../novelibre/tools')
 
-VERSION = '5.42.0'
-LANGUAGE_CODE = 'xx'
+VERSION = '5.42.1'
+LANGUAGE_CODE = 'it'
 
 
 def output(message):
@@ -27,7 +27,11 @@ def output(message):
 
 class PluginBuilder(PackageBuilder):
 
-    PRJ_NAME = 'nv_xx'
+    PRJ_NAME = 'nv_it'
+
+    def __init__(self, version):
+        super().__init__(version)
+        self.translationsComplete = False
 
     def build_py_module(self):
         os.makedirs(self.testDir, exist_ok=True)
@@ -38,9 +42,8 @@ class PluginBuilder(PackageBuilder):
         """Generate the language files for the distribution."""
         output('Creating/updating the translations ...')
         # Check whether translations are complete.
-        if not set_up.main():
-            output('PROGRAM ABORTED. Please complete translations.')
-            return False
+        if set_up.main():
+            self.translationsComplete = True
 
         # Create the target path.
         localePath = f'locale/{LANGUAGE_CODE}/LC_MESSAGES'
@@ -66,6 +69,8 @@ class PluginBuilder(PackageBuilder):
 def main():
     pb = PluginBuilder(VERSION)
     pb.run()
+    if not pb.translationsComplete:
+        output('WARNING: The translations are incomplete.')
 
 
 if __name__ == '__main__':
