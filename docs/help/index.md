@@ -36,7 +36,6 @@ where users can publish further instructions, tips, and tutorials in xxx.
 
 - [${File} menu](file_menu.md)
 - [${View} menu](view_menu.md)
-- [${Part} menu](part_menu.md)
 - [${Chapter} menu](chapter_menu.md)
 - [${Section} menu](section_menu.md)
 - [${Characters} menu](characters_menu.md)

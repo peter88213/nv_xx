@@ -4,13 +4,13 @@
 
 # ${Chapter} menu
 
-**Chapter operation**
+**Chapter/part operation**
 
-## ${Add}
+## ${Add Chapter}
 
 **Add a new chapter**
 
-With **${Chapter} > ${Add}**, you can add a chapter to the tree.
+With **${Chapter} > ${Add Chapter}**, you can add a chapter to the tree.
 
 -   The new chapter is placed at the next free position after the
     selection, if possible.
@@ -23,6 +23,19 @@ With **${Chapter} > ${Add}**, you can add a chapter to the tree.
 > 
 > To automatically name the new chapter and, if necessary, place it above
 > the "Trash Bin," subsequently press `F5`.
+
+## ${Add Part}
+
+**Add a new part**
+
+With **${Chapter} > ${Add Part}**, you can add a part to the tree.
+
+-   The new part is placed at the next free position on the chapter
+    level after the selection, if possible.
+-   Otherwise, the new part is placed at the last position on the
+    chapter level.
+-   The new part has an auto-generated title. You can change it in the
+    right pane.
 
 ## ${Add multiple chapters...}
 
@@ -99,6 +112,25 @@ reimported. File name suffix is `_chapters_tmp`.
    > discarded after the *novelibre* project is updated.
 
 
+## ${Export part descriptions for editing}
+
+**Export an ODT document that can be imported again after editing**
+
+With **${Chapter} > ${Export part descriptions for editing}**, you can create a
+text document that contains a **very brief synopsis** with part headings
+and part descriptions. File name suffix is `_parts_tmp`.
+
+-  Parts can neither be rearranged nor deleted.
+-  With *Writer*, you can create parts and chapters by inserting headings
+   within the description area:
+
+   -  *Heading 1* → New part title.
+   -  *Heading 2* → New chapter title.
+
+   > **Important** 
+   > Documents with new parts or chapters are automatically
+   > discarded after the *novelibre* project is updated.
+
 ## ${Export chapter table}
 
 **Export an ODS document that can be imported again after editing**
@@ -106,6 +138,20 @@ reimported. File name suffix is `_chapters_tmp`.
 With **${Chapter} > ${Export chapter table}**, you can create a spreadsheet
 that contains a row per chapter. The document can be edited with *Calc*
 and reimported. File name suffix is `_chapterlist_tmp`.
+
+> **Note**
+> 
+> You can reorder, hide or delete columns and rows without affecting the
+> reimport. Only the first column and the first row, which are hidden by
+> default, must not be changed as they contain the structural information
+> for the import.
+
+## ${Export part table}
+
+**Export an ODS document that can be imported again after editing**
+
+With **${Chapter} > ${Export part table}**, you can create a spreadsheet that
+contains a row per part. File name suffix is `_partlist_tmp`.
 
 > **Note**
 > 
