@@ -8,7 +8,7 @@ xxx language package for [novelibre](https://github.com/peter88213/novelibre/).
 
 ## Requirements
 
-- [novelibre](https://github.com/peter88213/novelibre/) version 5.42+
+- [novelibre](https://github.com/peter88213/novelibre/) version $ApiVersion+
 
 ## Download and install
 
