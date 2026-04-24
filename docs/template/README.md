@@ -6,6 +6,19 @@
 
 xxx language package for [novelibre](https://github.com/peter88213/novelibre/).
 
+This repository includes
+- xxx translations of the *novelibre* user interface to be installed as a plugin.
+- xxx online help pages linked to the application. 
+- A *novelibre* home page in xxx. 
+
+> [!IMPORTANT]
+> This repository needs maintenance by xxx-speaking persons. 
+> The translations are incomplete and need to be updated in case the *novelibre* user interface changes. 
+> Those who want to contribute are requested to clone this repository and make pull requests. 
+> If you are interested, you may want to leave a message in the [discussions forum](https://github.com/peter88213/novelibre/discussions/71#discussion-9063654).
+
+
+
 ## Requirements
 
 - [novelibre](https://github.com/peter88213/novelibre/) version $ApiVersion+
