@@ -2,6 +2,7 @@
 [![Changelog](docs/img/changelog-button.png)](docs/changelog.md)
 [![News/Feedback](docs/img/news-button.png)](https://github.com/peter88213/novelibre/discussions)
 [![Online help](docs/img/help-button.png)](https://peter88213.github.io/nv_xx/help/)
+
 # nv_xx
 
 xxx language package for [novelibre](https://github.com/peter88213/novelibre/).
@@ -16,8 +17,6 @@ This repository includes
 > The translations are incomplete and need to be updated in case the *novelibre* user interface changes. 
 > Those who want to contribute are requested to clone this repository and make pull requests. 
 > If you are interested, you may want to leave a message in the [discussions forum](https://github.com/peter88213/novelibre/discussions/71#discussion-9063654).
-
-
 
 ## Requirements
 
