@@ -5,6 +5,6 @@
 ## Changelog
 
 
-### Version 5.42
+### Version 0.1.0
 
-The translations apply to novelibre 5.42.
+The translations are to be completed.
