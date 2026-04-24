@@ -4,7 +4,7 @@
 - Create a self-extracting Python archive for distribution.
 - Create an optional zipfile.
 
-Copyright (c) 2025 Peter Triesberger
+Copyright (c) Peter Triesberger
 For further information see https://github.com/peter88213/nv_xx
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """

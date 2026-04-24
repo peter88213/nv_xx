@@ -85,4 +85,4 @@ where users can publish further instructions, tips, and tutorials in xxx.
 [English manual](https://peter88213.github.io/nvhelp-en/)
 
 
-Copyright (c) 2025 by Peter Triesberger. All rights reserved.
+Copyright (c) by Peter Triesberger. All rights reserved.
