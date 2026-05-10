@@ -41,17 +41,17 @@ chapters are visible.
 ### ${Cut}
 
 Move the selected element from the tree to the clipboard.
-Same as ${`Ctrl`}-`X`.
+Same as `${Ctrl}`-`X`.
 
 ### ${Copy}
 
 Copy the selected element to the clipboard.
-Same as ${`Ctrl`}-`C`.
+Same as `${Ctrl}`-`C`.
 
 ### ${Paste}
 
 Paste the element stored in the clipboard to the tree.
-Same as ${`Ctrl`}-`V`.
+Same as `${Ctrl}`-`V`.
 
 
 
@@ -339,7 +339,7 @@ or plot point.
 
 ## Project notes context menu entries
 
-### ${Add Project note}
+### ${Add}
 
 Adds a new project note.
 

@@ -93,7 +93,7 @@ use **${Series} > ${Remove selected series but keep the books}**.
 
 
 To delete the selected series and remove all its books from the
-collection, use **${Series} > ${Remove selected series}**.
+collection, use **${Series} > ${Remove selected series and books}**.
 
 ## Quit/Exit
 
