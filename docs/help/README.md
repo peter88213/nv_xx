@@ -24,6 +24,7 @@ where users can publish further instructions, tips, and tutorials in xxx.
 > This online manual needs to be translated. 
 > For the time being, most of the content is in English, but the terms of the
 > user interface are consistently referred to in their translated form.
+> Terms for which no translations are currently available are represented by placeholders. 
 > Volunteers who would like to translate and update these pages are welcome. 
 >
 > The help pages are based on **novelibre version 5.49**.
