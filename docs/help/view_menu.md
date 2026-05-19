@@ -24,6 +24,13 @@ you can reset the highlighting of tree elements.
 
 With **${View} > ${Show Book}**, you can select and open the "${Book}" branch.
 
+## ${Show Plot lines}
+
+**Go to the "${Plot lines}" branch and expand it**
+
+With **${View} > ${Show Plot lines}**, you can select and open the 
+"${Plot lines}" branch.
+
 ## ${Show Characters}
 
 **Go to the "${Characters}" branch and expand it**
@@ -44,13 +51,6 @@ With **${View} > ${Show Locations}**, you can select and open the
 
 With **${View} > ${Show Items}**, you can select and open the "${Items}"
 branch.
-
-## ${Show Plot lines}
-
-**Go to the "${Plot lines}" branch and expand it**
-
-With **${View} > ${Show Plot lines}**, you can select and open the 
-"${Plot lines}" branch.
 
 ## ${Show Project notes}
 

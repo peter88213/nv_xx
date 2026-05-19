@@ -34,6 +34,24 @@ With **${Characters} > ${Set Status}**, you can make the selected character
 > on the program functions. Nevertheless, you can use it to mark viewpoint
 > characters or characters with their own arcs.
 
+
+## ${Assign color...}
+
+**Assign a color to all selected characters**
+
+With **${Characters} > ${Assign color...}**
+you can assign a color to all characters in a single or multiple selection.
+A color picker dialog opens.
+If you cancel the color choosing process, the color of the selected characters remain unchanged.
+
+
+## ${Reset color}
+
+**Reset the colors of all selected characters**
+
+With **${Characters} > ${Reset color}**
+you can clear the color assignments for all characters in a single or multiple selection.
+
 ---
 
 ## ${Import}

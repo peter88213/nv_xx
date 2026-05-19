@@ -20,6 +20,25 @@ With **${Project notes} > ${Add}**, you can add a project note to the tree.
 
 ---
 
+## ${Assign color...}
+
+**Assign a color to all selected chapters and parts**
+
+With **${Project notes} > ${Assign color...}**
+you can assign a color to all project notes in a single or multiple selection.
+A color picker dialog opens.
+If you cancel the color choosing process, the color of the selected project notes remain unchanged.
+
+
+## ${Reset color}
+
+**Reset the colors of all selected chapters and parts**
+
+With **${Project notes} > ${Reset color}**
+you can clear the color assignments for all project notes in a single or multiple selection.
+
+---
+
 ## ${Show table in Browser}
 
 **Show an HTML report with project notes**

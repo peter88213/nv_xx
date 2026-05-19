@@ -1,16 +1,16 @@
-[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > ${Plot} menu
+[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > [${Online help}](./) > ${Plot lines} menu
 
 ---
 
-# ${Plot} menu
+# ${Plot lines} menu
 
-**Plot elements operation**
+**Plot line elements operation**
 
 ## ${Add Plot line}
 
 **Add a new plot line to the story**
 
-With **${Plot} > ${Add Plot line}**, you can add a plot line to the tree.
+With **${Plot lines} > ${Add Plot line}**, you can add a plot line to the tree.
 
 -   If a plot line is selected, the new plot line is placed after the
     selected one.
@@ -22,7 +22,7 @@ With **${Plot} > ${Add Plot line}**, you can add a plot line to the tree.
 
 **Add a new Plot point to the selected plot line**
 
-With **${Plot} > ${Add Plot point}**, you can add a plot point to a plot line.
+With **${Plot lines} > ${Add Plot point}**, you can add a plot point to a plot line.
 
 -   If a plot point is selected, the new plot point is placed after the
     selected one.
@@ -34,32 +34,22 @@ With **${Plot} > ${Add Plot point}**, you can add a plot point to a plot line.
 
 ---
 
-## ${Insert Stage}
+## ${Assign color...}
 
-**Insert a stage between the sections**
+**Assign a color to all selected plot lines**
 
-With **${Plot} > ${Insert Stage}**, you can insert a stage after the selected
-chapter or section.
+With **${Plot lines} > ${Assign color...}**
+you can assign a color to all plot lines in a single or multiple selection.
+A color picker dialog opens.
+If you cancel the color choosing process, the color of the selected plot lines remain unchanged.
 
-> **Hint**
-> 
-> By default, the new stage is on the second level. You can change the
-> level to first (see below).
 
-## ${Change Level}
+## ${Reset color}
 
-**Change the level of the selected stages**
+**Reset the colors of all selected plot lines**
 
-With **${Plot} > ${Change Level}**, you can change the level of the selected
-stages.
-
--   **${1st Level}** is displayed in bold face.
--   **${2nd Level}** is displayed in regular font.
-
-> **Note**
-> 
-> The stage level is only for visual distinction. It has no influence on
-> the program functions.
+With **${Plot lines} > ${Reset color}**
+you can clear the color assignments for all plot lines in a single or multiple selection.
 
 ---
 
@@ -67,7 +57,7 @@ stages.
 
 **Import plot lines with plot points from another project**
 
-With **${Plot} > ${Import plot lines}**, you can import a selection of plot
+With **${Plot lines} > ${Import plot lines}**, you can import a selection of plot
 lines from another project. First you select an XML file containing the
 plot lines. Then you select the plot lines you want to add to the
 current project.
@@ -83,7 +73,7 @@ current project.
 
 **Export an ODS document that can be imported again after editing**
 
-With **${Plot} > ${Export plot grid for editing}**, you can create a
+With **${Plot lines} > ${Export plot grid for editing}**, you can create a
 spreadsheet with a row per section, containing the following data:
 
 -   The sequential section number as a hyperlink to the section in the
@@ -127,36 +117,12 @@ is `_grid_tmp`.
 > default, must not be changed as they contain the structural information
 > for the import.
 
-## ${Export story structure description for editing}
-
-**Export an ODT document that can be imported again after editing**
-
-With **${Plot} > ${Export story structure description for editing}**, you can
-create a text document that contains all stages, each with description.
-File name suffix is `_structure_tmp`.
-
-> **Hint**
-> 
-> This is also a full synopsis, with the emphasis on the dramaturgical
-> structure.
-
--  Stages can neither be rearranged nor deleted.
--  With *Writer*, you can create stages by inserting headings
-   within the description area:
-
-   -  *Heading 1* → New first-level stage.
-   -  *Heading 2* → New second-level stage.
-
-   > **Important** 
-   > Documents with new stages are automatically
-   > discarded after the *novelibre* project is updated.
-
 
 ## ${Export plot line descriptions for editing}
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Plot} > ${Export plot line descriptions for editing}**,
+With **${Plot lines} > ${Export plot line descriptions for editing}**,
 you can create a text document that contains stages, plot lines, and
 plot points, each with description. The plot points are linked to the
 manuscript and to the section descriptions. File name suffix is
@@ -168,7 +134,7 @@ manuscript and to the section descriptions. File name suffix is
 
 **Export an ODS document**
 
-With **${Plot} > ${Plot table (export only)}**, you can create a spreadsheet
+With **${Plot lines} > ${Plot table (export only)}**, you can create a spreadsheet
 with a row per section and a column per plot line. Associations between
 plot lines and sections are color-highlighted. Plot point titles are
 displayed. File name suffix is `_plotlist`.
@@ -195,12 +161,29 @@ the plot description (right).
 
 **Show an HTML report with plot elements**
 
-With **${Plot} > ${Show Plot table in browser}**, You can create a HTML file
+With **${Plot lines} > ${Show Plot table in browser}**, You can create a HTML file
 that contains a plot table similar to the ODS plot table (see above),
 but without any hyperlinks, and launch your system's web browser for
 displaying it.
 
 ![Edge browser screenshot](images/plot_menu03.jpg)
+
+> **Note**
+> 
+> The report is a temporary file, auto-deleted on program exit. If needed,
+> you can have your web browser save or print it.
+
+
+## ${Show Plot line board in browser}
+
+**Show an HTML report with plot point cards arranged by plot lines**
+
+With **${Plot lines} > ${Show Plot line board in browser}**, You can create a HTML file
+that contains a board with "index cards" for all plot lines and plot points.
+The index cards contain the title and the description of the corresponding element.
+The plot line cards are arranged in the first column. 
+Each plot line card opens a row containing the cards of the assigned plot points.
+
 
 > **Note**
 > 

@@ -28,9 +28,9 @@ The project tree in the left pane shows the organization of the project.
 
 -   The **${Book}** branch contains the parts, chapters, and sections that
     belong to the novel manuscript.
+-   The **${Plot lines}** branch contains the plot lines and plot points.
 -   The **${Characters}/${Locations}/${Items}** branches contain descriptions of
     the story world's elements that can be associated with the book's sections.
--   The **${Plot lines}** branch contains the plot lines and plot points.
 -   The **${Project notes}** branch contains project notes.
 
 ### Project tree operation
