@@ -27,7 +27,7 @@ where users can publish further instructions, tips, and tutorials in xxx.
 > Terms for which no translations are currently available are represented by placeholders. 
 > Volunteers who would like to translate and update these pages are welcome. 
 >
-> The help pages are based on **novelibre version 5.49**.
+> The help pages are based on **novelibre version 5.56**.
 > For newer features, please refer to the English online help. 
 
 ## General
