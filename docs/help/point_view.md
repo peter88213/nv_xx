@@ -59,6 +59,26 @@ is opened and its properties are displayed.
 > You can go back to the initially selected plot point with 
 > ![${Back}](images/goBack.png).
 
+
+## The assigned section's plot line notes
+
+If a section containing notes about the respective plot line is
+assigned to the plot point, those notes will be displayed here.
+You cannot edit them directly, but you can replace them with
+the current plot point description.
+
+
+### ${Replace this with the plot point description}
+   When clicking on the **${Replace this with the plot point description}** button,
+   the associated section's plot line notes are replaced with
+   the current plot point's description.
+
+### ${Replace the plot point description with this}
+   When clicking on the **${Replace the plot point description with this}** button,
+   the current plot point's description is replaced with
+   the associated section's plot line notes.
+
+
 ## ${Links}
 
 Expand or collapse this frame by clicking on the label.
