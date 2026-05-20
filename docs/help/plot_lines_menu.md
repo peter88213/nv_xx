@@ -34,11 +34,11 @@ With **${Plot lines} > ${Add Plot point}**, you can add a plot point to a plot l
 
 ---
 
-## ${Assign color...}
+## ${Assign color}...
 
 **Assign a color to all selected plot lines**
 
-With **${Plot lines} > ${Assign color...}**
+With **${Plot lines} > ${Assign color}...**
 you can assign a color to all plot lines in a single or multiple selection.
 A color picker dialog opens.
 If you cancel the color choosing process, the color of the selected plot lines remain unchanged.

@@ -79,11 +79,11 @@ vice versa.
 -   **${2nd Level}** converts the selected parts into chapters.
 
 
-## ${Assign color...}
+## ${Assign color}...
 
 **Assign a color to all selected chapters and parts**
 
-With **${Chapter} > ${Assign color...}**
+With **${Chapter} > ${Assign color}...**
 you can assign a color to all chapters and parts in a single or multiple selection.
 A color picker dialog opens.
 If you cancel the color choosing process, the color of the selected chapters and parts remain unchanged.

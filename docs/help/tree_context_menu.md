@@ -57,7 +57,7 @@ Same as `${Ctrl}`-`V`.
 ## Common context menu entries for Color assignments
 
 
-### ${Assign color...}
+### ${Assign color}...
 
 Assign a color to the selected element.
 A color picker dialog opens.

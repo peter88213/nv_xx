@@ -20,11 +20,11 @@ With **${Items} > ${Add}**, you can add an item to the tree.
 
 ---
 
-## ${Assign color...}
+## ${Assign color}...
 
 **Assign a color to all selected items**
 
-With **${Items} > ${Assign color...}**
+With **${Items} > ${Assign color}...**
 you can assign a color to all items in a single or multiple selection.
 A color picker dialog opens.
 If you cancel the color choosing process, the color of the selected items remain unchanged.

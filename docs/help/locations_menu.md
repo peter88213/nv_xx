@@ -20,11 +20,11 @@ With **${Locations} > ${Add}**, you can add a location to the tree.
 
 ---
 
-## ${Assign color...}
+## ${Assign color}...
 
 **Assign a color to all selected locations**
 
-With **${Locations} > ${Assign color...}**
+With **${Locations} > ${Assign color}...**
 you can assign a color to all locations in a single or multiple selection.
 A color picker dialog opens.
 If you cancel the color choosing process, the color of the selected locations remain unchanged.
