@@ -17,7 +17,7 @@ The plugin adds a **${Timeline view}** entry to the *novelibre* **${Tools}**
 menu, and a **${Timeline view Online help}** entry to the **${Help}** menu.
 The Toolbar gets a ![Timeline](images/tlview.png) button.
 
-![novelibre Screenshot](images/screen01.png)
+
 
 ## Operation
 
