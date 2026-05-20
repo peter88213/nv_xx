@@ -31,7 +31,7 @@ for confirmation.
 
 By default, word count is updated manually by pressing the `F5` key.
 
-If the **Live update** checkbox is checked, the word count can be
+If the **${Live update}** checkbox is checked, the word count can be
 updated "live", i.e. just while entering text.
 
 > **Note**
