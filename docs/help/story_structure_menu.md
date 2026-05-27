@@ -11,7 +11,7 @@
 
 **Insert a stage between the sections**
 
-With **${Story structure} > ${Insert Stage}**, you can insert a stage after the selected
+With **${Story structure} > ${Insert Stage}** you can insert a stage after the selected
 chapter or section.
 
 > **Hint**
@@ -23,7 +23,7 @@ chapter or section.
 
 **Change the level of the selected stages**
 
-With **${Story structure} > ${Change Level}**, you can change the level of the selected
+With **${Story structure} > ${Change Level}** you can change the level of the selected
 stages.
 
 -   **${1st Level}** is displayed in bold face.
@@ -41,7 +41,7 @@ stages.
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Story structure} > ${Export story structure description for editing}**, you can
+With **${Story structure} > ${Export story structure description for editing}** you can
 create a text document that contains all stages, each with description.
 File name suffix is `_structure_tmp`.
 
@@ -69,7 +69,7 @@ File name suffix is `_structure_tmp`.
 
 **Show an HTML report with section cards arranged by stages**
 
-With **${Story structure} > ${Show story structure board in browser}**, You can create a HTML file
+With **${Story structure} > ${Show story structure board in browser}** you can create a HTML file
 that contains a board with "index cards" for the stages and all used sections.
 The index cards contain the title and the description of the corresponding element.
 The stage cards are arranged in the first column. 

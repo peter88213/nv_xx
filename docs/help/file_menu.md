@@ -10,7 +10,7 @@
 
 **Create a new novel project**
 
-With **${File} > ${New}**, you can create a new project. This will open a
+With **${File} > ${New}** you can create a new project. This will open a
 submenu.
 
 > **Note**
@@ -133,7 +133,7 @@ if you e.g. wish to delete files or edit configuration files.
 
 **Provide a css style sheet in the project folder**
 
-With **${File} > ${Copy style sheet}**, you can copy the style sheet
+With **${File} > ${Copy style sheet}** you can copy the style sheet
 *novx.css* into the current project folder. This allows you to view the
 *.novx* project file with a web browser.
 
@@ -152,7 +152,7 @@ project, displayed using the style sheet.
 
 **Discard the current manuscript by renaming it**
 
-With **${File} > ${Discard manuscript}**, you can add the *.bak* extension 
+With **${File} > ${Discard manuscript}** you can add the *.bak* extension 
 to the current manuscript. This may help to avoid confusion about changes 
 made with *novelibre* and *Writer*.
 
@@ -192,7 +192,7 @@ apply to the new project.
 
 **Close the novel project**
 
-With **${File} > ${Close}**, you can close the project without exiting the
+With **${File} > ${Close}** you can close the project without exiting the
 program. When closing the project, you will be asked for saving the
 project, if it has changed.
 

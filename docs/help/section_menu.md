@@ -10,7 +10,7 @@
 
 **Add a new section**
 
-With **${Section} > ${Add}**, you can add a section to the tree.
+With **${Section} > ${Add}** you can add a section to the tree.
 
 -   The new section is placed at the next free position after the
     selection, if possible.
@@ -30,7 +30,7 @@ With **${Section} > ${Add}**, you can add a section to the tree.
 
 **Add new sections in bulk**
 
-With **${Section} > ${Add multiple sections...}**, you can add up to 20
+With **${Section} > ${Add multiple sections...}** you can add up to 20
 sections to the tree.
 
 -   You will be prompted to enter the number of new sections.
@@ -57,7 +57,7 @@ you can create a copy of the selected section.
 
 **Set the type of the selected section**
 
-With **${Section} > ${Set Type}**, you can set the type of the selected
+With **${Section} > ${Set Type}** you can set the type of the selected
 section to *${Normal}* or *${Unused}* .
 
 > **Hint**
@@ -71,7 +71,7 @@ section to *${Normal}* or *${Unused}* .
 
 **Set the section completion status**
 
-With **${Section} > ${Set Status}**, you can set the completion status 
+With **${Section} > ${Set Status}** you can set the completion status 
 of the selected section to 
 *${Outline}*, *${Draft}*, *${1st Edit}*, *${2nd Edit}*, or *${Done}*.
 
@@ -86,7 +86,7 @@ of the selected section to
 
 **Assign a viewpoint character to the section**
 
-With **${Section} > ${Set Viewpoint...}**, you open a pop-up window with a
+With **${Section} > ${Set Viewpoint...}** you open a pop-up window with a
 dropdown list containing all characters in the tree view's sort order.
 Click on the character you want to assign as viewpoint character. If you
 click on the topmost entry (the blank one) of the list, this will clear
@@ -121,7 +121,7 @@ you can clear the color assignments for all sections in a single or multiple sel
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Section} > ${Export section descriptions for editing}**, you can
+With **${Section} > ${Export section descriptions for editing}** you can
 create a text document with a **full synopsis** containing part/chapter
 headings and section descriptions that can be edited and reimported.
 File name suffix is `_sections_tmp`.
@@ -148,7 +148,7 @@ File name suffix is `_sections_tmp`.
 
 **Export an ODS document**
 
-With **${Section} > ${Section table (export only)}**, you can create a
+With **${Section} > ${Section table (export only)}** you can create a
 spreadsheet with a row per section, containing the following data:
 
 -   Section ID (hidden)
@@ -191,7 +191,7 @@ writing project, for example, in the case of abandoning *novelibre*.
 
 **Show an HTML report with a time table**
 
-With **${Section} > ${Show Time table}**, you can create a HTML file that
+With **${Section} > ${Show Time table}** you can create a HTML file that
 contains a time table, and launch your system's web browser for
 displaying it.
 

@@ -10,7 +10,7 @@
 
 **Add a new project note**
 
-With **${Project notes} > ${Add}**, you can add a project note to the tree.
+With **${Project notes} > ${Add}** you can add a project note to the tree.
 
 -   If a project note is selected, the new project note is placed after
     the selected one.
@@ -43,7 +43,7 @@ you can clear the color assignments for all project notes in a single or multipl
 
 **Show an HTML report with project notes**
 
-With **${Project notes} > ${Show table in Browser}**, you can create a HTML
+With **${Project notes} > ${Show table in Browser}** you can create a HTML
 file that contains title and content of all project notes, and launch
 your system's web browser for displaying it.
 

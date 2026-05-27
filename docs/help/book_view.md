@@ -95,7 +95,7 @@ scenes.
 ### ${Other scene}
 
 When you set the Scene frame to
-**${Other}**, you see the three text boxes whose names you enter here.
+**${Other}** you see the three text boxes whose names you enter here.
 These categories then apply to all sections that represent scenes
 other than "Action" and "Reaction".
 

@@ -17,7 +17,7 @@
 
 ## ${Online help}
 
-With **${Help} > ${Online help}**, you can launch your system web
+With **${Help} > ${Online help}** you can launch your system web
 browser with the *novelibre* online help URL.
 
 ## ${About novelibre}

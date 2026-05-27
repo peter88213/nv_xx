@@ -10,7 +10,7 @@
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Export} > ${Manuscript for editing}**, you can create a text
+With **${Export} > ${Manuscript for editing}** you can create a text
 document that is split into sections (to be seen in the Navigator). 
 File name suffix is `_manuscript_tmp`.
 
@@ -52,7 +52,7 @@ File name suffix is `_manuscript_tmp`.
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Export} > ${Manuscript for third-party word processing}**, you can
+With **${Export} > ${Manuscript for third-party word processing}** you can
 create a text document with visible section markers. 
 File name suffix is `_proof_tmp`.
 
@@ -148,7 +148,7 @@ for example in the case of name changes.
 
 **Export an ODT document**
 
-With **${Export} > ${Final manuscript document (export only)}**, you can
+With **${Export} > ${Final manuscript document (export only)}** you can
 create a text document for further use, e.g. a final document when you
 are finished with *novelibre*.
 
@@ -188,7 +188,7 @@ are finished with *novelibre*.
 
 **Export an ODT document**
 
-With **${Export} > ${Brief synopsis (export only)}**, you can create a text
+With **${Export} > ${Brief synopsis (export only)}** you can create a text
 document containing a brief synopsis with part, chapter, and sections
 titles only. File name suffix is `_brf_synopsis`.
 
@@ -202,7 +202,7 @@ titles only. File name suffix is `_brf_synopsis`.
 
 **Export an ODT document**
 
-With **${Export} > ${Cross references (export only)}**, you can create a text
+With **${Export} > ${Cross references (export only)}** you can create a text
 document containing navigable cross references. File name suffix is
 `_xref`.
 
@@ -222,7 +222,7 @@ The cross references are:
 
 **Export XML files that can be imported into other projects**
 
-With **${Export} > ${XML data files}**, you can create a set of XML files
+With **${Export} > ${XML data files}** you can create a set of XML files
 containing the project's characters, locations, items, and plot lines
 with all their properties. These files can be used to transfer the
 elements to another projects.
@@ -239,7 +239,7 @@ elements to another projects.
 
 **Project independent program settings**
 
-With **${Export} > ${Options}**, You can open a dialog for settings
+With **${Export} > ${Options}** you can open a dialog for settings
 concerning the document export.
 
 ### ${Ask before opening exported documents}

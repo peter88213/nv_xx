@@ -10,7 +10,7 @@
 
 **Add a new chapter**
 
-With **${Chapter} > ${Add Chapter}**, you can add a chapter to the tree.
+With **${Chapter} > ${Add Chapter}** you can add a chapter to the tree.
 
 -   The new chapter is placed at the next free position after the
     selection, if possible.
@@ -28,7 +28,7 @@ With **${Chapter} > ${Add Chapter}**, you can add a chapter to the tree.
 
 **Add a new part**
 
-With **${Chapter} > ${Add Part}**, you can add a part to the tree.
+With **${Chapter} > ${Add Part}** you can add a part to the tree.
 
 -   The new part is placed at the next free position on the chapter
     level after the selection, if possible.
@@ -41,7 +41,7 @@ With **${Chapter} > ${Add Part}**, you can add a part to the tree.
 
 **Add new chapters in bulk**
 
-With **${Chapter} > ${Add multiple chapters...}**, you can add up to 20
+With **${Chapter} > ${Add multiple chapters...}** you can add up to 20
 chapters to the tree.
 
 -   You will be prompted to enter the number of new chapters.
@@ -60,7 +60,7 @@ chapters to the tree.
 
 **Set the type of the selected chapters**
 
-With **${Chapter} > ${Set Type}**, you can set the
+With **${Chapter} > ${Set Type}** you can set the
 type of the selected chapter to *${Normal}* or *${Unused}* .
 
 > **Note**
@@ -72,7 +72,7 @@ type of the selected chapter to *${Normal}* or *${Unused}* .
 
 **Change the level of the selected chapters**
 
-With **${Chapter} > ${Change Level}**, you can turn chapters into parts and
+With **${Chapter} > ${Change Level}** you can turn chapters into parts and
 vice versa.
 
 -   **${1st Level}** converts the selected chapters into parts.
@@ -113,7 +113,7 @@ the moved sections are retained.
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Chapter} > ${Export chapter descriptions for editing}**, you can
+With **${Chapter} > ${Export chapter descriptions for editing}** you can
 create a text document that contains a **brief synopsis** with
 part/chapter headings and chapter descriptions that can be edited and
 reimported. File name suffix is `_chapters_tmp`.
@@ -136,7 +136,7 @@ reimported. File name suffix is `_chapters_tmp`.
 
 **Export an ODT document that can be imported again after editing**
 
-With **${Chapter} > ${Export part descriptions for editing}**, you can create a
+With **${Chapter} > ${Export part descriptions for editing}** you can create a
 text document that contains a **very brief synopsis** with part headings
 and part descriptions. File name suffix is `_parts_tmp`.
 
@@ -155,7 +155,7 @@ and part descriptions. File name suffix is `_parts_tmp`.
 
 **Export an ODS document that can be imported again after editing**
 
-With **${Chapter} > ${Export chapter table}**, you can create a spreadsheet
+With **${Chapter} > ${Export chapter table}** you can create a spreadsheet
 that contains a row per chapter. The document can be edited with *Calc*
 and reimported. File name suffix is `_chapterlist_tmp`.
 
@@ -170,7 +170,7 @@ and reimported. File name suffix is `_chapterlist_tmp`.
 
 **Export an ODS document that can be imported again after editing**
 
-With **${Chapter} > ${Export part table}**, you can create a spreadsheet that
+With **${Chapter} > ${Export part table}** you can create a spreadsheet that
 contains a row per part. File name suffix is `_partlist_tmp`.
 
 > **Note**
@@ -182,11 +182,11 @@ contains a row per part. File name suffix is `_partlist_tmp`.
 
 ---
 
-## ${Show chapter structure board in browser}
+## ${Show chapter board in browser}
 
 **Show an HTML report with section cards arranged by chapters**
 
-With **${Chapter} > ${Show chapter structure board in browser}**, You can create a HTML file
+With **${Chapter} > ${Show chapter board in browser}** you can create a HTML file
 that contains a board with "index cards" for the chapters and all used sections.
 The index cards contain the title and the description of the corresponding element.
 The chapter cards are arranged in the first column.

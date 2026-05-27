@@ -25,14 +25,14 @@ with **${File} > ${Open}**.
 
 ## Create a new collection
 
-With **${File} > ${New}**, you can create a new collection. This will close
+With **${File} > ${New}** you can create a new collection. This will close
 the current collection and open a file dialog asking for the location
 and file name of the collection to create. Once you specified a valid
 file path, a blank collection appears.
 
 ## Create a new series
 
-With **${Series} > ${Add}**, you can add a new series. Edit the series' title
+With **${Series} > ${Add}** you can add a new series. Edit the series' title
 and description in the right window.
 
 ## Add books to the collection
