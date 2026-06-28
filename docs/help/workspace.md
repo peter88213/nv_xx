@@ -67,7 +67,7 @@ Drag and drop.
 
 > **Hint**
 > 
-> Press `Ctrl`-`Z` to revert moves.
+> Press `${Ctrl}`-`Z` to revert moves.
 
 #### Delete tree elements
 
