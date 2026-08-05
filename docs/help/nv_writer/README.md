@@ -8,13 +8,9 @@
 
 This page refers to the latest
 [nv_writer](https://github.com/peter88213/nv_writer/) release. You can
-open it with **${Help} > ${Distraction-free writing plugin Online help}**.
+open it with **${Help} > ${Distraction-free writing plugin help}**.
 
-The plugin adds a **${Write in distraction free mode}** entry to both the
-*novelibre* **${Section}** menu and the section context menu, and a
-**${Distraction-free writing plugin Options}** entry to the **${Tools}** menu,
-and a **${Distraction-free writing plugin Online help}** entry to the
-**${Help}** menu. The Toolbar gets a ![Writer](images/writer.png) button.
+---
 
 You can type scene by scene as if you were using a typewriter or a DOS
 word processor. This is much faster than working with

@@ -8,11 +8,7 @@
 
 This page refers to the latest
 [nv_snapshots](https://github.com/peter88213/nv_snapshots/) release. You
-can open it with **${Help} > ${Snapshots plugin Online help}** or `F1`.
-
-The plugin adds a **Snapshots** entry to the *novelibre* **${Tools}** menu,
-a **Snapshot** entry to the **File** menu, and a 
-**Snapshots Online help** entry to the **${Help}** menu.
+can open it with **${Help} > ${Snapshots plugin help}** or `F1`.
 
 ## General
 

@@ -8,15 +8,12 @@
 
 This page refers to the latest
 [nv_tlview](https://github.com/peter88213/nv_tlview/) release. You can
-open it with **${Help} > ${Timeline view Online help}** or with `F1`.
+open it with **${Help} > ${Timeline view plugin help}** or with `F1`.
+
+---
 
 *nv_tlview* is a plugin providing a timeline view with sections that are
 given a narrative date/day and time.
-
-The plugin adds a **${Timeline view}** entry to the *novelibre* **${Tools}**
-menu, and a **${Timeline view Online help}** entry to the **${Help}** menu.
-The Toolbar gets a ![Timeline](images/tlview.png) button.
-
 
 
 ## Operation

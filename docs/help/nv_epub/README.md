@@ -8,7 +8,7 @@
 
 This page refers to the latest
 [nv_epub](https://github.com/peter88213/nv_epub/) release. You can open
-it with **${Help} > ${EPUB export plugin Online help}**.
+it with **${Help} > ${EPUB export plugin help}**.
 
 ---
 
