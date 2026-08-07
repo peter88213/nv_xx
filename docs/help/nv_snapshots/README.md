@@ -8,7 +8,8 @@
 
 This page refers to the latest
 [nv_snapshots](https://github.com/peter88213/nv_snapshots/) release. You
-can open it with **${Help} > ${Snapshots plugin help}** or `F1`.
+can open it with **${Help} > ${Snapshots plugin help}**
+or `F1` when the snapshot dialog or the snapshot manager is active.
 
 ## General
 

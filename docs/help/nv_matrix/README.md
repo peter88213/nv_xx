@@ -8,7 +8,8 @@
 
 This page refers to the latest
 [nv_matrix](https://github.com/peter88213/nv_matrix/) release. You can
-open it with **${Help} > ${Matrix plugin help}**.
+open it with **${Help} > ${Matrix plugin help}**
+or `F1` when the matrix manager is active.
 
 
 ## Start the matrix manager

@@ -8,7 +8,8 @@
 
 This page refers to the latest
 [nv_editor](https://github.com/peter88213/nv_editor/) release. You can
-open it with **${Help} > ${Editor plugin help}**.
+open it with **${Help} > ${Editor plugin help}**
+or `F1` when an editor window is active.
 
 ---
 
