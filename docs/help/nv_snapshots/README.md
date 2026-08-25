@@ -1,4 +1,4 @@
-[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../../) > [${Online help}](../) > nv_snapshots
+[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../../) > [${Help}](../) > nv_snapshots
 
 ---
 
@@ -72,7 +72,7 @@ description will pop up.
 
 Confirm the entry and create the snapshot.
 
-##### ${Online help}
+##### ${Help}
 
 Go to this help page.
 
@@ -196,6 +196,6 @@ individually or in groups from the snapshot to the current project.
 
 ------------------------------------------------------------------------
 
-#### ${Help} > ${Online help}
+#### ${Help} > ${Help}
 
 Starts the system web browser with this page.

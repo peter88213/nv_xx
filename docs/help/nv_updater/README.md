@@ -1,4 +1,4 @@
-[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../../) > [${Online help}](../) > nv_updater
+[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../../) > [${Help}](../) > nv_updater
 
 ---
 
@@ -49,7 +49,7 @@ blue.
 starts your web browser with the home page of the selected software
 component. There you can see e.g. the changelog.
 
-#### ${Online help} (or F1)
+#### ${Help} (or F1)
 
 starts your web browser with this page of the user guide.
 

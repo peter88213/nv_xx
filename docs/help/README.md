@@ -1,8 +1,8 @@
-[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > ${Online help}
+[novelibre ${Home page}](https://github.com/peter88213/novelibre) > [xxx pages](../) > ${Help}
 
 ---
 
-# ![N](../img/nLogo32.png) novelibre ${Online help}
+# ![N](../img/nLogo32.png) novelibre ${Help}
 
 This page refers to the
 [novelibre](https://github.com/peter88213/novelibre/) application. 
